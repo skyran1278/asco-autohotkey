@@ -5,15 +5,19 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 
 CoordMode, Mouse, Client
 
+open_rb_y := 135
+open_dwg_y := 90
+export_dwg_y := 240
+
 import_rb(y) {
     if WinExist("ahk_class #32770") or WinExist("RCAD_Building")
         WinActivate
 
     ; 登入
-    send, {enter}
+    Send, {enter}
     Sleep, 1000
 
-    send, {enter}
+    Send, {enter}
     Sleep, 3000
 
     Click, right, 100, 60 ; 右鍵 root
@@ -48,8 +52,8 @@ open_rb(y) {
         WinActivate
 
     ; 登入
-    send, {enter}
-    send, {enter}
+    Send, {enter}
+    Send, {enter}
 
     Send, ^o ; 開啟舊檔
     Sleep, 5000 ; 實測一定要
@@ -68,16 +72,11 @@ export_dwg(y) {
     if WinExist("ahk_class Afx:0000000140000000:b:0000000000010003:0000000000000006:000000000E30006B") or WinExist("ahk_exe RCAD_Building.exe")
         WinActivate
 
-    send, {enter} ; 用於第二次輸出
+    Send, {enter} ; 用於第二次輸出
     Sleep, 1000
 
     Click, right, 100, 110 ; 右鍵 棧橋
 
-    ; Click, 195, 240 ; 匯出平面配置圖 DWG
-    ; Click, 195, 260 ; 匯出預鑄梁 DWG
-    ; Click, 195, 280 ; 匯出預鑄版 DWG
-    ; Click, 195, 335 ; 匯出場鑄梁 DWG
-    ; Click, 195, 375 ; 匯出場鑄版 DWG
     Click, 195, %y% ; 匯出 DWG
     Sleep, 1000
 
@@ -92,11 +91,6 @@ open_dwg(y) {
     Send, ^o ; 開啟舊檔
     Sleep, 1000
 
-    ; Click, 330, 90, 2 ; 開啟 dwg 平面配置圖
-    ; Click, 330, 105, 2 ; 開啟 dwg 預鑄梁
-    ; Click, 330, 130, 2 ; 開啟 dwg 預鑄版
-    ; Click, 330, 145, 2 ; 開啟 dwg 場鑄梁
-    ; Click, 330, 160, 2 ; 開啟 dwg 場鑄版
     Click, 330, %y%, 2 ; 開啟 dwg
     Sleep, 1000
 
@@ -104,71 +98,114 @@ open_dwg(y) {
     Sleep, 1000
 
     ; Click, 1100, 710 ; 縮放
-    ; send, {WheelUp 50} ; 縮放
+    ; Send, {WheelUp 50} ; 縮放
 }
 
-InputBox, UserInput, "單元 + 形式", "單元一(1), 單元二(2), ..."
+caculate_rebar() {
+    if WinExist("ahk_class Afx:0000000140000000:b:0000000000010003:0000000000000006:000000000E30006B") or WinExist("ahk_exe RCAD_Building.exe")
+        WinActivate
 
-open_rb_y := 135 ; 單元一
-; open_rb_y := 155 ; 單元二
-; open_rb_y := 175 ; 單元五
-; open_rb_y := 195 ; 單元六
-; open_rb_y := 215 ; 單元一 + 單元二
+    Click, right, 100, 110 ; 右鍵 棧橋
+    Click, 195, 225 ; 計算配筋-預鑄版
+    Sleep, 1000
+    Click, 400, 170 ; 計算
+    Sleep, 4000
+    Send, {enter}
 
-; 平面配置圖
-open_dwg_y := 90
-export_dwg_y := 240
+    Click, right, 100, 500 ; 右鍵 鋼筋模型
+    Click, 200, 545 ; 展開
+    Sleep, 2000
+    Send, {WheelUp 100}
+    Sleep, 1000
+    Click, right, 100, 500 ; 右鍵 鋼筋模型
+    Click, 200, 545 ; 收斂
 
-; 場鑄梁
-open_dwg_y := 145
-export_dwg_y := 335
+    Click, right, 100, 110 ; 右鍵 棧橋
+    Click, 195, 205 ; 計算配筋-預鑄梁
+    Sleep, 1000
+    Click, 400, 170 ; 計算
+    Sleep, 3000
+    Send, {enter}
 
-; 場鑄版
-; open_dwg_y := 160
-; export_dwg_y := 375
+    Click, right, 100, 110 ; 右鍵 棧橋
+    Click, 195, 265 ; 計算配筋-場鑄版
+    Sleep, 1000
+    Click, 400, 110 ; 全選
+    Click, 400, 150 ; 計算
+    Sleep, 2000
+    Send, {enter}
 
-; 預鑄梁
-; open_dwg_y := 105
-; export_dwg_y := 260
-
-; 預鑄版
-; open_dwg_y := 130
-; export_dwg_y := 280
-
-switch UserInput
-{
-case "btw":
-    Send, {backspace 4}by the way
-Return
-case "otoh":
-    Send, {backspace 5}on the other hand
-Return
+    Click, right, 100, 110 ; 右鍵 棧橋
+    Click, 195, 245 ; 計算配筋-場鑄梁
+    Sleep, 1000
+    Click, 400, 200 ; 全選
+    Click, 400, 240 ; 計算
+    Sleep, 3000
+    Send, {enter}
 }
-Return
 
-; import
-!1::
-    import_rb(open_rb_y)
-Return
+!+1::
+    InputBox, user_input, Please input unit and type, Example: 12
+    unit_and_type := StrSplit(user_input)
 
-; all
-!a::
-    open_rb(open_rb_y)
-    export_dwg(export_dwg_y)
-    open_dwg(open_dwg_y)
+    Switch unit_and_type[1]
+    {
+    Case "1":
+        open_rb_y := 135 ; 單元一
+    Case "2":
+        open_rb_y := 155 ; 單元二
+    Case "5":
+        open_rb_y := 175 ; 單元五
+    Case "6":
+        open_rb_y := 195 ; 單元六
+    Case "7":
+        open_rb_y := 215 ; 單元一 + 單元二
+    }
+
+    Switch unit_and_type[2]
+    {
+    Case "1":
+        ; 平面配置圖
+        open_dwg_y := 90
+        export_dwg_y := 300
+    Case "2":
+        ; 場鑄梁
+        open_dwg_y := 145
+        export_dwg_y := 360
+    Case "3":
+        ; 場鑄版
+        open_dwg_y := 160
+        export_dwg_y := 380
+    Case "4":
+        ; 預鑄梁
+        open_dwg_y := 105
+        export_dwg_y := 320
+    Case "5":
+        ; 預鑄版
+        open_dwg_y := 130
+        export_dwg_y := 340
+    Return
+}
+
 Return
 
 !z::
+    import_rb(open_rb_y)
+Return
+
+!x::
     open_rb(open_rb_y)
-    export_dwg(export_dwg_y)
+Return
+
+!a::
+    caculate_rebar()
 Return
 
 !s::
     export_dwg(export_dwg_y)
 Return
 
-; dxf
-!x::
+!q::
     open_dwg(open_dwg_y)
 
 Return
