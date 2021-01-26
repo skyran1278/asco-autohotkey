@@ -22,7 +22,6 @@ import_rb(y) {
 
     Click, right, 100, 60 ; 右鍵 root
     Click, 175, 100 ; 新增空檔
-    Sleep, 1000
 
     Click, 360, 70 ; OK
     Sleep, 1000
@@ -30,16 +29,17 @@ import_rb(y) {
     Click, right, 100, 85 ; 右鍵 building
     Click, 150, 355 ; 新增棧橋
     Sleep, 1000
+    Sleep, 1000 ; 贅餘度
 
     Click, right, 100, 110 ; 右鍵 棧橋
     Click, 200, 170 ; 編輯模型
-    Sleep, 1000
 
     Click, 470, 175 ; ...
     Sleep, 1000
+    Sleep, 1000 ; 贅餘度
 
     Click, 500, %y%, 2 ; import excel
-    Sleep, 3000
+    Sleep, 1000
 
     Click, 170, 325 ; start
     Sleep, 2000
@@ -106,45 +106,55 @@ caculate_rebar() {
         WinActivate
 
     Click, right, 100, 110 ; 右鍵 棧橋
-    Click, 195, 225 ; 計算配筋-預鑄版
+    Click, 200, 225 ; 計算配筋-預鑄版
     Sleep, 1000
     Click, 400, 170 ; 計算
-    Sleep, 4000
+    Sleep, 8000
     Send, {enter}
 
-    Click, right, 100, 500 ; 右鍵 鋼筋模型
-    Click, 200, 545 ; 展開
-    Sleep, 2000
+    Sleep, 1000
+    Click, 70, 110 ; 收斂
+    Sleep, 1000
+    Click, right, 100, 470 ; 右鍵 鋼筋模型
+    Sleep, 1000
+    Click, 200, 510 ; 展開
+    Sleep, 1000
     Send, {WheelUp 100}
     Sleep, 1000
-    Click, right, 100, 500 ; 右鍵 鋼筋模型
-    Click, 200, 545 ; 收斂
+    Click, right, 100, 470 ; 右鍵 鋼筋模型
+    Sleep, 1000
+    Click, 200, 510 ; 收斂
 
+    Sleep, 1000
     Click, right, 100, 110 ; 右鍵 棧橋
-    Click, 195, 205 ; 計算配筋-預鑄梁
+    Click, 200, 205 ; 計算配筋-預鑄梁
     Sleep, 1000
     Click, 400, 170 ; 計算
     Sleep, 3000
     Send, {enter}
 
-    Click, right, 100, 110 ; 右鍵 棧橋
-    Click, 195, 265 ; 計算配筋-場鑄版
     Sleep, 1000
-    Click, 400, 110 ; 全選
-    Click, 400, 150 ; 計算
-    Sleep, 2000
-    Send, {enter}
-
     Click, right, 100, 110 ; 右鍵 棧橋
-    Click, 195, 245 ; 計算配筋-場鑄梁
+    Click, 200, 245 ; 計算配筋-場鑄梁
     Sleep, 1000
     Click, 400, 200 ; 全選
+    Click, 400, 260 ; 計算
     Click, 400, 240 ; 計算
+    Sleep, 3000
+    Send, {enter}
+
+    Sleep, 1000
+    Click, right, 100, 110 ; 右鍵 棧橋
+    Click, 200, 270 ; 計算配筋-場鑄版
+    Sleep, 1000
+    Click, 400, 110 ; 全選
+    Click, 400, 170 ; 計算
+    Click, 400, 150 ; 計算
     Sleep, 3000
     Send, {enter}
 }
 
-!+1::
+!1::
     InputBox, user_input, Please input unit and type, Example: 12
     unit_and_type := StrSplit(user_input)
 
