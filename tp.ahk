@@ -7,7 +7,7 @@ CoordMode, Mouse, Client
 
 open_rb_y := 135
 open_dwg_y := 90
-export_dwg_y := 240
+export_dwg_y := 300
 
 import_rb(y) {
     if WinExist("ahk_class #32770") or WinExist("RCAD_Building")
@@ -53,10 +53,12 @@ open_rb(y) {
 
     ; 登入
     Send, {enter}
+    Sleep, 1000
     Send, {enter}
+    Sleep, 3000
 
     Send, ^o ; 開啟舊檔
-    Sleep, 5000 ; 實測一定要
+    Sleep, 1000 ; 實測一定要
 
     Click, 500, %y%, 2 ; 開啟 rb
     Sleep, 1000
@@ -155,7 +157,23 @@ caculate_rebar() {
 }
 
 !1::
-    InputBox, user_input, Please input unit and type, Example: 12
+    open_unit := Format("{:d}", (open_rb_y - 135) / 20 + 1)
+    export_type := Format("{:d}", (export_dwg_y - 300) / 20 + 1)
+    InputBox, user_input, Please input unit and type,
+    (
+
+    open unit: %open_unit%
+    unit 1 = 1, unit 2 = 2, unit 5 = 5, unit 6 = 6, unit 1 + 2 = 7
+
+    export type: %export_type%
+    plane layout = 1, precast beam = 2, precast slab = 3, situ beam = 4, situ slab = 5
+
+    example
+    unit 1 + plane layout = 11
+    unit 2 + situ beam = 24
+    )
+    ,,550,300
+
     unit_and_type := StrSplit(user_input)
 
     Switch unit_and_type[1]
@@ -179,39 +197,39 @@ caculate_rebar() {
         open_dwg_y := 90
         export_dwg_y := 300
     Case "2":
-        ; 場鑄梁
-        open_dwg_y := 145
-        export_dwg_y := 360
-    Case "3":
-        ; 場鑄版
-        open_dwg_y := 160
-        export_dwg_y := 380
-    Case "4":
         ; 預鑄梁
         open_dwg_y := 105
         export_dwg_y := 320
-    Case "5":
+    Case "3":
         ; 預鑄版
         open_dwg_y := 130
         export_dwg_y := 340
+    Case "4":
+        ; 場鑄梁
+        open_dwg_y := 145
+        export_dwg_y := 360
+    Case "5":
+        ; 場鑄版
+        open_dwg_y := 160
+        export_dwg_y := 380
     Return
 }
 
 Return
 
-!z::
+!x::
     import_rb(open_rb_y)
 Return
 
-!x::
+!z::
     open_rb(open_rb_y)
 Return
 
-!a::
+!s::
     caculate_rebar()
 Return
 
-!s::
+!a::
     export_dwg(export_dwg_y)
 Return
 
