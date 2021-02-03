@@ -30,7 +30,7 @@ openFile() {
   Sleep, 1000
 
   Click, 360, 70 ; OK
-
+  Sleep, 1000
 }
 
 calculateColumn() {
