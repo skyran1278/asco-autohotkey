@@ -237,3 +237,10 @@ Return
     open_dwg(open_dwg_y)
 
 Return
+
+!c::
+    open_rb(open_rb_y)
+    export_dwg(export_dwg_y)
+    open_dwg(open_dwg_y)
+
+Return
