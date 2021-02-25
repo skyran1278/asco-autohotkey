@@ -10,15 +10,21 @@ open_dwg_y := 90
 export_dwg_y := 300
 
 import_rb(y) {
-    if WinExist("ahk_class #32770") or WinExist("RCAD_Building")
-        WinActivate
+    if WinExist("ahk_exe RCAD_Building.exe") {
+        WinActivate ; Use the window found by WinExist.
 
-    ; 登入
-    Send, {enter}
-    Sleep, 1000
+        ; 登入
+        Send, {enter}
+        Sleep, 1000
+        Send, {enter}
+        Sleep, 3000
+    }
 
-    Send, {enter}
-    Sleep, 3000
+    if WinExist("ahk_exe RCAD_Building.exe") {
+        WinActivate ; Use the window found by WinExist.
+    } else {
+        return
+    }
 
     Click, right, 100, 60 ; 右鍵 root
     Click, 175, 100 ; 新增空檔
@@ -30,9 +36,11 @@ import_rb(y) {
     Click, 150, 355 ; 新增棧橋
     Sleep, 1000
     Sleep, 1000 ; 贅餘度
+    Sleep, 1000 ; 贅餘度
 
     Click, right, 100, 110 ; 右鍵 棧橋
     Click, 200, 170 ; 編輯模型
+    Sleep, 1000 ; 贅餘度
 
     Click, 470, 175 ; ...
     Sleep, 1000
