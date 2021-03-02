@@ -1,4 +1,4 @@
-#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
+ï»¿#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
 #Warn ; Enable warnings to assist with detecting common errors.
 SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
@@ -13,7 +13,7 @@ import_rb(y) {
     if WinExist("ahk_exe RCAD_Building.exe") {
         WinActivate ; Use the window found by WinExist.
 
-        ; µn¤J
+        ; ç™»å…¥
         Send, {enter}
         Sleep, 1000
         Send, {enter}
@@ -26,25 +26,25 @@ import_rb(y) {
         return
     }
 
-    Click, right, 100, 60 ; ¥kÁä root
-    Click, 175, 100 ; ·s¼WªÅÀÉ
+    Click, right, 100, 60 ; å³éµ root
+    Click, 175, 100 ; æ–°å¢ç©ºæª”
 
     Click, 360, 70 ; OK
     Sleep, 1000
 
-    Click, right, 100, 85 ; ¥kÁä building
-    Click, 150, 355 ; ·s¼W´Ì¾ô
+    Click, right, 100, 85 ; å³éµ building
+    Click, 150, 355 ; æ–°å¢æ£§æ©‹
     Sleep, 1000
-    Sleep, 1000 ; ÂØ¾l«×
-    Sleep, 1000 ; ÂØ¾l«×
+    Sleep, 1000 ; è´…é¤˜åº¦
+    Sleep, 1000 ; è´…é¤˜åº¦
 
-    Click, right, 100, 110 ; ¥kÁä ´Ì¾ô
-    Click, 200, 170 ; ½s¿è¼Ò«¬
-    Sleep, 1000 ; ÂØ¾l«×
+    Click, right, 100, 110 ; å³éµ æ£§æ©‹
+    Click, 200, 170 ; ç·¨è¼¯æ¨¡å‹
+    Sleep, 1000 ; è´…é¤˜åº¦
 
     Click, 470, 175 ; ...
     Sleep, 1000
-    Sleep, 1000 ; ÂØ¾l«×
+    Sleep, 1000 ; è´…é¤˜åº¦
 
     Click, 500, %y%, 2 ; import excel
     Sleep, 1000
@@ -59,35 +59,35 @@ open_rb(y) {
     if WinExist("ahk_class #32770") or WinExist("RCAD_Building")
         WinActivate
 
-    ; µn¤J
+    ; ç™»å…¥
     Send, {enter}
     Sleep, 1000
     Send, {enter}
     Sleep, 3000
 
-    Send, ^o ; ¶}±ÒÂÂÀÉ
-    Sleep, 1000 ; ¹ê´ú¤@©w­n
+    Send, ^o ; é–‹å•ŸèˆŠæª”
+    Sleep, 1000 ; å¯¦æ¸¬ä¸€å®šè¦
 
-    Click, 500, %y%, 2 ; ¶}±Ò rb
+    Click, 500, %y%, 2 ; é–‹å•Ÿ rb
     Sleep, 1000
 
     Click, 360, 70 ; OK
     Sleep, 4000
 
-    Click, right, 70, 85 ; ¥kÁä ÀÉ¦W
-    Click, 120, 130 ; ®i¶}
+    Click, right, 70, 85 ; å³éµ æª”å
+    Click, 120, 130 ; å±•é–‹
 }
 
 export_dwg(y) {
     if WinExist("ahk_class Afx:0000000140000000:b:0000000000010003:0000000000000006:000000000E30006B") or WinExist("ahk_exe RCAD_Building.exe")
         WinActivate
 
-    Send, {enter} ; ¥Î©ó²Ä¤G¦¸¿é¥X
+    Send, {enter} ; ç”¨æ–¼ç¬¬äºŒæ¬¡è¼¸å‡º
     Sleep, 1000
 
-    Click, right, 100, 110 ; ¥kÁä ´Ì¾ô
+    Click, right, 100, 110 ; å³éµ æ£§æ©‹
 
-    Click, 195, %y% ; ¶×¥X DWG
+    Click, 195, %y% ; åŒ¯å‡º DWG
     Sleep, 1000
 
     Click, 360, 70 ; OK
@@ -98,68 +98,68 @@ open_dwg(y) {
     if WinExist("ahk_class AfxMDIFrame140u") or WinExist("RCAD_Building")
         WinActivate
 
-    Send, ^o ; ¶}±ÒÂÂÀÉ
+    Send, ^o ; é–‹å•ŸèˆŠæª”
     Sleep, 1000
 
-    Click, 330, %y%, 2 ; ¶}±Ò dwg
+    Click, 330, %y%, 2 ; é–‹å•Ÿ dwg
     Sleep, 1000
 
-    ; Click, Middle, 500, 500, 2 ; ÁY©ñ
+    ; Click, Middle, 500, 500, 2 ; ç¸®æ”¾
     Sleep, 1000
 
-    ; Click, 1100, 710 ; ÁY©ñ
-    ; Send, {WheelUp 50} ; ÁY©ñ
+    ; Click, 1100, 710 ; ç¸®æ”¾
+    ; Send, {WheelUp 50} ; ç¸®æ”¾
 }
 
 caculate_rebar() {
     if WinExist("ahk_class Afx:0000000140000000:b:0000000000010003:0000000000000006:000000000E30006B") or WinExist("ahk_exe RCAD_Building.exe")
         WinActivate
 
-    Click, right, 100, 110 ; ¥kÁä ´Ì¾ô
-    Click, 200, 225 ; ­pºâ°tµ¬-¹wÅ±ª©
+    Click, right, 100, 110 ; å³éµ æ£§æ©‹
+    Click, 200, 225 ; è¨ˆç®—é…ç­‹-é é‘„ç‰ˆ
     Sleep, 1000
-    Click, 400, 170 ; ­pºâ
+    Click, 400, 170 ; è¨ˆç®—
     Sleep, 8000
     Send, {enter}
 
     Sleep, 1000
-    Click, 70, 110 ; ¦¬ÀÄ
+    Click, 70, 110 ; æ”¶æ–‚
     Sleep, 1000
-    Click, right, 100, 470 ; ¥kÁä ¿ûµ¬¼Ò«¬
+    Click, right, 100, 470 ; å³éµ é‹¼ç­‹æ¨¡å‹
     Sleep, 1000
-    Click, 200, 510 ; ®i¶}
+    Click, 200, 510 ; å±•é–‹
     Sleep, 1000
     Send, {WheelUp 100}
     Sleep, 1000
-    Click, right, 100, 470 ; ¥kÁä ¿ûµ¬¼Ò«¬
+    Click, right, 100, 470 ; å³éµ é‹¼ç­‹æ¨¡å‹
     Sleep, 1000
-    Click, 200, 510 ; ¦¬ÀÄ
+    Click, 200, 510 ; æ”¶æ–‚
 
     Sleep, 1000
-    Click, right, 100, 110 ; ¥kÁä ´Ì¾ô
-    Click, 200, 205 ; ­pºâ°tµ¬-¹wÅ±±ç
+    Click, right, 100, 110 ; å³éµ æ£§æ©‹
+    Click, 200, 205 ; è¨ˆç®—é…ç­‹-é é‘„æ¢
     Sleep, 1000
-    Click, 400, 170 ; ­pºâ
+    Click, 400, 170 ; è¨ˆç®—
     Sleep, 3000
     Send, {enter}
 
     Sleep, 1000
-    Click, right, 100, 110 ; ¥kÁä ´Ì¾ô
-    Click, 200, 245 ; ­pºâ°tµ¬-³õÅ±±ç
+    Click, right, 100, 110 ; å³éµ æ£§æ©‹
+    Click, 200, 245 ; è¨ˆç®—é…ç­‹-å ´é‘„æ¢
     Sleep, 1000
-    Click, 400, 200 ; ¥ş¿ï
-    Click, 400, 260 ; ­pºâ
-    Click, 400, 240 ; ­pºâ
+    Click, 400, 200 ; å…¨é¸
+    Click, 400, 260 ; è¨ˆç®—
+    Click, 400, 240 ; è¨ˆç®—
     Sleep, 3000
     Send, {enter}
 
     Sleep, 1000
-    Click, right, 100, 110 ; ¥kÁä ´Ì¾ô
-    Click, 200, 270 ; ­pºâ°tµ¬-³õÅ±ª©
+    Click, right, 100, 110 ; å³éµ æ£§æ©‹
+    Click, 200, 270 ; è¨ˆç®—é…ç­‹-å ´é‘„ç‰ˆ
     Sleep, 1000
-    Click, 400, 110 ; ¥ş¿ï
-    Click, 400, 170 ; ­pºâ
-    Click, 400, 150 ; ­pºâ
+    Click, 400, 110 ; å…¨é¸
+    Click, 400, 170 ; è¨ˆç®—
+    Click, 400, 150 ; è¨ˆç®—
     Sleep, 3000
     Send, {enter}
 }
@@ -187,37 +187,37 @@ caculate_rebar() {
     Switch unit_and_type[1]
     {
     Case "1":
-        open_rb_y := 135 ; ³æ¤¸¤@
+        open_rb_y := 135 ; å–®å…ƒä¸€
     Case "2":
-        open_rb_y := 155 ; ³æ¤¸¤G
+        open_rb_y := 155 ; å–®å…ƒäºŒ
     Case "5":
-        open_rb_y := 175 ; ³æ¤¸¤­
+        open_rb_y := 175 ; å–®å…ƒäº”
     Case "6":
-        open_rb_y := 195 ; ³æ¤¸¤»
+        open_rb_y := 195 ; å–®å…ƒå…­
     Case "7":
-        open_rb_y := 215 ; ³æ¤¸¤@ + ³æ¤¸¤G
+        open_rb_y := 215 ; å–®å…ƒä¸€ + å–®å…ƒäºŒ
     }
 
     Switch unit_and_type[2]
     {
     Case "1":
-        ; ¥­­±°t¸m¹Ï
+        ; å¹³é¢é…ç½®åœ–
         open_dwg_y := 90
         export_dwg_y := 300
     Case "2":
-        ; ¹wÅ±±ç
+        ; é é‘„æ¢
         open_dwg_y := 105
         export_dwg_y := 320
     Case "3":
-        ; ¹wÅ±ª©
+        ; é é‘„ç‰ˆ
         open_dwg_y := 130
         export_dwg_y := 340
     Case "4":
-        ; ³õÅ±±ç
+        ; å ´é‘„æ¢
         open_dwg_y := 145
         export_dwg_y := 360
     Case "5":
-        ; ³õÅ±ª©
+        ; å ´é‘„ç‰ˆ
         open_dwg_y := 160
         export_dwg_y := 380
     Return

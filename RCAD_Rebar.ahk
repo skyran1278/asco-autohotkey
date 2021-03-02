@@ -1,15 +1,15 @@
-#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
+ï»¿#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
 #Warn ; Enable warnings to assist with detecting common errors.
 SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
-
+FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 
 open() {
     if WinExist("ahk_exe RCAD_Rebar.exe") {
         WinActivate ; Use the window found by WinExist.
 
-        ; µn¤J
+        ; ç™»å…¥
         Send, {enter}
         Sleep, 1000
         Send, {enter}
@@ -18,44 +18,44 @@ open() {
         return
     }
 
-    Click, 260, 40 ; ¥ªÁä ÂI¿ï¥Ø¿ı
-    Send, ^o ; ¶}±ÒÂÂÀÉ
+    Click, 260, 40 ; å·¦éµ é»é¸ç›®éŒ„
+    Send, ^o ; é–‹å•ŸèˆŠæª”
     Sleep, 1000
 
-    Send, D:\RCAD_Rebar\2021-0302 RCAD-¿ûµ¬«¬¤å¹ï·Óªí-¹Ï¶ôSigoAva-Mu.dwg ; ¶}±ÒÂÂÀÉ
-    Click, 500, 140, 2 ; ¶}±Ò
+    Send, {Blind}{Text}D:\RCAD_Rebar\2021-0302 RCAD-é‹¼ç­‹å‹æ–‡å°ç…§è¡¨-åœ–å¡ŠSigoAva-Mu.dwg
+    Send, {enter}
+    Send, {enter}
     Sleep, 1000
 
     Send, {enter}
     Send, {enter}
     Sleep, 1000
 
-    Click, right, 70, 210 ; ¥kÁä ¹Ï¶ô block
-    Click, 200, 270 ; ¥ªÁä import
-    Sleep, 1000
-    Sleep, 1000
+    Click, right, 70, 210 ; å³éµ åœ–å¡Š block
+    Click, 200, 270 ; å·¦éµ import
 
-    Click, 500, 140, 2 ; ¶}±Ò
-    Sleep, 1000
+    Send, {Blind}{Text}D:\RCAD_Rebar\2021-0302 RCAD-é‹¼ç­‹å‹æ–‡å°ç…§è¡¨-åœ–å¡ŠSigoAva-Mu.dwg
     Send, {enter}
-
+    Send, {enter}
     Sleep, 1000
-    Click, right, 120, 110 ; ¥kÁä ¤À°Ï¦ê 1
-    Click, 200, 200 ; ¥ªÁä ¶×¥X®Æ³æ
+
+    Send, {enter}
+    Click, right, 120, 110 ; å³éµ åˆ†å€ä¸² 1
+    Click, 200, 200 ; å·¦éµ åŒ¯å‡ºæ–™å–®
 
 }
 
 export() {
     if WinExist("ahk_exe EXCEL.EXE") {
-        WinKill ; Ãö³¬ excel
+        WinKill ; é—œé–‰ excel
         Sleep, 1000
     }
 
     if WinExist("ahk_exe RCAD_Rebar.exe") {
         WinActivate ; Use the window found by WinExist.
 
-        Click, 300, 515 ; ¥ªÁä ¶×¥X
-        send, {enter} ; ÂĞ»\ÀÉ®×
+        Click, 300, 515 ; å·¦éµ åŒ¯å‡º
+        send, {enter} ; è¦†è“‹æª”æ¡ˆ
     }
 }
 
@@ -68,7 +68,10 @@ Return
     export()
 Return
 
-!a::
-    Send, D:\RCAD_Rebar\2021-0302 RCAD-¿ûµ¬«¬¤å¹ï·Óªí-¹Ï¶ôSigoAva-Mu.dwg ; ¶}±ÒÂÂÀÉ
+!t::
+    ; SendEvent, D:\RCAD_Rebar\2021-0302 RCAD-é‹¼ç­‹å‹æ–‡å°ç…§è¡¨-åœ–å¡ŠSigoAva-Mu.dwg ; é–‹å•ŸèˆŠæª”
+    ; Send, D:\RCAD_Rebar\2021-0302 RCAD-é‹¼ç­‹å‹æ–‡å°ç…§è¡¨-åœ–å¡ŠSigoAva-Mu.dwg ; é–‹å•ŸèˆŠæª”
+    ; SendRaw, D:\RCAD_Rebar\2021-0302 RCAD-é‹¼ç­‹å‹æ–‡å°ç…§è¡¨-åœ–å¡ŠSigoAva-Mu.dwg ; é–‹å•ŸèˆŠæª”
+    ; SendInput, D:\RCAD_Rebar\2021-0302 RCAD-é‹¼ç­‹å‹æ–‡å°ç…§è¡¨-åœ–å¡ŠSigoAva-Mu.dwg ; é–‹å•ŸèˆŠæª”
+    ; SendPlay, D:\RCAD_Rebar\2021-0302 RCAD-é‹¼ç­‹å‹æ–‡å°ç…§è¡¨-åœ–å¡ŠSigoAva-Mu.dwg ; é–‹å•ŸèˆŠæª”
 Return
-

@@ -1,4 +1,4 @@
-#SingleInstance, Force
+ï»¿#SingleInstance, Force
 #NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
 #Warn ; Enable warnings to assist with detecting common errors.
 SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
@@ -10,7 +10,7 @@ openFile() {
   if WinExist("ahk_exe RCAD_ASCO.exe") {
     WinActivate ; Use the window found by WinExist.
 
-    ; µn¤J
+    ; ç™»å…¥
     Send, {enter}
     Sleep, 1000
     Send, {enter}
@@ -23,10 +23,10 @@ openFile() {
     return
   }
 
-  Send, ^o ; ¶}±ÒÂÂÀÉ
-  Sleep, 1000 ; ¹ê´ú¤@©w­n
+  Send, ^o ; é–‹å•ŸèˆŠæª”
+  Sleep, 1000 ; å¯¦æ¸¬ä¸€å®šè¦
 
-  Click, 500, 115, 2 ; ¶}±Ò
+  Click, 500, 115, 2 ; é–‹å•Ÿ
   Sleep, 1000
 
   Click, 360, 70 ; OK
@@ -41,9 +41,9 @@ calculateColumn() {
     return
   }
 
-  Click, 200, -10 ; RC ¬W
+  Click, 200, -10 ; RC æŸ±
 
-  Click, 300, 220 ; ¥ş´É­pºâ
+  Click, 300, 220 ; å…¨æ£Ÿè¨ˆç®—
 
   Click, 360, 70 ; OK
   Sleep, 1000
