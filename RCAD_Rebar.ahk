@@ -6,96 +6,69 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 CoordMode, Mouse, Client
 
 open() {
-    if WinExist("ahk_class #32770") or WinExist("RCAD_Rebar")
-        WinActivate
+    if WinExist("ahk_exe RCAD_Rebar.exe") {
+        WinActivate ; Use the window found by WinExist.
 
-    ; ç™»å…¥
-    send, {enter}
-    send, {enter}
+        ; µn¤J
+        Send, {enter}
+        Sleep, 1000
+        Send, {enter}
+        Sleep, 3000
+    } else {
+        return
+    }
 
-    Sleep, 3000
-
-    Click, 260, 40 ; å·¦éµ é»é¸ç›®éŒ„
-    Send, ^o ; é–‹å•ŸèˆŠæª”
+    Click, 260, 40 ; ¥ªÁä ÂI¿ï¥Ø¿ı
+    Send, ^o ; ¶}±ÒÂÂÀÉ
     Sleep, 1000
 
-    Click, 500, 140, 2 ; é–‹å•Ÿ
+    Send, D:\RCAD_Rebar\2021-0302 RCAD-¿ûµ¬«¬¤å¹ï·Óªí-¹Ï¶ôSigoAva-Mu.dwg ; ¶}±ÒÂÂÀÉ
+    Click, 500, 140, 2 ; ¶}±Ò
     Sleep, 1000
 
-    send, {enter}
-    send, {enter}
+    Send, {enter}
+    Send, {enter}
+    Sleep, 1000
+
+    Click, right, 70, 210 ; ¥kÁä ¹Ï¶ô block
+    Click, 200, 270 ; ¥ªÁä import
+    Sleep, 1000
+    Sleep, 1000
+
+    Click, 500, 140, 2 ; ¶}±Ò
+    Sleep, 1000
+    Send, {enter}
 
     Sleep, 1000
-    Click, 70, 85 ; è¨ˆæ–™æ¨¡çµ„
-
-    send, {WheelDown 20}
-
-    Click, right, 70, 280 ; å³éµ åœ–å¡Š block
-    Click, 200, 340 ; å·¦éµ import
-
-    Sleep, 1000
-    Click, 500, 135, 2 ; é–‹å•Ÿ
-
-    Sleep, 1000
-    Click, 410, 110 ; å·¦éµ bar
-    send, {WheelUp 20}
-    Click, right, 120, 110 ; å³éµ åˆ†å€ä¸² 1
-    Click, 200, 200 ; å·¦éµ åŒ¯å‡ºæ–™å–®
+    Click, right, 120, 110 ; ¥kÁä ¤À°Ï¦ê 1
+    Click, 200, 200 ; ¥ªÁä ¶×¥X®Æ³æ
 
 }
 
 export() {
+    if WinExist("ahk_exe EXCEL.EXE") {
+        WinKill ; Ãö³¬ excel
+        Sleep, 1000
+    }
 
-    if WinExist("ahk_exe EXCEL.EXE")
-        WinActivate
+    if WinExist("ahk_exe RCAD_Rebar.exe") {
+        WinActivate ; Use the window found by WinExist.
 
-    Send, ^w ; é—œé–‰ excel
-
-    if WinExist("ahk_class #32770") or WinExist("RCAD_Rebar")
-        WinActivate
-
-    Click, 300, 490 ; å·¦éµ åŒ¯å‡º
-
-    send, {enter} ; è¦†è“‹æª”æ¡ˆ
-    Sleep, 5000
-
-    send, {enter} ; å®Œæˆ
+        Click, 300, 515 ; ¥ªÁä ¶×¥X
+        send, {enter} ; ÂĞ»\ÀÉ®×
+    }
 }
-
-; open_dwg() {
-;     if WinExist("ahk_class AfxMDIFrame140u") or WinExist("RCAD_Building")
-;         WinActivate
-
-;     Send, ^o ; é–‹å•ŸèˆŠæª”
-
-;     Sleep, 1000
-;     Click, 330, 90, 2 ; é–‹å•Ÿ dwg
-;     Sleep, 1000
-;     Click, Middle, 500, 500, 2 ; ç¸®æ”¾
-; }
-
-; !a::
-;     open()
-;     export_dwg()
-;     Sleep, 5000
-;     open_dwg()
-; Return
 
 !z::
     open()
     export()
 Return
 
-; !s::
-;     export_dwg()
-; Return
-
 !x::
     export()
 Return
 
-; ^j::
-;     if WinExist("ahk_class Afx:0000000140000000:b:0000000000010003:0000000000000006:0000000008AD1111") or WinExist("- RCAD_Building")
-;         WinActivate
+!a::
+    Send, D:\RCAD_Rebar\2021-0302 RCAD-¿ûµ¬«¬¤å¹ï·Óªí-¹Ï¶ôSigoAva-Mu.dwg ; ¶}±ÒÂÂÀÉ
+Return
 
-;     ControlClick, "è¨­å®š(S)"

@@ -10,7 +10,7 @@ openFile() {
   if WinExist("ahk_exe RCAD_ASCO.exe") {
     WinActivate ; Use the window found by WinExist.
 
-    ; ç™»å…¥
+    ; µn¤J
     Send, {enter}
     Sleep, 1000
     Send, {enter}
@@ -23,10 +23,10 @@ openFile() {
     return
   }
 
-  Send, ^o ; é–‹å•ŸèˆŠæª”
-  Sleep, 1000 ; å¯¦æ¸¬ä¸€å®šè¦
+  Send, ^o ; ¶}±ÒÂÂÀÉ
+  Sleep, 1000 ; ¹ê´ú¤@©w­n
 
-  Click, 500, 115, 2 ; é–‹å•Ÿ
+  Click, 500, 115, 2 ; ¶}±Ò
   Sleep, 1000
 
   Click, 360, 70 ; OK
@@ -41,9 +41,9 @@ calculateColumn() {
     return
   }
 
-  Click, 200, -10 ; RC æŸ±
+  Click, 200, -10 ; RC ¬W
 
-  Click, 300, 220 ; å…¨æ£Ÿè¨ˆç®—
+  Click, 300, 220 ; ¥ş´É­pºâ
 
   Click, 360, 70 ; OK
   Sleep, 1000
