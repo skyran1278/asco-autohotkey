@@ -13,7 +13,7 @@ open(rb_file, dwg_file) {
         Send, {enter}
         Sleep, 1000
         Send, {enter}
-        Sleep, 1000
+        Sleep, 3000
     } else {
         return
     }
@@ -48,7 +48,7 @@ open(rb_file, dwg_file) {
         Send, {enter}
         Sleep, 1000
 
-        Click, right, 200, 85 ; 右鍵 10F-Column
+        Click, right, 200, 90 ; 右鍵 10F-Column
         Click, 300, 195 ; 4.輸入柱位-從 DWG
     } else {
         return
