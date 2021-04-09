@@ -18,52 +18,59 @@ import(file) {
         return
     }
 
-    Click, 260, 40 ; 左鍵 點選目錄
-    Send, ^o ; 開啟舊檔
-    Sleep, 1000
+    if WinExist("ahk_exe RCAD_Rebar.exe") {
+        WinActivate ; Use the window found by WinExist.
 
-    Send, {Blind}{Text}%file%
-    Send, {enter}
-    Send, {enter}
-    Sleep, 1000
+        Click, 260, 40 ; 左鍵 點選目錄
+        Send, ^o ; 開啟舊檔
+        Sleep, 1000
 
-    Send, {enter} ; 匯入參數表
-    Send, {enter} ; no RR file
-    Sleep, 1000
+        Send, {Blind}{Text}%file%
+        Send, {enter}
+        Send, {enter}
+        Sleep, 1000
 
-    Click, 670, 10 ; 專
-    Sleep, 1000
+        ; Send, {enter} ; 匯入參數表
+        Send, {enter} ; no RR file
+        Sleep, 1000
 
-    Click, 250, 260 ; OK
-    Sleep, 1000
+        Click, 670, 10 ; 專
+        Sleep, 1000
 
-    Click, 100, 85 ; 計料模組
-    Click, right, 120, 110 ; 右鍵 分區串 1
-    Click, 150, 175 ; 新增分區
-    Sleep, 1000
-    Click, 270, 20 ; OK
-    Sleep, 1000
-    Click, Right, 150, 130 ; 右鍵 區數-1
-    Click, 200, 230 ; 讀入鋼筋
-    Click, 660, 90 ; 左上角
-    Click, 1200, 400 ; 右下角
-    Send, {Space}
-    Sleep, 5000
-    Send, {Esc}
+        Click, 250, 260 ; OK
+        Sleep, 1000
 
-    Click, right, 70, 210 ; 右鍵 圖塊 block
-    Click, 200, 270 ; 左鍵 import
+        Click, 100, 85 ; 計料模組
+        Click, right, 120, 110 ; 右鍵 分區串 1
+        Click, 150, 175 ; 新增分區
+        Sleep, 1000
+        Click, 270, 20 ; OK
+        Sleep, 1000
+        Click, Right, 150, 130 ; 右鍵 區數-1
+        Click, 200, 230 ; 讀入鋼筋
+        Click, 660, 90 ; 左上角
+        Click, 1200, 400 ; 右下角
+        Send, {Space}
+        Sleep, 5000
+        Send, {Esc}
 
-    Send, {Blind}{Text}%file%
-    Send, {enter}
-    Send, {enter}
-    Sleep, 1000
+        Click, right, 70, 210 ; 右鍵 圖塊 block
+        Click, 200, 270 ; 左鍵 import
 
-    Send, {enter}
-    Sleep, 1000
+        Send, {Blind}{Text}%file%
+        Send, {enter}
+        Send, {enter}
+        Sleep, 1000
 
-    Click, right, 120, 110 ; 右鍵 分區串 1
-    Click, 200, 200 ; 左鍵 匯出料單
+        Send, {enter}
+        Sleep, 1000
+
+        Click, right, 120, 110 ; 右鍵 分區串 1
+        Click, 200, 200 ; 左鍵 匯出料單
+    } else {
+        return
+    }
+
 }
 
 open(file) {
