@@ -49,7 +49,7 @@ open(rb_file, dwg_file) {
         Sleep, 1000
 
         Click, right, 200, 90 ; 右鍵 10F-Column
-        Click, 300, 195 ; 4.輸入柱位-從 DWG
+        ; Click, 300, 195 ; 4.輸入柱位-從 DWG
     } else {
         return
     }
@@ -57,7 +57,7 @@ open(rb_file, dwg_file) {
 }
 
 !z::
-    rb_file := "D:\RCAD_Building\00 直接建模-從DWG讀取梁柱模型\A01.rb"
-    dwg_file := "D:\RCAD_Building\00 直接建模-從DWG讀取梁柱模型\A01.dwg"
+    rb_file := "D:\GitHub\autohotkey\RB\2020-0412 從 DWG 讀取柱模型\從 DWG 讀取柱模型.rb"
+    dwg_file := "D:\GitHub\autohotkey\RB\2020-0412 從 DWG 讀取柱模型\從 DWG 讀取柱模型.dwg"
     open(rb_file, dwg_file)
 Return
