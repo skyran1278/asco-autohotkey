@@ -183,7 +183,7 @@ import_template(file) {
 }
 
 !x::
-    file := "D:\RCAD_Rebar\10 do not have rr file.dwg"
+    file := "D:\RCAD_Rebar\RCAD-鋼筋型文對照表-圖塊SigoAva-Mu-MEI-AVA-20210401.dwg"
     import(file)
 Return
 
