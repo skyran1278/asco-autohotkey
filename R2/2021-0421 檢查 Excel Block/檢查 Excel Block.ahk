@@ -82,7 +82,7 @@ export() {
     if WinExist("ahk_exe RCAD_Rebar.exe") {
         WinActivate ; Use the window found by WinExist.
 
-        Click, 300, 515 ; 左鍵 匯出
+        Click, 300, 690 ; 左鍵 匯出
         send, {enter} ; 覆蓋檔案
     }
 }
