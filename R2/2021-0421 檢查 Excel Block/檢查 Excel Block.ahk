@@ -13,7 +13,7 @@ import(file) {
         Send, {enter}
         Sleep, 1000
         Send, {enter}
-        Sleep, 3000
+        Sleep, 4000
     } else {
         return
     }
