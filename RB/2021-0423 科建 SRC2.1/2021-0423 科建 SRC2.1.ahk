@@ -19,6 +19,7 @@ open(rb_path, dwg_path, excel_path) {
     ; 登入
     Send, {enter}
     Sleep, 1000
+    activate()
     Send, {enter}
     Sleep, 4000
 
@@ -30,7 +31,7 @@ open(rb_path, dwg_path, excel_path) {
     Send, {Blind}{Text}%rb_path%
     Send, {enter}
     Send, {enter}
-    Sleep, 2000
+    Sleep, 1000
 
     if (!activate())
         return
@@ -44,8 +45,9 @@ open(rb_path, dwg_path, excel_path) {
 
     activate()
     Click, right, 200, 160 ; 右鍵 配筋-柱
-    ; Click, 300, 230 ; 新增
-    ; Sleep, 1000
+    Click, 300, 220 ; 科建 SRC2.1
+    Click, 600, 260 ; 科建 SRC2.1
+    Sleep, 1000
 }
 
 !z::
