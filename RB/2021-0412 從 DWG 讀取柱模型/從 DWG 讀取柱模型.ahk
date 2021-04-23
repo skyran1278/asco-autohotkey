@@ -93,8 +93,8 @@ open(rb_path, dwg_path, excel_path) {
 }
 
 !z::
-    rb_path := "D:\GitHub\autohotkey\RB\2020-0412 從 DWG 讀取柱模型\從 DWG 讀取柱模型.rb"
-    dwg_path := "D:\GitHub\autohotkey\RB\2020-0412 從 DWG 讀取柱模型\從 DWG 讀取柱模型.dwg"
-    excel_path := "D:\GitHub\autohotkey\RB\2020-0412 從 DWG 讀取柱模型\從 DWG 讀取柱模型.xlsx"
+    rb_path := "D:\GitHub\autohotkey\RB\2021-0412 從 DWG 讀取柱模型\從 DWG 讀取柱模型.rb"
+    dwg_path := "D:\GitHub\autohotkey\RB\2021-0412 從 DWG 讀取柱模型\從 DWG 讀取柱模型.dwg"
+    excel_path := "D:\GitHub\autohotkey\RB\2021-0412 從 DWG 讀取柱模型\從 DWG 讀取柱模型.xlsx"
     open(rb_path, dwg_path, excel_path)
 Return
