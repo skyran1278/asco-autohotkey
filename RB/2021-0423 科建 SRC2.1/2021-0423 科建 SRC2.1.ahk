@@ -36,7 +36,7 @@ open(rb_path, dwg_path, excel_path) {
     if (!activate())
         return
     Click, 360, 70 ; OK
-    Sleep, 4000
+    Sleep, 5000
 
     activate()
     Click, right, 200, 85 ; 右鍵 檔名
@@ -48,11 +48,32 @@ open(rb_path, dwg_path, excel_path) {
     Click, 300, 220 ; 科建 SRC2.1
     Click, 600, 260 ; 科建 SRC2.1
     Sleep, 1000
+
+    activate()
+    Click, 400, 110 ; 匯入 excel
+    Click, 400, 110 ; read
+
+    Send, {Blind}{Text}%excel_path%
+    Send, {enter}
+    Send, {enter}
+    Sleep, 1000
+
+    activate()
+    Click, 450, 60 ; exit
+    Sleep, 1000
+
+    activate()
+    Click, 400, 150 ; 匯入結構平面圖
+
+    Send, {Blind}{Text}%dwg_path%
+    Send, {enter}
+    Send, {enter}
+    Sleep, 1000
 }
 
 !z::
     rb_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.rb"
-    dwg_path := ""
-    excel_path := ""
+    dwg_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.dwg"
+    excel_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.xlsx"
     open(rb_path, dwg_path, excel_path)
 Return
