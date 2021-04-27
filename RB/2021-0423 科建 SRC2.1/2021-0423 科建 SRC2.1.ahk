@@ -56,7 +56,7 @@ open(rb_path, dwg_path, excel_path) {
     Send, {Blind}{Text}%excel_path%
     Send, {enter}
     Send, {enter}
-    Sleep, 1000
+    Sleep, 2000
 
     activate()
     Click, 450, 60 ; exit
