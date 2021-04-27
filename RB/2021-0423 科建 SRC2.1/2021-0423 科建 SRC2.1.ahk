@@ -31,12 +31,12 @@ open(rb_path, dwg_path, excel_path) {
     Send, {Blind}{Text}%rb_path%
     Send, {enter}
     Send, {enter}
-    Sleep, 1000
+    Sleep, 2000
 
     if (!activate())
         return
     Click, 360, 70 ; OK
-    Sleep, 5000
+    Sleep, 4000
 
     activate()
     Click, right, 200, 85 ; 右鍵 檔名
@@ -72,8 +72,12 @@ open(rb_path, dwg_path, excel_path) {
 }
 
 !z::
+    start_time := A_Now
+
     rb_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.rb"
     dwg_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.dwg"
     excel_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.xlsx"
     open(rb_path, dwg_path, excel_path)
+
+    TrayTip 執行時間, % A_Now - start_time . "s"
 Return
