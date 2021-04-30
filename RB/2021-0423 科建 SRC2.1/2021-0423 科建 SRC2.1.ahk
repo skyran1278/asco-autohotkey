@@ -58,6 +58,11 @@ open(rb_path, dwg_path, excel_path) {
     Send, {enter}
     Sleep, 2000
 
+    if WinExist("ahk_exe notepad.exe") {
+        WinKill ; 關檔
+        Sleep, 1000
+    }
+
     activate()
     Click, 450, 60 ; exit
     Sleep, 1000
@@ -72,12 +77,16 @@ open(rb_path, dwg_path, excel_path) {
 }
 
 !z::
-    start_time := A_Now
+    start_time := A_TickCount
 
     rb_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.rb"
     dwg_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.dwg"
     excel_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.xlsx"
     open(rb_path, dwg_path, excel_path)
 
-    TrayTip 執行時間, % A_Now - start_time . "s"
+    elapsed_time := (A_TickCount - start_time) / 1000
+
+    TrayTip 執行時間, % elapsed_time . "s"
 Return
+
+!x::ExitApp ; alt+X
