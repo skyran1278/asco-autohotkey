@@ -21,7 +21,7 @@ open(rb_path, dwg_path, excel_path) {
     Sleep, 1000
     activate()
     Send, {enter}
-    Sleep, 4000
+    Sleep, 5000
 
     if (!activate())
         return
@@ -52,16 +52,12 @@ open(rb_path, dwg_path, excel_path) {
     activate()
     Click, 400, 110 ; 匯入 excel
     Click, 400, 110 ; read
+    Sleep, 1000
 
     Send, {Blind}{Text}%excel_path%
     Send, {enter}
     Send, {enter}
     Sleep, 2000
-
-    if WinExist("ahk_exe notepad.exe") {
-        WinKill ; 關檔
-        Sleep, 1000
-    }
 
     activate()
     Click, 450, 60 ; exit
@@ -74,6 +70,13 @@ open(rb_path, dwg_path, excel_path) {
     Send, {enter}
     Send, {enter}
     Sleep, 1000
+
+    if WinExist("ahk_exe notepad.exe") {
+        WinKill ; 關檔
+        Sleep, 1000
+    }
+
+    activate()
 }
 
 !z::
@@ -89,4 +92,5 @@ open(rb_path, dwg_path, excel_path) {
     TrayTip 執行時間, % elapsed_time . "s"
 Return
 
-!x::ExitApp ; alt+X
+!r::Reload
+!x::ExitApp

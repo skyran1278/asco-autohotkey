@@ -83,4 +83,5 @@ open(rb_path, dwg_path, excel_path) {
     TrayTip 執行時間, % elapsed_time . "s"
 Return
 
-!x::ExitApp ; alt+X
+!r::Reload
+!x::ExitApp
