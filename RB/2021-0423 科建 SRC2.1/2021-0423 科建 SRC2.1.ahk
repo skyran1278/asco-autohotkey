@@ -57,7 +57,7 @@ open(rb_path, dwg_path, excel_path) {
     Send, {Blind}{Text}%excel_path%
     Send, {enter}
     Send, {enter}
-    Sleep, 2000
+    Sleep, 4000
 
     activate()
     Click, 450, 60 ; exit
@@ -83,8 +83,19 @@ open(rb_path, dwg_path, excel_path) {
     start_time := A_TickCount
 
     rb_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.rb"
-    dwg_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.dwg"
-    excel_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.xlsx"
+
+    ; excel_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.xlsx"
+    ; dwg_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.dwg"
+
+    ; excel_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0428 科建 SRC2.1.xlsx"
+    ; dwg_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0428 科建 SRC2.1.dwg"
+
+    ; excel_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.xlsx"
+    ; dwg_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0504 科建 SRC2.1.dwg"
+
+    excel_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0428 科建 SRC2.1.xlsx"
+    dwg_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0505 科建 SRC2.1.dwg"
+
     open(rb_path, dwg_path, excel_path)
 
     elapsed_time := (A_TickCount - start_time) / 1000
