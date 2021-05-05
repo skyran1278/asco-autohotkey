@@ -1,5 +1,8 @@
 {
   "[ahk]": {
     "files.encoding": "utf8bom"
+  },
+  "[log]": {
+    "files.autoGuessEncoding": true
   }
 }
