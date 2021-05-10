@@ -87,7 +87,7 @@ Return
 !r::Reload
 !x::ExitApp
 
-!a::
+!w::
   if WinExist("ahk_exe notepad.exe") {
     WinKill ; 關檔
   }
