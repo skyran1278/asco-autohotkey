@@ -1,4 +1,4 @@
-設計柱名: 2F C119 (ETABS C119)
+設計柱名: 1F C119 (ETABS: 2F C119)
 unit: ton-m for MOMENT, TORSION and SHEAR(such as Mu Vu Tu,...)
       kg-cm for else
 ==================================================
