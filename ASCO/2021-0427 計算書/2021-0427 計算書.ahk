@@ -17,10 +17,10 @@ open(file_path) {
   if (!activate())
     return
   ; 登入
-  Send, {enter}
+  Send, {Enter}
   Sleep, 1000
   activate()
-  Send, {enter}
+  Send, {Enter}
   Sleep, 4000
 
   if (!activate())
@@ -29,8 +29,8 @@ open(file_path) {
   Sleep, 1000
 
   Send, {Blind}{Text}%file_path%
-  Send, {enter}
-  Send, {enter}
+  Send, {Enter}
+  Send, {Enter}
   Sleep, 2000
 
   if (!activate())
@@ -38,24 +38,27 @@ open(file_path) {
   Click, 360, 70 ; OK
   Sleep, 1000
 
-  ; activate()
-  ; Click, right, 200, 85 ; 右鍵 檔名
-  ; Click, 300, 130 ; 展開
-  ; Sleep, 1000
+  activate()
+  Click, Right, 1643, 500 ; 右鍵 檔名
+  Click, 1700, 580 ; 單柱設計
+  Sleep, 1000
 
-  ; activate()
-  ; Click, right, 200, 160 ; 右鍵 配筋-柱
-  ; Click, 300, 220 ; 科建 SRC2.1
-  ; Click, 600, 260 ; 科建 SRC2.1
-  ; Sleep, 1000
+  activate()
+  Click, 400, 110, 2 ; RCAD 內力配筋
+  Click, 400, 640, 2 ; Format_T
+  Click, 360, 70 ; OK
+  Sleep, 1000
 
-  ; activate()
+  activate()
+  Send, {Enter}
+  Send, {Right}
+  Send, {Enter}
   ; Click, 400, 110 ; 匯入 excel
   ; Click, 400, 110 ; read
 
   ; Send, {Blind}{Text}%excel_path%
-  ; Send, {enter}
-  ; Send, {enter}
+  ; Send, {Enter}
+  ; Send, {Enter}
   ; Sleep, 2000
 
   ; activate()
@@ -66,8 +69,8 @@ open(file_path) {
   ; Click, 400, 150 ; 匯入結構平面圖
 
   ; Send, {Blind}{Text}%dwg_path%
-  ; Send, {enter}
-  ; Send, {enter}
+  ; Send, {Enter}
+  ; Send, {Enter}
   ; Sleep, 1000
 }
 
@@ -83,3 +86,9 @@ Return
 
 !r::Reload
 !x::ExitApp
+
+!a::
+  if WinExist("ahk_exe notepad.exe") {
+    WinKill ; 關檔
+  }
+Return
