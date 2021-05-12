@@ -42,36 +42,9 @@ open(rb_path, dwg_path, excel_path) {
     Click, right, 200, 85 ; 右鍵 檔名
     Click, 300, 130 ; 展開
     Sleep, 1000
-
-    activate()
-    Click, right, 200, 160 ; 右鍵 配筋-柱
-    Click, 300, 220 ; 科建 SRC2.1
-    Click, 600, 260 ; 科建 SRC2.1
-    Sleep, 1000
-
-    activate()
-    Click, 400, 110 ; 匯入 excel
-    Click, 400, 110 ; read
-
-    Send, {Blind}{Text}%excel_path%
-    Send, {enter}
-    Send, {enter}
-    Sleep, 2000
-
-    activate()
-    Click, 450, 60 ; exit
-    Sleep, 1000
-
-    activate()
-    Click, 400, 150 ; 匯入結構平面圖
-
-    Send, {Blind}{Text}%dwg_path%
-    Send, {enter}
-    Send, {enter}
-    Sleep, 1000
 }
 
-!z::
+!a::
     start_time := A_TickCount
 
     rb_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.rb"
@@ -80,8 +53,14 @@ open(rb_path, dwg_path, excel_path) {
     open(rb_path, dwg_path, excel_path)
 
     elapsed_time := (A_TickCount - start_time) / 1000
-    TrayTip 執行時間, % elapsed_time . "s"
+    TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
 Return
 
 !r::Reload
-!x::ExitApp
+
+!t::
+    start_time := A_TickCount
+
+    elapsed_time := (A_TickCount - start_time) / 1000
+    TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
+Return

@@ -74,21 +74,42 @@ open(file_path) {
   ; Sleep, 1000
 }
 
-!z::
+!a::
   start_time := A_TickCount
 
   file_path := "D:\GitHub\autohotkey\ASCO\2021-0427 計算書\2021-0506 計算書.ASCO"
   open(file_path)
 
   elapsed_time := (A_TickCount - start_time) / 1000
-  TrayTip 執行時間, % elapsed_time . "s"
+  TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
 Return
 
 !r::Reload
-!x::ExitApp
+; !x::ExitApp
 
 !w::
-  if WinExist("ahk_exe notepad.exe") {
+  While WinExist("ahk_exe notepad.exe") {
     WinKill ; 關檔
   }
+Return
+
+!t::
+  start_time := A_TickCount
+
+  s := ""
+  ; Simple substitution
+  s .= Format("{2}, {1}!`r`n", "World", "Hello")
+  ; Padding with spaces
+  s .= Format("|{:-10}|`r`n|{:10}|`r`n", "Left", "Right")
+  ; Hexadecimal
+  s .= Format("{1:#x} {2:X} 0x{3:x}`r`n", 3735928559, 195948557, 0)
+  ; Floating-point
+  s .= Format("{1:0.3f} {1:.10f}", 4*ATan(1))
+
+  ListVars ; Use AutoHotkey's main window to display monospaced text.
+  WinWaitActive ahk_class AutoHotkey
+  ControlSetText Edit1, %s%
+  WinWaitClose
+  elapsed_time := (A_TickCount - start_time) / 1000
+  TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
 Return
