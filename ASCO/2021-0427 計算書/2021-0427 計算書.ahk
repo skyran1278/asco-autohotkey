@@ -35,18 +35,24 @@ open(file_path) {
 
   if (!activate())
     return
-  Click, 360, 70 ; OK
+  ; Click, 360, 70 ; OK
+  Click, 360, 80 ; OK
   Sleep, 1000
 
   activate()
-  Click, Right, 1643, 500 ; 右鍵 檔名
-  Click, 1700, 580 ; 單柱設計
+  ; Click, Right, 1643, 500 ; 右鍵 檔名
+  ; Click, 1700, 580 ; 單柱設計
+  Click, Right, 1625, 500 ; 右鍵 檔名
+  Click, 1700, 590 ; 單柱設計
   Sleep, 1000
 
   activate()
-  Click, 400, 110, 2 ; RCAD 內力配筋
-  Click, 400, 640, 2 ; Format_T
-  Click, 360, 70 ; OK
+  ; Click, 400, 110, 2 ; RCAD 內力配筋
+  ; Click, 400, 640, 2 ; Format_T
+  ; Click, 360, 70 ; OK
+  Click, 400, 130, 2 ; RCAD 內力配筋
+  Click, 400, 800, 2 ; Format_T
+  Click, 360, 80 ; OK
   Sleep, 1000
 
   activate()
