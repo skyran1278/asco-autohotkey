@@ -396,3 +396,106 @@ COLUMN FORCES AT LEVEL 1F       IN FRAME SPACE FRAME
           0.000        -17.9923          0.1004          0.8111            2.93          0.0344           0.000
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 As,req = 119.40 cm2
+
+(4) 求樑彎矩強度和 ΣMbn
+======================================================================================================================================================
+X 方向 柱頂
+  1F B609(60.00x80.00)
+  B   = 60.00cm
+  D   = 80.00cm
+  AST = 8-#8
+  ASB = 4-#8
+  Mbpc_clock    = Mpj_bottom - ( Vp_cntclock * col_wide * 0.01 ) = 111.08 (t-m)
+  Mbpc_cntclock = Mpj_top    - ( Vp_clock    * col_wide * 0.01 ) = 58.28 (t-m)
+  Mbnc_clock    = Mnj_bottom - ( Vn_cntclock * col_wide * 0.01 ) = 99.98 (t-m)
+  Mbnc_cntclock = Mnj_top    - ( Vn_clock    * col_wide * 0.01 ) = 52.46 (t-m)
+
+X 方向 柱底
+  2F B609(60.00x80.00)
+  B   = 60.00cm
+  D   = 80.00cm
+  AST = 7-#8
+  ASB = 4-#8
+  Mbpc_clock    = Mpj_bottom - ( Vp_cntclock * col_wide * 0.01 ) = 98.01 (t-m)
+  Mbpc_cntclock = Mpj_top    - ( Vp_clock    * col_wide * 0.01 ) = 58.26 (t-m)
+  Mbnc_clock    = Mnj_bottom - ( Vn_cntclock * col_wide * 0.01 ) = 88.21 (t-m)
+  Mbnc_cntclock = Mnj_top    - ( Vn_clock    * col_wide * 0.01 ) = 52.45 (t-m)
+
+Y 方向 柱頂
+  1F B604(180.00x80.00)
+  B   = 180.00cm
+  D   = 80.00cm
+  AST = 9-#8
+  ASB = 9-#8
+  Mbpc_clock    = Mpj_bottom - ( Vp_cntclock * col_wide * 0.01 ) = 134.26 (t-m)
+  Mbpc_cntclock = Mpj_top    - ( Vp_clock    * col_wide * 0.01 ) = 134.26 (t-m)
+  Mbnc_clock    = Mnj_bottom - ( Vn_cntclock * col_wide * 0.01 ) = 120.87 (t-m)
+  Mbnc_cntclock = Mnj_top    - ( Vn_clock    * col_wide * 0.01 ) = 120.87 (t-m)
+
+  1F B605(180.00x80.00)
+  B   = 180.00cm
+  D   = 80.00cm
+  AST = 9-#8
+  ASB = 9-#8
+  Mbpc_clock    = Mpj_bottom - ( Vp_cntclock * col_wide * 0.01 ) = 134.26 (t-m)
+  Mbpc_cntclock = Mpj_top    - ( Vp_clock    * col_wide * 0.01 ) = 134.26 (t-m)
+  Mbnc_clock    = Mnj_bottom - ( Vn_cntclock * col_wide * 0.01 ) = 120.87 (t-m)
+  Mbnc_cntclock = Mnj_top    - ( Vn_clock    * col_wide * 0.01 ) = 120.87 (t-m)
+
+Y 方向 柱底
+  2F B604(60.00x80.00)
+  B   = 60.00cm
+  D   = 80.00cm
+  AST = 9-#8
+  ASB = 8-#8
+  Mbpc_clock    = Mpj_bottom - ( Vp_cntclock * col_wide * 0.01 ) = 124.26 (t-m)
+  Mbpc_cntclock = Mpj_top    - ( Vp_clock    * col_wide * 0.01 ) = 111.17 (t-m)
+  Mbnc_clock    = Mnj_bottom - ( Vn_cntclock * col_wide * 0.01 ) = 111.84 (t-m)
+  Mbnc_cntclock = Mnj_top    - ( Vn_clock    * col_wide * 0.01 ) = 100.05 (t-m)
+
+  2F B605(60.00x80.00)
+  B   = 60.00cm
+  D   = 80.00cm
+  AST = 8-#8
+  ASB = 7-#8
+  Mbpc_clock    = Mpj_bottom - ( Vp_cntclock * col_wide * 0.01 ) = 97.99 (t-m)
+  Mbpc_cntclock = Mpj_top    - ( Vp_clock    * col_wide * 0.01 ) = 111.15 (t-m)
+  Mbnc_clock    = Mnj_bottom - ( Vn_cntclock * col_wide * 0.01 ) = 88.20 (t-m)
+  Mbnc_cntclock = Mnj_top    - ( Vn_clock    * col_wide * 0.01 ) = 100.04 (t-m)
+
+
+(5) 強柱弱梁設計分配彎矩
+======================================================================================================================================================
+X 方向 上半層柱分配彎矩
+R_top = Mc / fabs ( Mc_up - Mc ) = 0.46
+Mcu_top_clock    = R_top * 1.2Σ(φb x Mbn_sum_clock)    = 64.39 (t-m)
+Mcu_top_cntclock = R_top * 1.2Σ(φb x Mbn_sum_cntclock) = 123.32 (t-m)
+
+X 方向 下半層柱分配彎矩
+
+(6) 柱主筋配筋
+======================================================================================================================================================
+彈性分析鋼筋設計 ( USS01 載重組合控制 )
+Pu = 0.00 T
+Mu,maj = 0.00 T-M
+Mu,min = 0.00 T-M
+As = 0.00 cm2
+強柱弱梁分析鋼筋設計 (柱底控制)
+Pu = 0.00 T
+Mu,maj = 0.00 T-M
+Mu,min = 0.00 T-M
+As = 0.00 cm2
+As(req) = 0.00 cm2
+主筋: 8-#8, As(provide) = 0.00 cm2
+
+(7) 求柱設計剪力(梁 Mpr : Fs=1.25Fy φ=1.0 , 韌性分析剪力)
+======================================================================================================================================================
+
+(8) 計算柱橫向鋼筋
+======================================================================================================================================================
+
+(9) 柱圍束區及中央區之箍筋量配置
+======================================================================================================================================================
+
+(10) 柱設計及配筋完成
+======================================================================================================================================================
