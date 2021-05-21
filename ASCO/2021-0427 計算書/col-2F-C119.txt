@@ -97,57 +97,15 @@ Y 方向 柱頂
   Mbnc_clock    = 120.87 (t-m)
   Mbnc_cntclock = 120.87 (t-m)
 
-  1F B604(180.00x80.00)
-  B   = 180.00cm
-  D   = 80.00cm
-  AST = 9-#8
-  ASB = 9-#8
-  Mbpc_clock    = 134.26 (t-m)
-  Mbpc_cntclock = 134.26 (t-m)
-  Mbnc_clock    = 120.87 (t-m)
-  Mbnc_cntclock = 120.87 (t-m)
-
-  1F B605(180.00x80.00)
-  B   = 180.00cm
-  D   = 80.00cm
-  AST = 9-#8
-  ASB = 9-#8
-  Mbpc_clock    = 134.26 (t-m)
-  Mbpc_cntclock = 134.26 (t-m)
-  Mbnc_clock    = 120.87 (t-m)
-  Mbnc_cntclock = 120.87 (t-m)
-
-Y 方向 柱底
-  2F B604(60.00x80.00)
-  B   = 60.00cm
-  D   = 80.00cm
-  AST = 9-#8
-  ASB = 8-#8
-  Mbpc_clock    = 124.26 (t-m)
-  Mbpc_cntclock = 111.17 (t-m)
-  Mbnc_clock    = 111.84 (t-m)
-  Mbnc_cntclock = 100.05 (t-m)
-
-  2F B605(60.00x80.00)
-  B   = 60.00cm
-  D   = 80.00cm
-  AST = 8-#8
-  ASB = 7-#8
-  Mbpc_clock    = 97.99 (t-m)
-  Mbpc_cntclock = 111.15 (t-m)
-  Mbnc_clock    = 88.20 (t-m)
-  Mbnc_cntclock = 100.04 (t-m)
-
 
 (5) 強柱弱梁設計分配彎矩
 ======================================================================================================================================================
 上半層柱分配彎矩
 R_top = Mc / fabs ( Mc_up - Mc ) = 0.46
-Mcu_top_clock    = R_top * 1.2Σ(φb x Mbn_sum_clock)    = 133.20 (t-m)
-Mcu_top_cntclock = R_top * 1.2Σ(φb x Mbn_sum_cntclock) = 133.20 (t-m)
+Mcu_top_clock    = R_top * 1.2Σ(φb x Mbn_sum_clock)    = 103.72 (t-m)
+Mcu_top_cntclock = R_top * 1.2Σ(φb x Mbn_sum_cntclock) = 103.72 (t-m)
 
-下半層柱分配彎矩
-無梁傳入彎矩、或下層無柱與之分配
+下半層柱無梁傳入彎矩、或為最低樓層
 
 (6) 柱主筋配筋
 ======================================================================================================================================================
