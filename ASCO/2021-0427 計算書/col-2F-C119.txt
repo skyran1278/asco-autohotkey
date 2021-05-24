@@ -60,7 +60,7 @@ Y 方向 柱頂
   2F B604(60.00x80.00)
   B   = 60.00cm
   D   = 80.00cm
-  AST = 8-#8
+  AST = 8-#8 +            cm2
   ASB = 7-#8
   Mbpc_clock    = 111.15 (t-m)
   Mbpc_cntclock = 97.99 (t-m)
@@ -70,17 +70,18 @@ Y 方向 柱頂
   2F B605(60.00x80.00)
   B   = 60.00cm
   D   = 80.00cm
-  AST = 8-#8
+  AST = 8-#8 +            cm2
   ASB = 7-#8
   Mbpc_clock    = 97.99 (t-m)
   Mbpc_cntclock = 111.15 (t-m)
   Mbnc_clock    = 88.20 (t-m)
   Mbnc_cntclock = 100.04 (t-m)
 
+Y 方向 柱底
   1F B604(180.00x80.00)
   B   = 180.00cm
   D   = 80.00cm
-  AST = 9-#8
+  AST = 9-#8 +            cm2
   ASB = 9-#8
   Mbpc_clock    = 134.26 (t-m)
   Mbpc_cntclock = 134.26 (t-m)
@@ -90,7 +91,7 @@ Y 方向 柱頂
   1F B605(180.00x80.00)
   B   = 180.00cm
   D   = 80.00cm
-  AST = 9-#8
+  AST = 9-#8 +            cm2
   ASB = 9-#8
   Mbpc_clock    = 134.26 (t-m)
   Mbpc_cntclock = 134.26 (t-m)
