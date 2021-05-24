@@ -117,9 +117,9 @@ Mu,min = 20.05 T-M
 As     = 98.46 cm2
 
 強柱弱梁分析鋼筋設計 ( 柱頂控制 )
-Pu     = -84.02 T
+Pu     = -84.01 T
 Mu,maj = 110.25 T-M
-Mu,min = -6.82 T-M
+Mu,min = -6.81 T-M
 As     = 64.27 cm2
 
 As,req = 98.46 cm2
