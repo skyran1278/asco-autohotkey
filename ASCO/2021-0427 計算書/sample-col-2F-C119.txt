@@ -1,0 +1,15 @@
+$RCAD_ASCO Design_Column
+//  為註解標記
+//  斷面有2:矩形=rect, 圓形=circ
+//  箍型有2:橫箍=hoop, 螺箍=spir
+//  Mux: 中性軸通過斷面中心, 且平行X-axis之彎矩
+//  Muy: 中性軸通過斷面中心, 且平行Y-axis之彎矩
+//  combo:   組合載重,MxMyP surface要折減
+//  ductile: 韌性載重,MxMyP surface不折減
+//  Pu軸力: 壓力正值, 張力負值
+name= 2FL C119
+//矩柱
+//  fc    fy  rect     b     h cover  主筋  箍筋
+  280  4200  rect    80    80     4    #8    #4
+  combo  15180320     5472060     201427  // type   Mux  Muy  Pu
+  combo  15089590     2004760     101311  // type   Mux  Muy  Pu
