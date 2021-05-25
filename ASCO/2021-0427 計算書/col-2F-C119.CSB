@@ -1,0 +1,1422 @@
+Release =CSI Section Builder 1.0
+
+TYPE = Project
+ Caption = 
+ ProjType = General
+ Status = New
+ Description = 
+ Reference = P01
+ Manager = 
+ Organization = 
+ StartDate = 1998/10/28
+ EndDate = ¤W¤È 12:00:00
+ Remarks = 
+ Tag = 
+
+ TYPE = DesignCriteria
+  Caption = Design Criteria
+  UnitName = Metric
+  DefaultMat = 0
+  TYPE = DesignCriteriaRC
+   DesignCode = ACI-318-99
+   DesignMethod = USD
+   RebarSetName = ASTM
+   LoadCombTableName = ACI-318-95-USD
+   ConcreteCurve = ACI-Whitney Rectangular
+   Fc = 3
+   FcBeams = 3
+   FcColumns = 4
+   FcSlabs = 3
+   FcFootings = 3
+   Fy = 4000
+   FyMain = 40
+   FySttirups = 40
+   Fu = 80
+   FuMain = 80
+   FuSttirups = 60
+   Density = 0.15
+   CoverBeamTop = 1.5
+   CoverBeamsBot = 1.5
+   CoverBeamsSide = 1
+   CoverColumns = 1.5
+   CoverSlabsTop = 0.75
+   CoverSlabsBot = 0.75
+   CoverFootingsTop = 2
+   CoverFootingsBot = 2
+  END TYPE = DesignCriteriaRC
+ END TYPE = DesignCriteria
+
+ Type = Folders
+  Caption = Gen002
+
+  TYPE = Folder
+   Caption = Gen025
+   Name = Gen206
+   Tag = 
+
+   Type = Folders
+    Caption = Gen207
+   End Type = Folders
+   StrcutureFiles = 0
+   ReportFiles = 0
+  END TYPE = Folder
+ End Type = Folders
+
+ TYPE = MaterailModelRCC
+  CAPtion = Concrete Materal Model
+  Fy = 4000
+  Fys = 2750
+  fc=250
+  TopCover=3.81
+  BotCover=4
+
+ TYPE = StressStrainCurves
+  TYPE = StressStrainCurve
+   CAPtion = ACI-Whitney Rectangular
+   CurveType = Concrete
+   Editable = 0
+   Multiplier = 0
+   StressInFraction = 0
+   DesignCode = 0
+   SSData = 4
+               0             0 
+               2.970001E-04                0 
+               3.000001E-04                2.55 
+               0.003         2.55 
+  END TYPE = StressStrainCurve
+  TYPE = StressStrainCurve
+   CAPtion = PCA Parabola
+   CurveType = Concrete
+   Editable = 0
+   Multiplier = 0
+   StressInFraction = 0
+   DesignCode = 0
+   SSData = 5
+               0             0 
+               0.0005        0.5 
+               0.001         0.8 
+               0.0015        0.85 
+               0.003         0.85 
+  END TYPE = StressStrainCurve
+  TYPE = StressStrainCurve
+   CAPtion = User Concrete Curve-1
+   CurveType = Concrete
+   Editable = -1
+   Multiplier = 0
+   StressInFraction = 0
+   DesignCode = 0
+   SSData = 4
+               0             0 
+               0.0003        0 
+               0.0003        0.85 
+               0.003         0.85 
+  END TYPE = StressStrainCurve
+  TYPE = StressStrainCurve
+   CAPtion = User Concrete Curve-2
+   CurveType = Concrete
+   Editable = -1
+   Multiplier = 0
+   StressInFraction = 0
+   DesignCode = 0
+   SSData = 4
+               0             0 
+               0.0003        0 
+               0.0003        0.85 
+               0.003         0.85 
+  END TYPE = StressStrainCurve
+  TYPE = StressStrainCurve
+   CAPtion = User Concrete Curve-3
+   CurveType = Concrete
+   Editable = -1
+   Multiplier = 0
+   StressInFraction = 0
+   DesignCode = 0
+   SSData = 4
+               0             0 
+               0.0003        0 
+               0.0003        0.85 
+               0.003         0.85 
+  END TYPE = StressStrainCurve
+ END TYPE = StressStrainCurves
+ ENDTYPE=MaterailModelRCC
+
+  Type = RebarSet
+  Fy = 4000
+  Fu = 5500
+  Fys = 2750
+  Density = 7.8
+  FyFactor = 1
+  SSCurve = Elasto-Plastic
+ END TYPE =RebarSet
+END TYPE = Project
+
+Type = XSectionsComposite
+
+ TYPE = XSectionComposite
+  CAPtion = 20-#8
+  Units = Metric
+  Main Material = Concrete
+  Sub Material = fc' = 250 kg/cm^2
+  ConcreteFc = 250
+  SteelFy = 0
+  Emod = 240000
+  TransBarsType = Ties
+  Width = 80
+  Height = 80
+  CenterX = 0
+  CenterY = 0
+  Area = 6720
+  Ixx = 3583999.75
+  Iyy = 3583999.75
+  Ixy = 0
+  TorJ = 5996212.5
+  SxxT = 89599.99
+  SxxB = 89599.99
+  SyyR = 89599.99
+  SyyL = 89599.99
+  Zx = 157193.667198784
+  Zy = 138555.397177104
+  Rx = 23.09401
+  Ry = 23.09401
+
+  TYPE = ShapeGeneral
+   Caption = Rectangular Shape
+   Category = Category = Cross Section
+   Gen Shape Type = 1
+   Basic Shape Type = Rectangular
+   Sub Shape Type = Rectangular
+   Is Hollow = No
+   Is Champher = No
+   Is Fillet = No
+   Is Variable Flange = No
+   Is Inclined Web = No
+   Is Lipped = No
+   Is Symmetrical = Yes
+   Is Builtup = No
+   Has Arcs = No
+   Use As Void = 0
+   Main Material = Concrete
+   Sub Material = fc' = 250 kg/cm^2
+   Material Type = 0
+   Shape Factor = 1.05
+   StressStrain Curve = ACI-Whitney Rectangular
+   Attach Curve = False
+   Units = Metric
+   DBUnits = US
+   X0 = 0
+   Y0 = 0
+   Angle = 0
+   MirrorOnX = 0
+   MirrorOnY = 0
+   TopOrder = 0
+   ConcreteFc = 280
+   SteelFy = 0
+   Emod = 250998
+   FilletR1 = 0
+   FilletR2 = 0
+   DimGap = 0
+   
+  Control Data
+  Np = 1
+  Nb = 1
+  Nh = 1
+  Ncord = 4
+   
+  Path Data
+  1            4             1 
+   
+  Horizontal Data
+  B1=80
+   
+  Vertical Data
+  H1=80
+   
+  X Data
+  X1=0
+  X2=0
+  X3=B1
+  X4=B1
+   
+  Y Data
+  Y1=0
+  Y2=H1
+  Y3=H1
+  Y4=0
+   
+  Horizontal Dimension
+<Dimension Notations>
+"                      C-b","2","3","1"
+   
+  Vertical Dimension
+<Dimension Notations>
+"                      C-h","1","2","-1"
+   
+  Tessellation
+  1
+                        1/4
+   
+  Line Data
+  <Line Notation>
+  2            3 
+   
+  Line X Data
+                        X1=B1/2
+                        X2=B1/2
+                        X3=B1/2
+   
+  Line Y Data
+                        Y1=0
+                        Y2=H1/2
+                        Y3=H1
+   
+  Line Thickness
+  1
+                        T1=B1
+   
+  Line Connectivity Data
+  <Conectivity Notation>
+"                        1","2","T1"
+"                        2","3","T1"
+  Prop From Database=No
+  Prop Database=None
+  Prop Record No=0
+   
+  Paths =  1 
+  Path = 1
+  Weight =  1.05 
+  Factor =  1 
+  Tag = 
+  Points =  5 
+   -40        -40 
+   -40         40 
+   40          40 
+   40         -40 
+   -40        -40 
+   
+   
+  CurveData =  0 
+   
+  Transformation List =  1 
+   Rotate
+   0
+   
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = -21.6
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = -7.2
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = 7.2
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = 21.6
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -21.6
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -7.2
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 7.2
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 21.6
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = 21.6
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = 7.2
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = -7.2
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = -21.6
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 21.6
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 7.2
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -7.2
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -21.6
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   
+  TAG = 
+  END TYPE = ShapeGeneral
+  Tag = 
+ END TYPE = XSectionComposite
+
+ TYPE = XSectionComposite
+  CAPtion = 29-#8
+  Units = Metric
+  Main Material = Concrete
+  Sub Material = fc' = 250 kg/cm^2
+  ConcreteFc = 207
+  SteelFy = 0
+  Emod = 220800
+  TransBarsType = Ties
+  Width = 80
+  Height = 80
+  CenterX = 0
+  CenterY = 0
+  Area = 7296
+  Ixx = 3891200
+  Iyy = 3891200
+  Ixy = 0
+  TorJ = 0
+  SxxT = 97280
+  SxxB = 97280
+  SyyR = 97280
+  SyyL = 97280
+  Zx = 180667.164054662
+  Zy = 152337.245101628
+  Rx = 23.09401
+  Ry = 23.09401
+
+  TYPE = ShapeGeneral
+   Caption = Rectangular Shape
+   Category = Category = Cross Section
+   Gen Shape Type = 1
+   Basic Shape Type = Rectangular
+   Sub Shape Type = Rectangular
+   Is Hollow = No
+   Is Champher = No
+   Is Fillet = No
+   Is Variable Flange = No
+   Is Inclined Web = No
+   Is Lipped = No
+   Is Symmetrical = Yes
+   Is Builtup = No
+   Has Arcs = No
+   Use As Void = 0
+   Main Material = Concrete
+   Sub Material = fc' = 250 kg/cm^2
+   Material Type = 0
+   Shape Factor = 1.14
+   StressStrain Curve = ACI-Whitney Rectangular
+   Attach Curve = False
+   Units = Metric
+   DBUnits = US
+   X0 = 0
+   Y0 = 0
+   Angle = 0
+   MirrorOnX = 0
+   MirrorOnY = 0
+   TopOrder = 0
+   ConcreteFc = 280
+   SteelFy = 0
+   Emod = 250998
+   FilletR1 = 0
+   FilletR2 = 0
+   DimGap = 0
+   
+  Control Data
+  Np = 1
+  Nb = 1
+  Nh = 1
+  Ncord = 4
+   
+  Path Data
+  1            4             1 
+   
+  Horizontal Data
+  B1=80
+   
+  Vertical Data
+  H1=80
+   
+  X Data
+  X1=0
+  X2=0
+  X3=B1
+  X4=B1
+   
+  Y Data
+  Y1=0
+  Y2=H1
+  Y3=H1
+  Y4=0
+   
+  Horizontal Dimension
+<Dimension Notations>
+"                          C-b","2","3","1"
+   
+  Vertical Dimension
+<Dimension Notations>
+"                          C-h","1","2","-1"
+   
+  Tessellation
+  1
+                            1/4
+   
+  Line Data
+  <Line Notation>
+  2            3 
+   
+  Line X Data
+                            X1=B1/2
+                            X2=B1/2
+                            X3=B1/2
+   
+  Line Y Data
+                            Y1=0
+                            Y2=H1/2
+                            Y3=H1
+   
+  Line Thickness
+  1
+                            T1=B1
+   
+  Line Connectivity Data
+  <Conectivity Notation>
+"                            1","2","T1"
+"                            2","3","T1"
+  Prop From Database=No
+  Prop Database=None
+  Prop Record No=0
+   
+  Paths =  1 
+  Path = 1
+  Weight =  1.14 
+  Factor =  1 
+  Tag = 
+  Points =  5 
+   -40        -40 
+   -40         40 
+   40          40 
+   40         -40 
+   -40        -40 
+   
+   
+  CurveData =  0 
+   
+  Transformation List =  1 
+   Rotate
+   0
+   
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = -25.71428
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = -15.42857
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = -5.142857
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = 5.142857
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = 15.42857
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -36
+    Yo = 25.71428
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -25.71428
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -15.42857
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -5.142857
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 5.142857
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 15.42857
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 25.71428
+    Yo = 36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = 25.71428
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = 15.42857
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = 5.142857
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = -5.142857
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = -15.42857
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 36
+    Yo = -25.71428
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 25.71428
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 15.42857
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = 5.142857
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -5.142857
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -15.42857
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   TYPE = Rebar
+    CAPtion = #8
+    Units = Metric
+    Code = 101
+    Desig = #8
+    Area = 5.15
+    Dia = 2.55
+    Xo = -25.71428
+    Yo = -36
+    Zo = 0
+    Fy = 4200
+    SSCurve = 
+    Dims = 6
+               100 
+               0 
+               0 
+               0 
+               0 
+               0 
+   END TYPE = Rebar
+   
+  TAG = 
+  END TYPE = ShapeGeneral
+  Tag = 
+ END TYPE = XSectionComposite
+ End Type = XSectionsComposite
