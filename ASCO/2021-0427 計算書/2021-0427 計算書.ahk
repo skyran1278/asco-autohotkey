@@ -83,7 +83,7 @@ open(file_path) {
 !a::
   start_time := A_TickCount
 
-  file_path := "D:\GitHub\autohotkey\ASCO\2021-0427 計算書\2021-0529 計算書.ASCO"
+  file_path := "D:\GitHub\autohotkey\ASCO\2021-0427 計算書\2021-0602 計算書.ASCO"
   open(file_path)
 
   elapsed_time := (A_TickCount - start_time) / 1000
