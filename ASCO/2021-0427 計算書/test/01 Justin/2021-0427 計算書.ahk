@@ -13,15 +13,23 @@ activate() {
   return false
 }
 
-open(file_path) {
+open(ini_path, file_path) {
   if (!activate())
     return
   ; 登入
   Send, {Enter}
   Sleep, 1000
+
   activate()
+  Click, 200, 200 ; ini
+  Sleep, 1000
+
+  Send, {Blind}{Text}%ini_path%
   Send, {Enter}
-  Sleep, 4000
+  Sleep, 1000
+
+  Click, 700, 60 ; ok
+  Sleep, 3000
 
   if (!activate())
     return
@@ -83,8 +91,9 @@ open(file_path) {
 !a::
   start_time := A_TickCount
 
+  ini_path := "D:\GitHub\autohotkey\ASCO\2021-0427 計算書\test\01 Justin\RCAD_ASCO.ini"
   file_path := "D:\GitHub\autohotkey\ASCO\2021-0427 計算書\test\01 Justin\2021-0602 計算書.ASCO"
-  open(file_path)
+  open(ini_path, file_path)
 
   elapsed_time := (A_TickCount - start_time) / 1000
   TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)

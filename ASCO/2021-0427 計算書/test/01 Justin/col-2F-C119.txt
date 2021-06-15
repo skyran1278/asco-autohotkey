@@ -109,12 +109,12 @@ Vp           = 40.30 (t)
 柱圍束區箍筋量之公式:
 Ash / S = 0.30 x hc x (Ag / Ac - 1) x (fc' / fy)-----eq.(1)
 Ash / S = 0.09 x hc x (fc' / fy)---------------------eq.(2)
-Av / S  = (Vu,max / φ - Vc) / (fy x d)------- -------eq.(3)
-Av / S  = (Vp / φ - Vc) / (fy x d)---------- --------eq.(4)
+Av / S  = (Vu,max / φ - Vc) / (fy x d)---------------eq.(3)
+Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 柱中央區剪力筋之公式:
-Av / S  = (Vu,max / φ - Vc) / (fy x d)------- -------eq.(3)
-Av / S  = (Vp / φ - Vc) / (fy x d)----------- -------eq.(4)
+Av / S  = (Vu,max / φ - Vc) / (fy x d)---------------eq.(3)
+Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 IF Pu < 0.05Agfc', Vc = 0
 Vu(max) =      32.32 T
