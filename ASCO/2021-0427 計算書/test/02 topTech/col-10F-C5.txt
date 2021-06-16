@@ -15,7 +15,7 @@ Hn   =      240 cm
 
 (2) 柱彈性分析所得之應力
 ======================================================================================================================================================
-COLUMN FORCES AT LEVEL 9F       IN FRAME SPACE FRAME
+COLUMN FORCES AT LEVEL 9F IN FRAME SPACE FRAME
                                                           (T-m)             (T)           (T-m)             (T)             (T)
             COL          OUTPUT          OUTPUT           MAJOR           MAJOR           MINOR           MINOR           AXIAL
              ID              ID           POINT          MOMENT           SHEAR          MOMENT           SHEAR           FORCE
