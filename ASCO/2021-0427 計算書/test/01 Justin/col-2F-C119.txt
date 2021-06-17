@@ -15,7 +15,7 @@ Hn   =      530 cm
 
 (2) 柱彈性分析所得之應力
 ======================================================================================================================================================
-COLUMN FORCES AT LEVEL 1F       IN FRAME SPACE FRAME
+COLUMN FORCES AT LEVEL 1F IN FRAME SPACE FRAME
                                                           (T-m)             (T)           (T-m)             (T)             (T)
             COL          OUTPUT          OUTPUT           MAJOR           MAJOR           MINOR           MINOR           AXIAL
              ID              ID           POINT          MOMENT           SHEAR          MOMENT           SHEAR           FORCE
@@ -50,9 +50,9 @@ As,req = 98.46 cm2
 T 型梁內版筋總量 =            cm2
 
 X 方向 柱頂
-  2F B609(60.00x80.00)
-  B   = 60.00cm
-  D   = 80.00cm
+  2F B609(60x80)
+  B   = 60cm
+  D   = 80cm
   AST = 10-#8 +            cm2
   ASB = 5-#8
   Mbpc_clock    = 137.02 (t-m)
@@ -61,9 +61,9 @@ X 方向 柱頂
   Mbnc_cntclock = 64.39 (t-m)
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 X 方向 柱底
-  1F B609(60.00x80.00)
-  B   = 60.00cm
-  D   = 80.00cm
+  1F B609(60x80)
+  B   = 60cm
+  D   = 80cm
   AST = 10-#8 +            cm2
   ASB = 5-#8
   Mbpc_clock    = 137.02 (t-m)
@@ -100,6 +100,18 @@ As,req = 98.46 cm2
 
 (7) 求柱設計剪力(梁 Mpr: Fs = 1.25Fy, φ = 1.0 , 韌性分析剪力)
 ======================================================================================================================================================
+柱頂分配彎矩
+R_top = Mc / fabs (Mc_up - Mc) = 0.00
+Mcp_top_clock    = R_top * fabs(Mpb_sum_clock)    = 0.00 (t-m)
+Mcp_top_cntclock = R_top * fabs(Mpb_sum_cntclock) = 0.00 (t-m)
+
+柱底分配彎矩
+R_bottom = Mc / fabs (Mc + Mc_down) = 0.00
+Mcp_bottom_clock    = R_bottom * fabs(Mpb_sum_clock)    = 0.00 (t-m)
+Mcp_bottom_cntclock = R_bottom * fabs(Mpb_sum_cntclock) = 0.00 (t-m)
+
+Vp = (Mtop - Mbot) / H
+H = 530
 Vcp_clock    = 32.71 (t)
 Vcp_cntclock = 40.30 (t)
 Vp           = 40.30 (t)
@@ -116,6 +128,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 Av / S  = (Vu,max / φ - Vc) / (fy x d)---------------eq.(3)
 Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
+(major)
 IF Pu < 0.05Agfc', Vc = 0
 Vu(max) =      32.32 T
 Vp      =      40.30 T
@@ -123,19 +136,19 @@ hc      =      70.73 cm
 Ag      =    6400.00 cm2
 Ac      =    5184.00 cm2
 
-(major)
 Ash / S =      0.424 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
-Avh / S =      0.174 cm2 / cm (中央區)
+Avh / S =      0.174 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 
 (minor)
 Ash / S =      0.424 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
-Avh / S =      0.211 cm2 / cm (中央區)
+Avh / S =      0.211 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 
 (9) 柱圍束區及中央區之箍筋量配置
 ======================================================================================================================================================
 (major)
 圍束區: (Hoop: 1-#4 + Ties: 2-#4) @ 10 Ash / S = 0.51 cm2 / cm
 中央區: (Hoop: 1-#4 + Ties: 2-#4) @ 15 Ash / S = 0.34 cm2 / cm
+
 (minor)
 圍束區: (Hoop: 1-#4 + Ties: 2-#4) @ 10 Ash / S = 0.51 cm2 / cm
 中央區: (Hoop: 1-#4 + Ties: 2-#4) @ 15 Ash / S = 0.34 cm2 / cm
