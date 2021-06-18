@@ -29,7 +29,7 @@ open(ini_path, file_path) {
   Sleep, 1000
 
   Click, 700, 60 ; ok
-  Sleep, 3000
+  Sleep, 4000
 
   if (!activate())
     return
