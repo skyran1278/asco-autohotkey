@@ -116,8 +116,8 @@ Mcu_bottom_cntclock = R_bottom * 1.2Σ(φb x Mbn_sum_cntclock) = 124.69 (t-m)
 ======================================================================================================================================================
 彈性分析鋼筋設計 (COMB1 載重組合控制)
 Pu     = -116.20 T
-Mu,maj = -6.81 T-M
-Mu,min = -24.68 T-M
+Mu,maj = -24.68 T-M
+Mu,min = -6.81 T-M
 As     = 64.00 cm2
 
 強柱弱梁分析鋼筋設計 (柱底控制)
@@ -142,7 +142,7 @@ Mcp_bottom_clock    = R_bottom * fabs(Mpb_sum_clock)    = 0.00 (t-m)
 Mcp_bottom_cntclock = R_bottom * fabs(Mpb_sum_cntclock) = 0.00 (t-m)
 
 Vp = (Mtop - Mbot) / H
-H = 240
+Hn           = 240 (cm)
 Vcp_clock    = 57.91 (t)
 Vcp_cntclock = 38.73 (t)
 Vp           = 57.91 (t)

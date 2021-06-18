@@ -85,8 +85,8 @@ Mcu_top_cntclock = R_top * 1.2Σ(φb x Mbn_sum_cntclock) = 35.48 (t-m)
 ======================================================================================================================================================
 彈性分析鋼筋設計 (USS78S Max 載重組合控制)
 Pu     = -101.31 T
-Mu,maj = 150.90 T-M
-Mu,min = 20.05 T-M
+Mu,maj = 20.05 T-M
+Mu,min = 150.90 T-M
 As     = 98.46 cm2
 
 強柱弱梁分析鋼筋設計 (柱頂控制)
@@ -111,7 +111,7 @@ Mcp_bottom_clock    = R_bottom * fabs(Mpb_sum_clock)    = 0.00 (t-m)
 Mcp_bottom_cntclock = R_bottom * fabs(Mpb_sum_cntclock) = 0.00 (t-m)
 
 Vp = (Mtop - Mbot) / H
-H = 530
+Hn           = 530 (cm)
 Vcp_clock    = 32.71 (t)
 Vcp_cntclock = 40.30 (t)
 Vp           = 40.30 (t)
