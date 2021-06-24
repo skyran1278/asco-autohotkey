@@ -59,6 +59,7 @@ testJustin(ini_path, file_path) {
   ; Click, 400, 640, 2 ; Format_T
   ; Click, 360, 70 ; OK
   Click, 400, 130, 2 ; RCAD 內力配筋
+  Click, 400, 835 ; Format_T
   Click, 400, 800, 2 ; Format_T
   Click, 360, 80 ; OK
   Sleep, 1000
@@ -120,6 +121,7 @@ testTopTech(ini_path, file_path, columnCoordinate) {
   ; Click, 360, 70 ; OK
   Click, 400, 130, 2 ; RCAD 內力配筋
   Click, 400, 170, 2 ; Column-2
+  Click, 400, 835 ; Format_T
   Click, 400, 800, 2 ; Format_T
   Click, 360, 80 ; OK
   Sleep, 1000
