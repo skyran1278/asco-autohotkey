@@ -135,8 +135,8 @@ testTopTech(ini_path, file_path, columnCoordinate) {
 !1::
   start_time := A_TickCount
 
-  ini_path := "D:\GitHub\autohotkey\ASCO\2021-0427 計算書\test\01 Justin\RCAD_ASCO.ini"
-  file_path := "D:\GitHub\autohotkey\ASCO\2021-0427 計算書\test\01 Justin\2021-0602 計算書.ASCO"
+  ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
+  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\2021-0602 計算書.ASCO"
   testJustin(ini_path, file_path)
 
   elapsed_time := (A_TickCount - start_time) / 1000
@@ -146,8 +146,8 @@ Return
 !2::
   start_time := A_TickCount
 
-  ini_path := "D:\GitHub\autohotkey\ASCO\2021-0427 計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  file_path := "D:\GitHub\autohotkey\ASCO\2021-0427 計算書\test\02 topTech\2021-0611 10F-C5.ASCO"
+  ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\2021-0611 10F-C5.ASCO"
   columnCoordinate := {x: 530, y: 270}
   testTopTech(ini_path, file_path, columnCoordinate)
 
@@ -158,8 +158,8 @@ Return
 !3::
   start_time := A_TickCount
 
-  ini_path := "D:\GitHub\autohotkey\ASCO\2021-0427 計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  file_path := "D:\GitHub\autohotkey\ASCO\2021-0427 計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
+  ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
   columnCoordinate := {x: 530, y: 370}
   testTopTech(ini_path, file_path, columnCoordinate)
 
