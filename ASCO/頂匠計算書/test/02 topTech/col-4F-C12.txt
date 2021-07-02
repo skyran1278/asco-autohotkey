@@ -83,14 +83,14 @@ X 方向 柱底
 (5) 強柱弱梁設計分配彎矩
 ======================================================================================================================================================
 柱頂分配彎矩
-R_top = Mc / fabs (Mc_up - Mc) = 0.50
-Mcu_top_clock    = R_top * 1.2Σ(φb x Mbn_sum_clock)    = 123.79 (t-m)
-Mcu_top_cntclock = R_top * 1.2Σ(φb x Mbn_sum_cntclock) = 153.47 (t-m)
+R_top = Mc / fabs (Mc_up - Mc) = 0.49
+Mcu_top_clock    = R_top * 1.2Σ(φb x Mbn_sum_clock)    = 121.01 (t-m)
+Mcu_top_cntclock = R_top * 1.2Σ(φb x Mbn_sum_cntclock) = 150.02 (t-m)
 
 柱底分配彎矩
-R_bottom = Mc / fabs (Mc + Mc_down) = 0.50
-Mcu_bottom_clock    = R_bottom * 1.2Σ(φb x Mbn_sum_clock)    = 128.34 (t-m)
-Mcu_bottom_cntclock = R_bottom * 1.2Σ(φb x Mbn_sum_cntclock) = 166.12 (t-m)
+R_bottom = Mc / fabs (Mc + Mc_down) = 0.51
+Mcu_bottom_clock    = R_bottom * 1.2Σ(φb x Mbn_sum_clock)    = 131.09 (t-m)
+Mcu_bottom_cntclock = R_bottom * 1.2Σ(φb x Mbn_sum_cntclock) = 169.66 (t-m)
 
 (6) 柱主筋配筋
 ======================================================================================================================================================
@@ -103,10 +103,10 @@ As     = 86.43 cm2
 強柱弱梁分析鋼筋設計 (柱底控制)
 Pu     = 53.45 T
 Mu,maj = -11.16 T-M
-Mu,min = 128.34 T-M
-As     = 112.24 cm2
+Mu,min = 131.09 T-M
+As     = 114.44 cm2
 
-As,req = 112.24 cm2
+As,req = 114.44 cm2
 主筋: 16-#10  (As,pro = 130.29 cm2)
 
 (7) 求柱設計剪力(梁 Mpr: Fs = 1.25Fy, φ = 1.0 , 韌性分析剪力)
@@ -170,8 +170,8 @@ Avh / S =      0.406 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 +----------------------------------------------------------------------------+
 | FL:3F       (80.0  )x  (90.0  )   Fc'=350    Fy=4200   Fyh=4200     RECT   |
 |                                 +----------------+                         |
-| As= 112.2 <COMB44-XB>           |                |   o 16-#10 [130.3]      |
-|       1.56 %[C12]               |                |   o  0-#0               |
+| As= 114.4 <COMB44-XB>           |                |   o 16-#10 [130.3]      |
+|       1.59 %[C12]               |                |   o  0-#0               |
 |                                 |                |   X- 5( 0)              |
 | Maj.Av/S=  0.605<15-4>[C12]     |                |   Y- 5( 0)              |
 |            0.578<Mpr>[C12]      |                |   Hoop: 1-#4            |
