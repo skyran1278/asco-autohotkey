@@ -136,7 +136,7 @@ testTopTech(ini_path, file_path, columnCoordinate) {
   start_time := A_TickCount
 
   ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
-  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\2021-0602 計算書.ASCO"
+  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\2021-0702 計算書.ASCO"
   testJustin(ini_path, file_path)
 
   elapsed_time := (A_TickCount - start_time) / 1000
