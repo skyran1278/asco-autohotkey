@@ -44,7 +44,7 @@ open(rb_path, dwg_path, excel_path) {
     Sleep, 1000
 }
 
-!a::
+!1::
     start_time := A_TickCount
 
     rb_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.rb"
@@ -58,9 +58,17 @@ Return
 
 !r::Reload
 
+!w::
+    While WinExist("ahk_exe notepad.exe") {
+        WinKill ; 關檔
+    }
+Return
+
 !t::
+    ; 測試用
     start_time := A_TickCount
 
     elapsed_time := (A_TickCount - start_time) / 1000
     TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
 Return
+
