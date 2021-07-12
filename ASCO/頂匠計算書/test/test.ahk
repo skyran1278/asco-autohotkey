@@ -70,6 +70,57 @@ testJustin(ini_path, file_path) {
   Send, {Enter}
 }
 
+testJustinAllColumn(ini_path, file_path) {
+  if (!activate())
+    return
+  ; 登入
+  Send, {Enter}
+  Sleep, 1000
+
+  activate()
+  Click, 200, 200 ; ini
+  Sleep, 1000
+
+  Send, {Blind}{Text}%ini_path%
+  Send, {Enter}
+  Sleep, 1000
+
+  Click, 700, 60 ; ok
+  Sleep, 4000
+
+  if (!activate())
+    return
+  Send, ^o ; 開啟舊檔
+  Sleep, 1000
+
+  Send, {Blind}{Text}%file_path%
+  Send, {Enter}
+  Send, {Enter}
+  Sleep, 2000
+
+  if (!activate())
+    return
+  ; Click, 360, 70 ; OK
+  Click, 360, 80 ; OK
+  Sleep, 1000
+
+  activate()
+  Send, !c
+  Send, {Down 7}
+  Send, {Enter}
+
+  activate()
+  ; ; Click, 400, 110, 2 ; RCAD 內力配筋
+  Click, 300, 700, 2 ; Format_T
+  Click, 360, 80 ; OK
+  Sleep, 1000
+
+  activate()
+  Send, {Enter}
+  Send, {Right}
+  Send, {Enter}
+}
+
 testTopTech(ini_path, file_path, columnCoordinate) {
   if (!activate())
     return
@@ -132,6 +183,58 @@ testTopTech(ini_path, file_path, columnCoordinate) {
   Send, {Enter}
 }
 
+testTopTechAllColumn(ini_path, file_path) {
+  if (!activate())
+    return
+  ; 登入
+  Send, {Enter}
+  Sleep, 1000
+
+  activate()
+  Click, 200, 200 ; ini
+  Sleep, 1000
+
+  Send, {Blind}{Text}%ini_path%
+  Send, {Enter}
+  Sleep, 1000
+
+  Click, 700, 60 ; ok
+  Sleep, 4000
+
+  if (!activate())
+    return
+  Send, ^o ; 開啟舊檔
+  Sleep, 1000
+
+  Send, {Blind}{Text}%file_path%
+  Send, {Enter}
+  Send, {Enter}
+  Sleep, 2000
+
+  if (!activate())
+    return
+  ; Click, 360, 70 ; OK
+  Click, 360, 80 ; OK
+  Sleep, 1000
+
+  activate()
+  Send, !c
+  Send, {Down 7}
+  Send, {Enter}
+
+  activate()
+  Click, 400, 170, 2 ; Column-2
+  Click, 470, 600 ; 滾輪條
+  Click, 300, 440, 2 ; Format_T
+  Click, 360, 80 ; OK
+  Sleep, 1000
+
+  activate()
+  Send, {Enter}
+  Send, {Right}
+  Send, {Enter}
+}
+
 !1::
   start_time := A_TickCount
 
@@ -165,6 +268,34 @@ Return
 
   elapsed_time := (A_TickCount - start_time) / 1000
   TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
+Return
+
+!4::
+  start_time := A_TickCount
+
+  ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
+  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\2021-0702 計算書.ASCO"
+  testJustinAllColumn(ini_path, file_path)
+
+  elapsed_time := (A_TickCount - start_time) / 1000
+  TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
+Return
+
+!5::
+  start_time := A_TickCount
+
+  ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
+  testTopTechAllColumn(ini_path, file_path)
+
+  elapsed_time := (A_TickCount - start_time) / 1000
+  TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
+Return
+
+!t::
+  ; 測試用
+  Sleep, 2000
+  Send, !c
 Return
 
 !r::Reload
