@@ -79,7 +79,7 @@ open(rb_path, dwg_path, excel_path) {
     activate()
 }
 
-!z::
+!1::
     start_time := A_TickCount
 
     rb_path := "D:\GitHub\autohotkey\RB\2021-0423 科建 SRC2.1\2021-0423 科建 SRC2.1.rb"
@@ -104,4 +104,11 @@ open(rb_path, dwg_path, excel_path) {
 Return
 
 !r::Reload
+
 !x::ExitApp
+
+!w::
+    While WinExist("ahk_exe notepad.exe") {
+        WinKill ; 關檔
+    }
+Return
