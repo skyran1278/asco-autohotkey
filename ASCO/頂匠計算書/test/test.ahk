@@ -239,7 +239,7 @@ testTopTechAllColumn(ini_path, file_path) {
   start_time := A_TickCount
 
   ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
-  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\2021-0702 計算書.ASCO"
+  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\2021-0714 計算書.ASCO"
   testJustin(ini_path, file_path)
 
   elapsed_time := (A_TickCount - start_time) / 1000
@@ -274,7 +274,7 @@ Return
   start_time := A_TickCount
 
   ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
-  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\2021-0702 計算書.ASCO"
+  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\2021-0714 計算書.ASCO"
   testJustinAllColumn(ini_path, file_path)
 
   elapsed_time := (A_TickCount - start_time) / 1000
