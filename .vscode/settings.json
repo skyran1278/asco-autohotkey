@@ -2,6 +2,9 @@
   "[ahk]": {
     "files.encoding": "utf8bom"
   },
+  "[ini]": {
+    "files.encoding": "cp950"
+  },
   "[log]": {
     "files.autoGuessEncoding": true
   }
