@@ -1,6 +1,10 @@
 # log
 *.log
 column-LOG.txt
+log.txt
+UnitCtl.ini
+UnitCtl_C.ini
+tmp-Addn.txt
 
 # Windows image file caches
 Thumbs.db
