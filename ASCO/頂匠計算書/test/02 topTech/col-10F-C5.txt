@@ -117,14 +117,14 @@ Y 方向 柱底
 (5) 強柱弱梁設計分配彎矩
 ======================================================================================================================================================
 柱頂分配彎矩
-R_top = Mc / fabs (Mc_up - Mc) = 0.62
-Mcu_top_clock    = R_top * 1.2Σ(φb x Mbn_sum_clock)    = 129.62 (t-m)
-Mcu_top_cntclock = R_top * 1.2Σ(φb x Mbn_sum_cntclock) = 138.97 (t-m)
+R_top = Mc / fabs (Mc_up - Mc) = 0.50
+Mcu_top_clock    = R_top * 1.2Σ(φb x Mbn_sum_clock)    = 104.99 (t-m)
+Mcu_top_cntclock = R_top * 1.2Σ(φb x Mbn_sum_cntclock) = 112.57 (t-m)
 
 柱底分配彎矩
-R_bottom = Mc / fabs (Mc + Mc_down) = 0.41
-Mcu_bottom_clock    = R_bottom * 1.2Σ(φb x Mbn_sum_clock)    = 105.83 (t-m)
-Mcu_bottom_cntclock = R_bottom * 1.2Σ(φb x Mbn_sum_cntclock) = 105.85 (t-m)
+R_bottom = Mc / fabs (Mc + Mc_down) = 0.50
+Mcu_bottom_clock    = R_bottom * 1.2Σ(φb x Mbn_sum_clock)    = 127.07 (t-m)
+Mcu_bottom_cntclock = R_bottom * 1.2Σ(φb x Mbn_sum_cntclock) = 127.09 (t-m)
 
 (6) 柱主筋配筋
 ======================================================================================================================================================
@@ -134,32 +134,32 @@ Mu,maj = -24.68 T-M
 Mu,min = -6.81 T-M
 As     = 64.00 cm2
 
-強柱弱梁分析鋼筋設計 (柱頂控制)
-Pu     = -59.43 T
-Mu,maj = 138.97 T-M
-Mu,min = 13.35 T-M
-As     = 98.31 cm2
+強柱弱梁分析鋼筋設計 (柱底控制)
+Pu     = -62.23 T
+Mu,maj = 127.09 T-M
+Mu,min = -13.24 T-M
+As     = 86.93 cm2
 
-As,req = 98.31 cm2
+As,req = 86.93 cm2
 主筋: 20-#8  (As,pro = 101.34 cm2)
 
 (7) 求柱設計剪力(梁 Mpr: Fs = 1.25Fy, φ = 1.0 , 韌性分析剪力)
 ======================================================================================================================================================
 柱頂分配彎矩
-R_top = Mc / fabs (Mc_up - Mc) = 0.62
-Mcp_top_clock    = R_top * fabs(Mpb_sum_clock)    = 56.16 (t-m)
-Mcp_top_cntclock = R_top * fabs(Mpb_sum_cntclock) = 87.90 (t-m)
+R_top = Mc / fabs (Mc_up - Mc) = 0.50
+Mcp_top_clock    = R_top * fabs(Mpb_sum_clock)    = 45.49 (t-m)
+Mcp_top_cntclock = R_top * fabs(Mpb_sum_cntclock) = 71.20 (t-m)
 
 柱底分配彎矩
-R_bottom = Mc / fabs (Mc + Mc_down) = 0.41
-Mcp_bottom_clock    = R_bottom * fabs(Mpb_sum_clock)    = 52.22 (t-m)
-Mcp_bottom_cntclock = R_bottom * fabs(Mpb_sum_cntclock) = 73.33 (t-m)
+R_bottom = Mc / fabs (Mc + Mc_down) = 0.50
+Mcp_bottom_clock    = R_bottom * fabs(Mpb_sum_clock)    = 62.71 (t-m)
+Mcp_bottom_cntclock = R_bottom * fabs(Mpb_sum_cntclock) = 88.04 (t-m)
 
 Vp = (Mtop - Mbot) / H
 Hn           = 240 (cm)
-Vcp_clock    = 45.16 (t)
-Vcp_cntclock = 67.18 (t)
-Vp           = 67.18 (t)
+Vcp_clock    = 45.08 (t)
+Vcp_cntclock = 66.35 (t)
+Vp           = 66.35 (t)
 
 (8) 計算柱橫向鋼筋
 ======================================================================================================================================================
@@ -176,17 +176,17 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 (major)
 IF Pu < 0.05Agfc', Vc = 0
 Vu(max) =      12.62 T
-Vp      =      67.18 T
+Vp      =      66.35 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
 Ac      =    5184.00 cm2
 
 Ash / S =      0.371 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
-Avh / S =      0.290 cm2 / cm (中央區) <--- 由 eq.(4) 控制
+Avh / S =      0.287 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 
 (minor)
-Ash / S =      0.493 cm2 / cm (圍束區) <--- 由 eq.(4) 控制
-Avh / S =      0.493 cm2 / cm (中央區) <--- 由 eq.(4) 控制
+Ash / S =      0.483 cm2 / cm (圍束區) <--- 由 eq.(4) 控制
+Avh / S =      0.483 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 
 (9) 柱圍束區及中央區之箍筋量配置
 ======================================================================================================================================================
@@ -204,11 +204,11 @@ Avh / S =      0.493 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 +----------------------------------------------------------------------------+
 | FL:9F       (80.0  )x  (80.0  )   Fc'=245    Fy=4200   Fyh=4200     RECT   |
 |                                 +----------------+                         |
-| As=  98.3 <COMB74-YT>           |                |   o 20-#8  [101.3]      |
-|       1.54 %[C5]                |                |   o  0-#0               |
+| As=  86.9 <COMB74-YB>           |                |   o 20-#8  [101.3]      |
+|       1.36 %[C5]                |                |   o  0-#0               |
 |                                 |                |   X- 6( 0)              |
 | Maj.Av/S=  0.371<15-4>[C5]      |                |   Y- 6( 0)              |
-|            0.290<Mpr>[C5]       |                |   Hoop: 1-#4            |
-| Min.Av/S=  0.493<Mpr>[C5]       |                |   Ties: 2-#4 @ 10 - 10  |
-|            0.493<Mpr>[C5]       +----------------+         2-#4            |
+|            0.287<Mpr>[C5]       |                |   Hoop: 1-#4            |
+| Min.Av/S=  0.483<Mpr>[C5]       |                |   Ties: 2-#4 @ 10 - 10  |
+|            0.483<Mpr>[C5]       +----------------+         2-#4            |
 +----------------------------------------------------------------------------+
