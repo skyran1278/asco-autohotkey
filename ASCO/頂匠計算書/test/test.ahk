@@ -292,6 +292,18 @@ Return
   TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
 Return
 
+!6::
+  start_time := A_TickCount
+
+  ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\2020-0719\3F-C7.ASCO"
+  columnCoordinate := {x: 630, y: 280}
+  testTopTech(ini_path, file_path, columnCoordinate)
+
+  elapsed_time := (A_TickCount - start_time) / 1000
+  TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
+Return
+
 !t::
   ; 測試用
   Sleep, 2000
