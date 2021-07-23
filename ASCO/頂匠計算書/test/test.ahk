@@ -13,7 +13,7 @@ activate() {
   return false
 }
 
-testJustin(ini_path, file_path) {
+testJustin(iniPath, filePath) {
   if (!activate())
     return
   ; 登入
@@ -24,7 +24,7 @@ testJustin(ini_path, file_path) {
   Click, 200, 200 ; ini
   Sleep, 1000
 
-  Send, {Blind}{Text}%ini_path%
+  Send, {Blind}{Text}%iniPath%
   Send, {Enter}
   Sleep, 1000
 
@@ -36,7 +36,7 @@ testJustin(ini_path, file_path) {
   Send, ^o ; 開啟舊檔
   Sleep, 1000
 
-  Send, {Blind}{Text}%file_path%
+  Send, {Blind}{Text}%filePath%
   Send, {Enter}
   Send, {Enter}
   Sleep, 2000
@@ -70,7 +70,7 @@ testJustin(ini_path, file_path) {
   Send, {Enter}
 }
 
-testJustinAllColumn(ini_path, file_path) {
+testJustinAllColumn(iniPath, filePath) {
   if (!activate())
     return
   ; 登入
@@ -81,7 +81,7 @@ testJustinAllColumn(ini_path, file_path) {
   Click, 200, 200 ; ini
   Sleep, 1000
 
-  Send, {Blind}{Text}%ini_path%
+  Send, {Blind}{Text}%iniPath%
   Send, {Enter}
   Sleep, 1000
 
@@ -93,7 +93,7 @@ testJustinAllColumn(ini_path, file_path) {
   Send, ^o ; 開啟舊檔
   Sleep, 1000
 
-  Send, {Blind}{Text}%file_path%
+  Send, {Blind}{Text}%filePath%
   Send, {Enter}
   Send, {Enter}
   Sleep, 2000
@@ -121,7 +121,7 @@ testJustinAllColumn(ini_path, file_path) {
   Send, {Enter}
 }
 
-testTopTech(ini_path, file_path, columnCoordinate) {
+testTopTech(iniPath, filePath, columnCoordinate) {
   if (!activate())
     return
   ; 登入
@@ -132,7 +132,7 @@ testTopTech(ini_path, file_path, columnCoordinate) {
   Click, 200, 200 ; ini
   Sleep, 1000
 
-  Send, {Blind}{Text}%ini_path%
+  Send, {Blind}{Text}%iniPath%
   Send, {Enter}
   Sleep, 1000
 
@@ -144,7 +144,7 @@ testTopTech(ini_path, file_path, columnCoordinate) {
   Send, ^o ; 開啟舊檔
   Sleep, 1000
 
-  Send, {Blind}{Text}%file_path%
+  Send, {Blind}{Text}%filePath%
   Send, {Enter}
   Send, {Enter}
   Sleep, 2000
@@ -183,7 +183,7 @@ testTopTech(ini_path, file_path, columnCoordinate) {
   Send, {Enter}
 }
 
-testTopTechAllColumn(ini_path, file_path) {
+testTopTechAllColumn(iniPath, filePath) {
   if (!activate())
     return
   ; 登入
@@ -194,7 +194,7 @@ testTopTechAllColumn(ini_path, file_path) {
   Click, 200, 200 ; ini
   Sleep, 1000
 
-  Send, {Blind}{Text}%ini_path%
+  Send, {Blind}{Text}%iniPath%
   Send, {Enter}
   Sleep, 1000
 
@@ -206,7 +206,7 @@ testTopTechAllColumn(ini_path, file_path) {
   Send, ^o ; 開啟舊檔
   Sleep, 1000
 
-  Send, {Blind}{Text}%file_path%
+  Send, {Blind}{Text}%filePath%
   Send, {Enter}
   Send, {Enter}
   Sleep, 2000
@@ -235,73 +235,74 @@ testTopTechAllColumn(ini_path, file_path) {
   Send, {Enter}
 }
 
+showExecutionTime(startTime, endTime) {
+  elapsedTime := (endTime - startTime) / 1000
+  TrayTip 執行時間, % Format("= {1:0.3f}s", elapsedTime)
+}
+
 !1::
-  start_time := A_TickCount
+  ; 測試 2F 柱 柱底無梁 Mpr Vp 的計算
+  startTime := A_TickCount
 
-  ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
-  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\2021-0714 計算書.ASCO"
-  testJustin(ini_path, file_path)
+  iniPath := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
+  filePath := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\2021-0714 計算書.ASCO"
+  testJustin(iniPath, filePath)
 
-  elapsed_time := (A_TickCount - start_time) / 1000
-  TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
+  showExecutionTime(startTime, A_TickCount)
 Return
 
 !2::
-  start_time := A_TickCount
+  startTime := A_TickCount
 
-  ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\2021-0611 10F-C5.ASCO"
+  iniPath := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  filePath := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\2021-0611 10F-C5.ASCO"
   columnCoordinate := {x: 530, y: 270}
-  testTopTech(ini_path, file_path, columnCoordinate)
+  testTopTech(iniPath, filePath, columnCoordinate)
 
-  elapsed_time := (A_TickCount - start_time) / 1000
-  TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
+  showExecutionTime(startTime, A_TickCount)
 Return
 
 !3::
-  start_time := A_TickCount
+  startTime := A_TickCount
 
-  ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
+  iniPath := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  filePath := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
   columnCoordinate := {x: 530, y: 370}
-  testTopTech(ini_path, file_path, columnCoordinate)
+  testTopTech(iniPath, filePath, columnCoordinate)
 
-  elapsed_time := (A_TickCount - start_time) / 1000
-  TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
+  showExecutionTime(startTime, A_TickCount)
 Return
 
 !4::
-  start_time := A_TickCount
+  startTime := A_TickCount
 
-  ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
-  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\2021-0714 計算書.ASCO"
-  testJustinAllColumn(ini_path, file_path)
+  iniPath := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
+  filePath := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\01 Justin\2021-0714 計算書.ASCO"
+  testJustinAllColumn(iniPath, filePath)
 
-  elapsed_time := (A_TickCount - start_time) / 1000
-  TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
+  showExecutionTime(startTime, A_TickCount)
 Return
 
 !5::
-  start_time := A_TickCount
+  startTime := A_TickCount
 
-  ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
-  testTopTechAllColumn(ini_path, file_path)
+  iniPath := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  filePath := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
+  testTopTechAllColumn(iniPath, filePath)
 
-  elapsed_time := (A_TickCount - start_time) / 1000
-  TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
+  showExecutionTime(startTime, A_TickCount)
 Return
 
 !6::
-  start_time := A_TickCount
+  ; 測試雙翼版
+  startTime := A_TickCount
 
-  ini_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  file_path := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\2020-0719\3F-C7.ASCO"
+  iniPath := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  filePath := "D:\GitHub\autohotkey\ASCO\頂匠計算書\test\02 topTech\2020-0719\3F-C7.ASCO"
   columnCoordinate := {x: 630, y: 280}
-  testTopTech(ini_path, file_path, columnCoordinate)
+  testTopTech(iniPath, filePath, columnCoordinate)
 
-  elapsed_time := (A_TickCount - start_time) / 1000
-  TrayTip 執行時間, % Format("= {1:0.3f}s", elapsed_time)
+  showExecutionTime(startTime, A_TickCount)
 Return
 
 !t::
