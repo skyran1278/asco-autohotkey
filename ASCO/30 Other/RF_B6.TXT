@@ -1,0 +1,146 @@
+******************************
+*** 
+******************************
+begin of beam = RF B6  ************************************************************************************
+設計方法      = 採用ETABS9配筋, ***設計成功: 
+ 設計參數 RF B6 :
+ Load Comb = 66  Basic Load=  7  Locations = 23 [ForceFile-1]=n345.mdb
+ fc'=  210            b =    40.0     β1=   0.850    Acp=  2800.0
+ fy = 4200        #8        #8  h =    70.0     ρb=   0.021    Pcp=   220.0
+ fys= 2800        #4  d'=     9.1  As.bal=  39.153    Aoh=  1427.4
+ fyv= 2800        #4  d =    60.9  As.min=   8.123    Ph =   162.6
+ fyl= 4200            L =  1110.0      Av=   2.534    Ao =  1213.3
+                      Ln=  1035.0
+ [載重組合1-1]= n345.mdb
+Combo Loads  =  66全部個數
+Combo Loads  =  66已勾選個數
+Combo Loads  =   0未勾選個數
+Basic Loads  =   7   DEAD  LIVE  VLOAD  EX  EY  MX  MY
+------------------------------------------------------
+1    COMB1= 1.4 x DEAD
+2    COMB2= 1.2 x DEAD + 1.6 x LIVE
+3    COMB3= 1.2 x DEAD + 1. x LIVE + 0.3 x VLOAD + 1. x EX + 1. x MX
+4    COMB4= 1.2 x DEAD + 1. x LIVE + 0.3 x VLOAD + 1. x EX - 1. x MX
+5    COMB5= 1.2 x DEAD + 1. x LIVE + 0.3 x VLOAD - 1. x EX + 1. x MX
+6    COMB6= 1.2 x DEAD + 1. x LIVE + 0.3 x VLOAD - 1. x EX - 1. x MX
+7    COMB7= 1.2 x DEAD + 1. x LIVE + 0.3 x VLOAD + 1. x EY + 1. x MY
+8    COMB8= 1.2 x DEAD + 1. x LIVE + 0.3 x VLOAD + 1. x EY - 1. x MY
+9    COMB9= 1.2 x DEAD + 1. x LIVE + 0.3 x VLOAD - 1. x EY + 1. x MY
+10   COMB10= 1.2 x DEAD + 1. x LIVE + 0.3 x VLOAD - 1. x EY - 1. x MY
+11   COMB11= 1.2 x DEAD + 1. x LIVE - 0.3 x VLOAD + 1. x EX + 1. x MX
+12   COMB12= 1.2 x DEAD + 1. x LIVE - 0.3 x VLOAD + 1. x EX - 1. x MX
+13   COMB13= 1.2 x DEAD + 1. x LIVE - 0.3 x VLOAD - 1. x EX + 1. x MX
+14   COMB14= 1.2 x DEAD + 1. x LIVE - 0.3 x VLOAD - 1. x EX - 1. x MX
+15   COMB15= 1.2 x DEAD + 1. x LIVE - 0.3 x VLOAD + 1. x EY + 1. x MY
+16   COMB16= 1.2 x DEAD + 1. x LIVE - 0.3 x VLOAD + 1. x EY - 1. x MY
+17   COMB17= 1.2 x DEAD + 1. x LIVE - 0.3 x VLOAD - 1. x EY + 1. x MY
+18   COMB18= 1.2 x DEAD + 1. x LIVE + 0.3 x VLOAD - 1. x EY - 1. x MY
+19   COMB19= 1.2 x DEAD + 1. x LIVE + 1. x VLOAD + 0.3 x EX + 0.3 x MX
+20   COMB20= 1.2 x DEAD + 1. x LIVE + 1. x VLOAD + 0.3 x EX - 0.3 x MX
+21   COMB21= 1.2 x DEAD + 1. x LIVE + 1. x VLOAD - 0.3 x EX + 0.3 x MX
+22   COMB22= 1.2 x DEAD + 1. x LIVE + 1. x VLOAD - 0.3 x EX - 0.3 x MX
+23   COMB23= 1.2 x DEAD + 1. x LIVE + 1. x VLOAD + 0.3 x EY + 0.3 x MY
+24   COMB24= 1.2 x DEAD + 1. x LIVE + 1. x VLOAD + 0.3 x EY - 0.3 x MY
+25   COMB25= 1.2 x DEAD + 1. x LIVE + 1. x VLOAD - 0.3 x EY + 0.3 x MY
+26   COMB26= 1.2 x DEAD + 1. x LIVE + 1. x VLOAD - 0.3 x EY - 0.3 x MY
+27   COMB27= 1.2 x DEAD + 1. x LIVE - 1. x VLOAD + 0.3 x EX + 0.3 x MX
+28   COMB28= 1.2 x DEAD + 1. x LIVE - 1. x VLOAD + 0.3 x EX - 0.3 x MX
+29   COMB29= 1.2 x DEAD + 1. x LIVE - 1. x VLOAD - 0.3 x EX + 0.3 x MX
+30   COMB30= 1.2 x DEAD + 1. x LIVE - 1. x VLOAD - 0.3 x EX - 0.3 x MX
+31   COMB31= 1.2 x DEAD + 1. x LIVE - 1. x VLOAD + 0.3 x EY + 0.3 x MY
+32   COMB32= 1.2 x DEAD + 1. x LIVE - 1. x VLOAD + 0.3 x EY - 0.3 x MY
+33   COMB33= 1.2 x DEAD + 1. x LIVE - 1. x VLOAD - 0.3 x EY + 0.3 x MY
+34   COMB34= 1.2 x DEAD + 1. x LIVE - 1. x VLOAD - 0.3 x EY - 0.3 x MY
+35   COMB35= 0.9 x DEAD + 0.3 x VLOAD + 1. x EX + 1. x MX
+36   COMB36= 0.9 x DEAD + 0.3 x VLOAD + 1. x EX - 1. x MX
+37   COMB37= 0.9 x DEAD + 0.3 x VLOAD - 1. x EX + 1. x MX
+38   COMB38= 0.9 x DEAD + 0.3 x VLOAD - 1. x EX - 1. x MX
+39   COMB39= 0.9 x DEAD + 0.3 x VLOAD + 1. x EY + 1. x MY
+40   COMB40= 0.9 x DEAD + 0.3 x VLOAD + 1. x EY - 1. x MY
+41   COMB41= 0.9 x DEAD + 0.3 x VLOAD - 1. x EY + 1. x MY
+42   COMB42= 0.9 x DEAD + 0.3 x VLOAD - 1. x EY - 1. x MY
+43   COMB43= 0.9 x DEAD - 0.3 x VLOAD + 1. x EX + 1. x MX
+44   COMB44= 0.9 x DEAD - 0.3 x VLOAD + 1. x EX - 1. x MX
+45   COMB45= 0.9 x DEAD - 0.3 x VLOAD - 1. x EX + 1. x MX
+46   COMB46= 0.9 x DEAD - 0.3 x VLOAD - 1. x EX - 1. x MX
+47   COMB47= 0.9 x DEAD - 0.3 x VLOAD + 1. x EY + 1. x MY
+48   COMB48= 0.9 x DEAD - 0.3 x VLOAD + 1. x EY - 1. x MY
+49   COMB49= 0.9 x DEAD - 0.3 x VLOAD - 1. x EY + 1. x MY
+50   COMB50= 0.9 x DEAD - 0.3 x VLOAD - 1. x EY - 1. x MY
+51   COMB51= 0.9 x DEAD + 1. x VLOAD + 0.3 x EX + 0.3 x MX
+52   COMB52= 0.9 x DEAD + 1. x VLOAD + 0.3 x EX - 0.3 x MX
+53   COMB53= 0.9 x DEAD + 1. x VLOAD - 0.3 x EX + 0.3 x MX
+54   COMB54= 0.9 x DEAD + 1. x VLOAD - 0.3 x EX - 0.3 x MX
+55   COMB55= 0.9 x DEAD + 1. x VLOAD + 0.3 x EY + 0.3 x MY
+56   COMB56= 0.9 x DEAD + 1. x VLOAD + 0.3 x EY - 0.3 x MY
+57   COMB57= 0.9 x DEAD + 1. x VLOAD - 0.3 x EY + 0.3 x MY
+58   COMB58= 0.9 x DEAD + 1. x VLOAD - 0.3 x EY - 0.3 x MY
+59   COMB59= 0.9 x DEAD - 1. x VLOAD + 0.3 x EX + 0.3 x MX
+60   COMB60= 0.9 x DEAD - 1. x VLOAD + 0.3 x EX - 0.3 x MX
+61   COMB61= 0.9 x DEAD - 1. x VLOAD - 0.3 x EX + 0.3 x MX
+62   COMB62= 0.9 x DEAD - 1. x VLOAD - 0.3 x EX - 0.3 x MX
+63   COMB63= 0.9 x DEAD - 1. x VLOAD + 0.3 x EY + 0.3 x MY
+64   COMB64= 0.9 x DEAD - 1. x VLOAD + 0.3 x EY - 0.3 x MY
+65   COMB65= 0.9 x DEAD - 1. x VLOAD - 0.3 x EY
+66   COMB66= 0.9 x DEAD - 1. x VLOAD - 0.3 x EY - 0.3 x MY
+
+
+3斷面配筋資料(required): RF B6
+  ==Left===Middle===Right===
+   4- #8    2- #8   5- #8
+   0- #8    0- #8   0- #8
+
+   0- #8    0- #8   0- #8
+   2- #8    2- #8   3- #8
+   #4@10   #4@18   #4@10   0-#4 E.F.
+3斷面極值: RF B6
+=========Left=============Middle==============Right==============
+Top As  16.48 ( COMB6)      8.12 ( COMB3)     20.36 ( COMB3)
+Bot As   8.77 (COMB14)      9.38 ( COMB2)      9.67 ( COMB3)
+Min As   8.12               8.12               8.12
+s       15.28 (   ?-?)     30.46 (   ?-?)     11.90 (   ?-?)
+Avtt/s   0.0500             0.0500             0.2130
+Al       9.72
+
+ 23 斷面極值 RF B6 :
+Loc   Ast               Asb               Al              s        Avtt/s  =        ( Av/s    +       At/s )
+=======================================================||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ 1  16.48 ( COMB6)     8.77 (COMB14)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+ 2  13.50 ( COMB6)     6.30 ( COMB3)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+ 3  10.76 ( COMB6)     6.30 ( COMB3)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+ 4   8.77 (COMB46)     6.30 ( COMB3)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+ 5   7.87 ( COMB6)     6.30 ( COMB3)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+ 6   6.30 ( COMB3)     6.30 ( COMB3)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+ 7   6.30 ( COMB3)     6.30 ( COMB3)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+ 8   6.30 ( COMB3)     6.42 ( COMB3)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+ 9   6.30 ( COMB3)     7.28 ( COMB3)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+10   6.30 ( COMB3)     7.96 ( COMB3)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+11   6.30 ( COMB3)     8.77 ( COMB2)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+12   6.30 ( COMB3)     8.77 (COMB26)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+13   6.30 ( COMB3)     8.77 (COMB26)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+14   6.30 ( COMB3)     8.96 ( COMB2)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0160( COMB9)
+15   6.30 ( COMB3)     9.38 ( COMB2)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0210( COMB9)
+16   6.30 ( COMB3)     8.77 (COMB22)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0210( COMB9)
+17   6.30 ( COMB3)     8.47 ( COMB6)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0210( COMB9)
+18   6.30 ( COMB3)     6.35 ( COMB6)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0210( COMB9)
+19   6.30 ( COMB3)     6.30 ( COMB3)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0210( COMB9)
+20   8.77 (COMB12)     6.30 ( COMB3)    9.72 (COMB66)   999.90    0.0500 (   ?-?)  0.0500(COMB66)  0.0210( COMB9)
+21  10.60 ( COMB3)     6.30 ( COMB3)    9.72 (COMB26)   999.90    0.0520 (   ?-?)  0.0520(COMB26)  0.0210( COMB9)
+22  14.27 ( COMB3)     6.30 ( COMB3)    9.72 (COMB26)   999.90    0.0570 (   ?-?)  0.0570(COMB26)  0.0210( COMB9)
+23  20.36 ( COMB3)     9.67 ( COMB3)    9.72 (COMB26)   999.90    0.2130 (   ?-?)  0.2130( COMB9)  0.0630( COMB9)
+
+分析程式
+
+計算縱向扭力筋支數:
+------------------------------------------------------------
+  單筋面積 #4, as1 = 1.27
+  step1. 扭力筋縱向總面積(分析值)= 9.721
+         輸出算例:
+         最大Al值= 9.721
+         對應組合載重=COMB66
+         單面支數 n1= 2
+  step2. 依3.8.1(1)檢核跨深比: 梁淨長= 1035, 總梁深= 70, 跨深比= 14.8> 4.0, 不需檢討4.9.4
+  step3. 依3.7.5檢核梁深度: 總梁深= 70< 90.0,不需檢討(3-6)式鋼筋最大間距
+         故配置= 2-#4 E.F
+end of beam = RF B6
+

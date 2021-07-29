@@ -1,0 +1,22 @@
+unit.len=cm;
+
+class=CRS_Beam;
+name=b21;
+floor=9F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=295.000;
+np=2;
+pt.0=3225.00001022, 501.50000598, 3750.00000000;
+pt.1=3519.99980362, 501.50000598, 3750.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=295.000;
+np=2;
+pt.0=3224.99996324, 535.49997833, 3750.00000000;
+pt.1=3519.99975667, 535.49997833, 3750.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;

@@ -1,0 +1,9 @@
+unit.len=cm;
+unit.wt=kg;
+unit.ang=rad;
+
+class=CRB_Trestle_Beam_Situ;
+passport.id=0;
+name= 46;
+m_Handle2=0;
+°tµ¬¼Ò«¬: nil

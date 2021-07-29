@@ -1,0 +1,432 @@
+鋼筋模型與鋼筋之分析報告:
+----------------------------------------
+1.鋼筋模型數:             132
+2.鋼筋模型長度 > 2000:      9 ******NG
+3.鋼筋模型長度 <   20:      0 ***OK
+4.鋼筋模型座標異常:         0 ***OK
+
+5.配筋數:                   0
+6.鋼筋長度 > 2000:          0 ***OK
+7.鋼筋長度 <   20:          0 ***OK
+
+8.配筋數phase1: 總數        0
+9.配筋數phase1: 孤立        0 ***OK
+10.有鋼筋但無模型數:0
+
+11.鋼筋號數異常: 012.鋼筋模型表
+NO           RebarModel  Class.Name                          Length  RebarUse
+----------------------------------------------------------------------------------------------------
+       132-0 0x0000000040F1DBB0  CRCAD_RebarModel                    180.00         0
+       132-1 0x0000000040C55540  CRCAD_RebarModel_Long               180.00         0
+       132-2 0x0000000040C55D20  CRCAD_RebarModel_Long               221.00         0
+       132-3 0x0000000040C568F0  CRCAD_RebarModel_Long               262.00         0
+       132-4 0x0000000040C570D0  CRCAD_RebarModel_Long               280.00         0
+       132-5 0x0000000040F1CC30  CRCAD_RebarModel                    380.00         0
+       132-6 0x000000004AD12D00  CRCAD_RebarModel_Long               380.00         0
+       132-7 0x000000004AD12130  CRCAD_RebarModel_Long               421.00         0
+       132-8 0x000000004AD130F0  CRCAD_RebarModel_Long               462.00         0
+       132-9 0x000000004AD13CC0  CRCAD_RebarModel_Long               480.00         0
+      132-10 0x000000004D5CF830  CRCAD_RebarModel_Long               217.00         0
+
+      132-11 0x000000004D5D4300  CRCAD_RebarModel_Long               254.00         0
+      132-12 0x0000000040F1D3F0  CRCAD_RebarModel                    540.00         0
+      132-13 0x000000004D6416C0  CRCAD_RebarModel_Long               540.00         0
+      132-14 0x000000004D63B060  CRCAD_RebarModel_Long               577.00         0
+      132-15 0x000000004D63A880  CRCAD_RebarModel_Long               614.00         0
+      132-16 0x000000004D63CFE0  CRCAD_RebarModel_Long               620.00         0
+      132-17 0x000000004D641EA0  CRCAD_RebarModel_Long               417.00         0
+      132-18 0x000000004D642290  CRCAD_RebarModel_Long               454.00         0
+      132-19 0x0000000040F1B4F0  CRCAD_RebarModel                    242.10         0
+      132-20 0x0000000040F1AD30  CRCAD_RebarModel                    255.27         0
+
+      132-21 0x0000000040F1D010  CRCAD_RebarModel                    235.27         0
+      132-22 0x0000000040F1DF90  CRCAD_RebarModel                    184.00         0
+      132-23 0x0000000040EC4A50  CRCAD_RebarModel_Tie                135.55         0
+      132-24 0x0000000040EBF860  CRCAD_RebarModel_Tie                 97.02         0
+      132-25 0x0000000040EBFCB0  CRCAD_RebarModel_Tie                137.55         0
+      132-26 0x0000000040EC0550  CRCAD_RebarModel_HoopU              267.93         0
+      132-27 0x0000000040EC09A0  CRCAD_RebarModel_Tie                125.17         0
+      132-28 0x000000004A337430  CRCAD_RebarModel_TieL                62.80         0
+      132-29 0x000000004A338830  CRCAD_RebarModel_TieL                64.80         0
+      132-30 0x0000000040EC5FE0  CRCAD_RebarModel_HoopU              353.22         0
+
+      132-31 0x0000000040EC27D0  CRCAD_RebarModel_Tie                100.17         0
+      132-32 0x0000000040F1D7D0  CRCAD_RebarModel                    460.10         0
+      132-33 0x0000000040F1E370  CRCAD_RebarModel                    473.20         0
+      132-34 0x0000000040F1BCB0  CRCAD_RebarModel                    433.20         0
+      132-35 0x0000000040F1B110  CRCAD_RebarModel                    184.00         0
+      132-36 0x0000000040EC4600  CRCAD_RebarModel_Tie                133.55         0
+      132-37 0x0000000040EC3D60  CRCAD_RebarModel_Tie                100.53         0
+      132-38 0x0000000040EBE720  CRCAD_RebarModel_Tie                141.55         0
+      132-39 0x0000000040EBEFC0  CRCAD_RebarModel_HoopU              274.94         0
+      132-40 0x000000004A338030  CRCAD_RebarModel_TieL                56.80         0
+
+      132-41 0x0000000040EBEB70  CRCAD_RebarModel_HoopU              361.22         0
+      132-42 0x0000000040F1A950  CRCAD_RebarModel                    380.00         0
+      132-43 0x0000000040F1C850  CRCAD_RebarModel                    187.10         0
+      132-44 0x0000000040F1B8D0  CRCAD_RebarModel                    200.27         0
+      132-45 0x0000000040F1C090  CRCAD_RebarModel                    180.27         0
+      132-46 0x0000000050E56860  CRCAD_RebarModel                    129.00         0
+      132-47 0x0000000040EC5740  CRCAD_RebarModel_Tie                138.55         0
+      132-48 0x0000000040EC5B90  CRCAD_RebarModel_Tie                103.86         0
+      132-49 0x0000000040EC0DF0  CRCAD_RebarModel_Tie                144.55         0
+      132-50 0x0000000040EC4EA0  CRCAD_RebarModel_HoopU              281.61         0
+
+      132-51 0x000000004A336030  CRCAD_RebarModel_TieL                58.80         0
+      132-52 0x0000000040EBF410  CRCAD_RebarModel_HoopU              367.22         0
+      132-53 0x0000000050E59AC0  CRCAD_RebarModel                    350.10         0
+      132-54 0x0000000050E577E0  CRCAD_RebarModel                    390.74         0
+      132-55 0x0000000050E560A0  CRCAD_RebarModel                    323.20         0
+      132-56 0x0000000050E56C40  CRCAD_RebarModel                    270.00         0
+      132-57 0x0000000040EC1240  CRCAD_RebarModel_Tie                138.89         0
+      132-58 0x0000000040EC2380  CRCAD_RebarModel_Tie                104.20         0
+      132-59 0x0000000040EC2C20  CRCAD_RebarModel_Tie                144.89         0
+      132-60 0x0000000040EC1AE0  CRCAD_RebarModel_HoopU              282.97         0
+
+      132-61 0x0000000040EC3070  CRCAD_RebarModel_Tie                125.85         0
+      132-62 0x0000000040EC34C0  CRCAD_RebarModel_HoopU              368.58         0
+      132-63 0x0000000040EC41B0  CRCAD_RebarModel_Tie                100.85         0
+      132-64 0x000000004070FB20  CRCAD_RebarModel_Tie                141.55         0
+      132-65 0x00000000407121F0  CRCAD_RebarModel_Tie                106.36         0
+      132-66 0x000000004070FF70  CRCAD_RebarModel_Tie                147.55         0
+      132-67 0x00000000407103C0  CRCAD_RebarModel_HoopU              286.61         0
+      132-68 0x0000000040712640  CRCAD_RebarModel_HoopU              373.22         0
+      132-69 0x0000000040710C60  CRCAD_RebarModel_Tie                143.55         0
+      132-70 0x0000000040712A90  CRCAD_RebarModel_Tie                108.86         0
+
+      132-71 0x0000000040711950  CRCAD_RebarModel_Tie                151.55         0
+      132-72 0x0000000040712EE0  CRCAD_RebarModel_HoopU              291.61         0
+      132-73 0x0000000040710810  CRCAD_RebarModel_HoopU              381.22         0
+      132-74 0x0000000050E57400  CRCAD_RebarModel                    405.10         0
+      132-75 0x0000000050E57BC0  CRCAD_RebarModel                    418.20         0
+      132-76 0x0000000050E56480  CRCAD_RebarModel                    378.20         0
+      132-77 0x0000000050E58380  CRCAD_RebarModel                    325.00         0
+      132-78 0x0000000050E57020  CRCAD_RebarModel                    243.10         0
+      132-79 0x0000000050E58760  CRCAD_RebarModel                    256.27         0
+      132-80 0x0000000050E57FA0  CRCAD_RebarModel                    236.27         0
+
+      132-81 0x0000000050E58F20  CRCAD_RebarModel                    185.00         0
+      132-82 0x00000000407110B0  CRCAD_RebarModel_Tie                133.55         0
+      132-83 0x0000000040711500  CRCAD_RebarModel_Tie                 99.70         0
+      132-84 0x000000000C868FD0  CRCAD_RebarModel_Tie                133.55         0
+      132-85 0x000000000C866D50  CRCAD_RebarModel_HoopU              273.27         0
+      132-86 0x000000000C8664B0  CRCAD_RebarModel_HoopU              357.22         0
+      132-87 0x0000000050E58B40  CRCAD_RebarModel                    610.10         0
+      132-88 0x0000000050E59300  CRCAD_RebarModel                    650.74         0
+      132-89 0x0000000050E596E0  CRCAD_RebarModel                    583.20         0
+      132-90 0x00000000513670A0  CRCAD_RebarModel                    530.00         0
+
+      132-91 0x000000000C8682E0  CRCAD_RebarModel_Tie                134.89         0
+      132-92 0x000000000C8671A0  CRCAD_RebarModel_Tie                100.87         0
+      132-93 0x000000000C865C10  CRCAD_RebarModel_Tie                134.89         0
+      132-94 0x000000000C869420  CRCAD_RebarModel_HoopU              276.30         0
+      132-95 0x000000000C866060  CRCAD_RebarModel_HoopU              360.58         0
+      132-96 0x0000000051367480  CRCAD_RebarModel                    623.20         0
+      132-97 0x0000000040711DA0  CRCAD_RebarModel_Tie                138.55         0
+      132-98 0x0000000051374080  CRCAD_RebarModel_Tie                141.55         0
+      132-99 0x0000000051368400  CRCAD_RebarModel                    610.74         0
+     132-100 0x00000000513726A0  CRCAD_RebarModel_Tie                144.89         0
+
+     132-101 0x00000000513751C0  CRCAD_RebarModel_Tie                109.20         0
+     132-102 0x0000000051370420  CRCAD_RebarModel_Tie                144.89         0
+     132-103 0x0000000051377890  CRCAD_RebarModel_HoopU              292.97         0
+     132-104 0x0000000051371560  CRCAD_RebarModel_HoopU              380.58         0
+     132-105 0x0000000051367C40  CRCAD_RebarModel                   4548.78         0
+     132-106 0x0000000051367860  CRCAD_RebarModel                   4523.78         0
+     132-107 0x0000000051369760  CRCAD_RebarModel                    349.91         0
+     132-108 0x0000000051368020  CRCAD_RebarModel                    351.81         0
+     132-109 0x000000005136AAC0  CRCAD_RebarModel                    275.00         0
+     132-110 0x000000005136A6E0  CRCAD_RebarModel                    357.78         0
+
+     132-111 0x00000000513687E0  CRCAD_RebarModel                    287.00         0
+     132-112 0x0000000051373390  CRCAD_RebarModel_HoopU              377.11         0
+     132-113 0x0000000051372AF0  CRCAD_RebarModel_HoopU              383.66         0
+     132-114 0x0000000051368BC0  CRCAD_RebarModel                   4524.78         0
+     132-115 0x0000000051368FA0  CRCAD_RebarModel                   4511.78         0
+     132-116 0x0000000051369B40  CRCAD_RebarModel                    400.78         0
+     132-117 0x0000000051369380  CRCAD_RebarModel                    406.81         0
+     132-118 0x0000000051369F20  CRCAD_RebarModel                    330.00         0
+     132-119 0x000000005136A300  CRCAD_RebarModel                    412.78         0
+     132-120 0x0000000040F1C470  CRCAD_RebarModel                    342.00         0
+
+     132-121 0x0000000051370CC0  CRCAD_RebarModel_HoopU              390.20         0
+     132-122 0x0000000051375610  CRCAD_RebarModel_HoopU              396.74         0
+     132-123 0x0000000054FA9300  CRCAD_RebarModel                    711.78         0
+     132-124 0x0000000054FA6860  CRCAD_RebarModel                   1362.78         0
+     132-125 0x0000000054FA77E0  CRCAD_RebarModel                    699.78         0
+     132-126 0x0000000051375A60  CRCAD_RebarModel_HoopU              403.29         0
+     132-127 0x0000000054FA7BC0  CRCAD_RebarModel                   2999.43         0
+     132-128 0x0000000054FA7FA0  CRCAD_RebarModel                   2987.43         0
+     132-129 0x0000000054FA8760  CRCAD_RebarModel                   2993.82         0
+     132-130 0x0000000054FA8380  CRCAD_RebarModel                   2819.43         0
+
+     132-131 0x0000000054FA8B40  CRCAD_RebarModel                   2807.43         0
+
+12.對照表: 鋼筋模型--->鋼筋
+               132--->0
+----------------------------------------------------------------------------------------------------
+RebarMode.0=0x40F1DBB0, RebarUse.num=0
+
+RebarMode.1=0x40C55540, RebarUse.num=0
+
+RebarMode.2=0x40C55D20, RebarUse.num=0
+
+RebarMode.3=0x40C568F0, RebarUse.num=0
+
+RebarMode.4=0x40C570D0, RebarUse.num=0
+
+RebarMode.5=0x40F1CC30, RebarUse.num=0
+
+RebarMode.6=0x4AD12D00, RebarUse.num=0
+
+RebarMode.7=0x4AD12130, RebarUse.num=0
+
+RebarMode.8=0x4AD130F0, RebarUse.num=0
+
+RebarMode.9=0x4AD13CC0, RebarUse.num=0
+
+RebarMode.10=0x4D5CF830, RebarUse.num=0
+
+RebarMode.11=0x4D5D4300, RebarUse.num=0
+
+RebarMode.12=0x40F1D3F0, RebarUse.num=0
+
+RebarMode.13=0x4D6416C0, RebarUse.num=0
+
+RebarMode.14=0x4D63B060, RebarUse.num=0
+
+RebarMode.15=0x4D63A880, RebarUse.num=0
+
+RebarMode.16=0x4D63CFE0, RebarUse.num=0
+
+RebarMode.17=0x4D641EA0, RebarUse.num=0
+
+RebarMode.18=0x4D642290, RebarUse.num=0
+
+RebarMode.19=0x40F1B4F0, RebarUse.num=0
+
+RebarMode.20=0x40F1AD30, RebarUse.num=0
+
+RebarMode.21=0x40F1D010, RebarUse.num=0
+
+RebarMode.22=0x40F1DF90, RebarUse.num=0
+
+RebarMode.23=0x40EC4A50, RebarUse.num=0
+
+RebarMode.24=0x40EBF860, RebarUse.num=0
+
+RebarMode.25=0x40EBFCB0, RebarUse.num=0
+
+RebarMode.26=0x40EC0550, RebarUse.num=0
+
+RebarMode.27=0x40EC09A0, RebarUse.num=0
+
+RebarMode.28=0x4A337430, RebarUse.num=0
+
+RebarMode.29=0x4A338830, RebarUse.num=0
+
+RebarMode.30=0x40EC5FE0, RebarUse.num=0
+
+RebarMode.31=0x40EC27D0, RebarUse.num=0
+
+RebarMode.32=0x40F1D7D0, RebarUse.num=0
+
+RebarMode.33=0x40F1E370, RebarUse.num=0
+
+RebarMode.34=0x40F1BCB0, RebarUse.num=0
+
+RebarMode.35=0x40F1B110, RebarUse.num=0
+
+RebarMode.36=0x40EC4600, RebarUse.num=0
+
+RebarMode.37=0x40EC3D60, RebarUse.num=0
+
+RebarMode.38=0x40EBE720, RebarUse.num=0
+
+RebarMode.39=0x40EBEFC0, RebarUse.num=0
+
+RebarMode.40=0x4A338030, RebarUse.num=0
+
+RebarMode.41=0x40EBEB70, RebarUse.num=0
+
+RebarMode.42=0x40F1A950, RebarUse.num=0
+
+RebarMode.43=0x40F1C850, RebarUse.num=0
+
+RebarMode.44=0x40F1B8D0, RebarUse.num=0
+
+RebarMode.45=0x40F1C090, RebarUse.num=0
+
+RebarMode.46=0x50E56860, RebarUse.num=0
+
+RebarMode.47=0x40EC5740, RebarUse.num=0
+
+RebarMode.48=0x40EC5B90, RebarUse.num=0
+
+RebarMode.49=0x40EC0DF0, RebarUse.num=0
+
+RebarMode.50=0x40EC4EA0, RebarUse.num=0
+
+RebarMode.51=0x4A336030, RebarUse.num=0
+
+RebarMode.52=0x40EBF410, RebarUse.num=0
+
+RebarMode.53=0x50E59AC0, RebarUse.num=0
+
+RebarMode.54=0x50E577E0, RebarUse.num=0
+
+RebarMode.55=0x50E560A0, RebarUse.num=0
+
+RebarMode.56=0x50E56C40, RebarUse.num=0
+
+RebarMode.57=0x40EC1240, RebarUse.num=0
+
+RebarMode.58=0x40EC2380, RebarUse.num=0
+
+RebarMode.59=0x40EC2C20, RebarUse.num=0
+
+RebarMode.60=0x40EC1AE0, RebarUse.num=0
+
+RebarMode.61=0x40EC3070, RebarUse.num=0
+
+RebarMode.62=0x40EC34C0, RebarUse.num=0
+
+RebarMode.63=0x40EC41B0, RebarUse.num=0
+
+RebarMode.64=0x4070FB20, RebarUse.num=0
+
+RebarMode.65=0x407121F0, RebarUse.num=0
+
+RebarMode.66=0x4070FF70, RebarUse.num=0
+
+RebarMode.67=0x407103C0, RebarUse.num=0
+
+RebarMode.68=0x40712640, RebarUse.num=0
+
+RebarMode.69=0x40710C60, RebarUse.num=0
+
+RebarMode.70=0x40712A90, RebarUse.num=0
+
+RebarMode.71=0x40711950, RebarUse.num=0
+
+RebarMode.72=0x40712EE0, RebarUse.num=0
+
+RebarMode.73=0x40710810, RebarUse.num=0
+
+RebarMode.74=0x50E57400, RebarUse.num=0
+
+RebarMode.75=0x50E57BC0, RebarUse.num=0
+
+RebarMode.76=0x50E56480, RebarUse.num=0
+
+RebarMode.77=0x50E58380, RebarUse.num=0
+
+RebarMode.78=0x50E57020, RebarUse.num=0
+
+RebarMode.79=0x50E58760, RebarUse.num=0
+
+RebarMode.80=0x50E57FA0, RebarUse.num=0
+
+RebarMode.81=0x50E58F20, RebarUse.num=0
+
+RebarMode.82=0x407110B0, RebarUse.num=0
+
+RebarMode.83=0x40711500, RebarUse.num=0
+
+RebarMode.84=0xC868FD0, RebarUse.num=0
+
+RebarMode.85=0xC866D50, RebarUse.num=0
+
+RebarMode.86=0xC8664B0, RebarUse.num=0
+
+RebarMode.87=0x50E58B40, RebarUse.num=0
+
+RebarMode.88=0x50E59300, RebarUse.num=0
+
+RebarMode.89=0x50E596E0, RebarUse.num=0
+
+RebarMode.90=0x513670A0, RebarUse.num=0
+
+RebarMode.91=0xC8682E0, RebarUse.num=0
+
+RebarMode.92=0xC8671A0, RebarUse.num=0
+
+RebarMode.93=0xC865C10, RebarUse.num=0
+
+RebarMode.94=0xC869420, RebarUse.num=0
+
+RebarMode.95=0xC866060, RebarUse.num=0
+
+RebarMode.96=0x51367480, RebarUse.num=0
+
+RebarMode.97=0x40711DA0, RebarUse.num=0
+
+RebarMode.98=0x51374080, RebarUse.num=0
+
+RebarMode.99=0x51368400, RebarUse.num=0
+
+RebarMode.100=0x513726A0, RebarUse.num=0
+
+RebarMode.101=0x513751C0, RebarUse.num=0
+
+RebarMode.102=0x51370420, RebarUse.num=0
+
+RebarMode.103=0x51377890, RebarUse.num=0
+
+RebarMode.104=0x51371560, RebarUse.num=0
+
+RebarMode.105=0x51367C40, RebarUse.num=0
+
+RebarMode.106=0x51367860, RebarUse.num=0
+
+RebarMode.107=0x51369760, RebarUse.num=0
+
+RebarMode.108=0x51368020, RebarUse.num=0
+
+RebarMode.109=0x5136AAC0, RebarUse.num=0
+
+RebarMode.110=0x5136A6E0, RebarUse.num=0
+
+RebarMode.111=0x513687E0, RebarUse.num=0
+
+RebarMode.112=0x51373390, RebarUse.num=0
+
+RebarMode.113=0x51372AF0, RebarUse.num=0
+
+RebarMode.114=0x51368BC0, RebarUse.num=0
+
+RebarMode.115=0x51368FA0, RebarUse.num=0
+
+RebarMode.116=0x51369B40, RebarUse.num=0
+
+RebarMode.117=0x51369380, RebarUse.num=0
+
+RebarMode.118=0x51369F20, RebarUse.num=0
+
+RebarMode.119=0x5136A300, RebarUse.num=0
+
+RebarMode.120=0x40F1C470, RebarUse.num=0
+
+RebarMode.121=0x51370CC0, RebarUse.num=0
+
+RebarMode.122=0x51375610, RebarUse.num=0
+
+RebarMode.123=0x54FA9300, RebarUse.num=0
+
+RebarMode.124=0x54FA6860, RebarUse.num=0
+
+RebarMode.125=0x54FA77E0, RebarUse.num=0
+
+RebarMode.126=0x51375A60, RebarUse.num=0
+
+RebarMode.127=0x54FA7BC0, RebarUse.num=0
+
+RebarMode.128=0x54FA7FA0, RebarUse.num=0
+
+RebarMode.129=0x54FA8760, RebarUse.num=0
+
+RebarMode.130=0x54FA8380, RebarUse.num=0
+
+RebarMode.131=0x54FA8B40, RebarUse.num=0
+
+

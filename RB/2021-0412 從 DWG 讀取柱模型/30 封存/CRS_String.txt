@@ -1,0 +1,15 @@
+unit.len=cm;
+unit.wt=kg;
+unit.ang=rad;
+
+class=CRS_String;
+passport.id=0;
+name= ;
+m_Handle2=0;
+plane=2805.346805, 57023.504502, 3020.000000,1.000000, 0.000000, 0.000000,0.000000, 1.000000, 0.000000;
+mdNativeCharW=36.000000;
+mdNativeCharH=45.000000;
+mbPosId=5;
+mdSlant=0.000000;
+mf_RowIndent=0.150000;
+str=B_C1;

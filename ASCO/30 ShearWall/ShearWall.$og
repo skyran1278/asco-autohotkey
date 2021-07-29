@@ -1,0 +1,188 @@
+                                                                                
+                                                                                
+ B E G I N   A N A L Y S I S                                2021/07/20  16:31:24
+                                                                                
+                                                                                
+ E L E M E N T   F O R M A T I O N                                      16:31:24
+
+
++NUMBER OF JOINT  ELEMENTS FORMED          =          24                        
+
++NUMBER OF SPRING ELEMENTS FORMED          =           0                        
+                                                                                
++Frame  element       0 of      39                                              
++Frame  element      39 of      39                                              
++NUMBER OF FRAME  ELEMENTS FORMED          =          39                        
+                                                                                
++Shell  element       0 of       9                                              
++Shell  element       9 of       9                                              
++NUMBER OF SHELL  ELEMENTS FORMED          =           9                        
+                                                                                
+                                                                                
+ E Q U A T I O N   S O L U T I O N                                      16:31:24
+                                                                                
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =         126                        
+ APPROXIMATE "EFFECTIVE" BAND WIDTH        =          34                        
+                                                                                
+ NUMBER OF EQUATION STORAGE BLOCKS         =           1                        
+ MAXIMUM BLOCK SIZE (8-BYTE TERMS)         =        3915                        
+ SIZE OF STIFFNESS FILE(S) (BYTES)         =      31.094 KB                     
+                                                                                
+ NUMBER OF EQUATIONS TO SOLVE              =         126                        
+ NUMBER OF STATIC LOAD CASES               =          22                        
+ NUMBER OF ACCELERATION LOADS              =           6                        
+ NUMBER OF NONLINEAR DEFORMATION LOADS     =           0                        
+                                                                                
+ CURRENT P-DELTA ANALYSIS ITERATION        =           0                        
+ MAXIMUM NUMBER OF ITERATIONS ALLOWED      =          10                        
+                                                                                
+ CURRENT  DISPLACEMENT MAGNITUDE           =    0.000194                        
+                                                                                
+                                                                                
+                                                                                
+ B E G I N   P - D E L T A   I T E R A T I O N                          16:31:24
+                                                                                
+                                                                                
+ E L E M E N T   F O R M A T I O N                                      16:31:24
+
+                                                                                
++Frame  element       0 of      39                                              
++Frame  element      39 of      39                                              
++NUMBER OF FRAME  ELEMENTS FORMED          =          39                        
+                                                                                
++Shell  element       0 of       9                                              
++Shell  element       9 of       9                                              
++NUMBER OF SHELL  ELEMENTS FORMED          =           9                        
+                                                                                
+                                                                                
+ E Q U A T I O N   S O L U T I O N                                      16:31:25
+                                                                                
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =         126                        
+ APPROXIMATE "EFFECTIVE" BAND WIDTH        =          34                        
+                                                                                
+ NUMBER OF EQUATION STORAGE BLOCKS         =           1                        
+ MAXIMUM BLOCK SIZE (8-BYTE TERMS)         =        3915                        
+ SIZE OF STIFFNESS FILE(S) (BYTES)         =      31.094 KB                     
+                                                                                
+ NUMBER OF EQUATIONS TO SOLVE              =         126                        
+ NUMBER OF STATIC LOAD CASES               =          22                        
+ NUMBER OF ACCELERATION LOADS              =           6                        
+ NUMBER OF NONLINEAR DEFORMATION LOADS     =           0                        
+                                                                                
+ CURRENT P-DELTA ANALYSIS ITERATION        =           1                        
+ MAXIMUM NUMBER OF ITERATIONS ALLOWED      =          10                        
+                                                                                
+ CURRENT  DISPLACEMENT MAGNITUDE           =    0.000194                        
+ RELATIVE DISPLACEMENT CHANGE              =    0.000373                        
+ RELATIVE DISPLACEMENT TOLERANCE           =    0.001000                        
+                                                                                
+ ITERATION CONVERGED                                                            
+                                                                                
+                                                                                
+ P - D E L T A   I T E R A T I O N   C O M P L E T E                    16:31:25
+                                                                                
+                                                                                
+ E I G E N   A N A L Y S I S                                            16:31:25
+                                                                                
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =         126                        
+ NUMBER OF MASS DEGREES OF FREEDOM         =          36                        
+ NUMBER OF EIGEN MODES SOUGHT              =          25                        
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0                        
+ NUMBER OF SUBSPACE VECTORS USED           =          20                        
+                                                                                
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-07                        
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000                        
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =     .000000                        
+
+ Found mode       1 of      25, Eigenvalue = 2.1525452E+02, Period =    0.428256
+ Found mode       2 of      25, Eigenvalue = 2.7538216E+02, Period =    0.378627
+ Found mode       3 of      25, Eigenvalue = 3.7686302E+03, Period =    0.102350
+ Found mode       4 of      25, Eigenvalue = 6.3184329E+03, Period =    0.079045
+ Found mode       5 of      25, Eigenvalue = 7.6033291E+03, Period =    0.072057
+ Found mode       6 of      25, Eigenvalue = 2.8558428E+04, Period =    0.037180
+ Found mode       7 of      25, Eigenvalue = 4.1095977E+04, Period =    0.030994
+ Found mode       8 of      25, Eigenvalue = 4.5590269E+04, Period =    0.029427
+ Found mode       9 of      25, Eigenvalue = 4.9130870E+04, Period =    0.028347
+ Found mode      10 of      25, Eigenvalue = 5.5450640E+04, Period =    0.026683
+ Found mode      11 of      25, Eigenvalue = 7.9785528E+04, Period =    0.022244
+ Found mode      12 of      25, Eigenvalue = 8.8580390E+04, Period =    0.021111
+ Found mode      13 of      25, Eigenvalue = 9.1344936E+04, Period =    0.020789
+ Found mode      14 of      25, Eigenvalue = 1.1532318E+05, Period =    0.018502
+ Found mode      15 of      25, Eigenvalue = 1.4773486E+05, Period =    0.016347
+ Found mode      16 of      25, Eigenvalue = 1.5633592E+05, Period =    0.015891
+ Found mode      17 of      25, Eigenvalue = 1.6254852E+05, Period =    0.015584
+ Found mode      18 of      25, Eigenvalue = 1.7235520E+05, Period =    0.015134
+ Found mode      19 of      25, Eigenvalue = 1.7545641E+05, Period =    0.015000
+ Found mode      20 of      25, Eigenvalue = 1.8649879E+05, Period =    0.014549
+ Found mode      21 of      25, Eigenvalue = 1.9858185E+05, Period =    0.014100
+ Found mode      22 of      25, Eigenvalue = 2.0293790E+05, Period =    0.013948
+ Found mode      23 of      25, Eigenvalue = 2.1453687E+05, Period =    0.013565
+ Found mode      24 of      25, Eigenvalue = 2.2895499E+05, Period =    0.013131
+ Found mode      25 of      25, Eigenvalue = 2.5010679E+05, Period =    0.012564
+                                                                                
+ NUMBER OF EIGEN MODES FOUND               =          25                        
+ NUMBER OF ITERATIONS PERFORMED            =          15                        
+                                                                                
+                                                                                
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    16:31:25
+                                                                                
+                                                                                
+ J O I N T   O U T P U T                                                16:31:25
+                                                                                
+                                                                                
+ E L E M E N T   J O I N T - F O R C E   O U T P U T                    16:31:26
+
+                                                                                
++Joint  element       0 of      24                                              
++Joint  element      24 of      24                                              
++NUMBER OF JOINT  ELEMENTS SAVED           =          24                        
+                                                                                
++Frame  element       0 of      39                                              
++Frame  element      39 of      39                                              
++NUMBER OF FRAME  ELEMENTS SAVED           =          39                        
+                                                                                
++Shell  element       0 of       9                                              
++Shell  element       9 of       9                                              
++NUMBER OF SHELL  ELEMENTS SAVED           =           9                        
+                                                                                
+                                                                                
+ E L E M E N T   O U T P U T                                            16:31:26
+
+                                                                                
+                                                                                
+ A N A L Y S I S   C O M P L E T E                          2021/07/20  16:31:26
+                                                                                
+                                                                                
+ B E G I N   A N A L Y S I S                                2021/07/20  16:31:26
+                                                                                
+                                                                                
+ E L E M E N T   F O R M A T I O N                                      16:31:26
+
+
++NUMBER OF JOINT  ELEMENTS FORMED          =          24                        
+
++NUMBER OF SPRING ELEMENTS FORMED          =           0                        
+                                                                                
+                                                                                
+ L O A D   R E - S O L U T I O N                                        16:31:26
+                                                                                
+ NUMBER OF STATIC LOAD CASES               =          22                        
+                                                                                
+                                                                                
+ E L E M E N T   J O I N T - F O R C E   O U T P U T                    16:31:26
+
+                                                                                
++Joint  element       0 of      24                                              
++Joint  element      24 of      24                                              
++NUMBER OF JOINT  ELEMENTS SAVED           =          24                        
+                                                                                
++Frame  element       0 of      39                                              
++Frame  element      39 of      39                                              
++NUMBER OF FRAME  ELEMENTS SAVED           =          39                        
+                                                                                
++Shell  element       0 of       9                                              
++Shell  element       9 of       9                                              
++NUMBER OF SHELL  ELEMENTS SAVED           =           9                        
+                                                                                
+                                                                                
+ A N A L Y S I S   C O M P L E T E                          2021/07/20  16:31:26

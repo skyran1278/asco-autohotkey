@@ -1,0 +1,820 @@
+unit.len=cm;
+
+class=CRS_Beam;
+name=CG17;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=460.000;
+np=2;
+pt.0=3570.00000000, 2509.99999216, 4200.00000000;
+pt.1=3570.00000006, 2969.99999455, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=460.000;
+np=2;
+pt.0=3600.00000000, 2509.99999215, 4200.00000000;
+pt.1=3600.00000006, 2969.99999454, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b12;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=525.000;
+np=2;
+pt.0=250.00168461, 159.99999534, 4200.00000000;
+pt.1=250.00168461, 684.99999501, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=525.000;
+np=2;
+pt.0=300.00168461, 159.99999530, 4200.00000000;
+pt.1=300.00168461, 684.99999501, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b1;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=994.998;
+np=2;
+pt.0=300.00168461, 436.66666700, 4200.00000000;
+pt.1=1295.00000000, 436.66666700, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=994.998;
+np=2;
+pt.0=300.00168461, 376.66666700, 4200.00000000;
+pt.1=1295.00000000, 376.66666700, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b2;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1240.000;
+np=2;
+pt.0=1405.00000000, 436.66666700, 4200.00000000;
+pt.1=2645.00000000, 436.66666700, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1240.000;
+np=2;
+pt.0=1405.00000000, 376.66666700, 4200.00000000;
+pt.1=2645.00000000, 376.66666700, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b4;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1275.000;
+np=2;
+pt.0=20.00000143, 754.99999501, 4200.00000000;
+pt.1=1295.00000000, 754.99999501, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1275.000;
+np=2;
+pt.0=20.00000143, 684.99999501, 4200.00000000;
+pt.1=1295.00000000, 684.99999501, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b9;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1245.000;
+np=2;
+pt.0=50.00000000, 2149.99993827, 4200.00000000;
+pt.1=1295.00000000, 2149.99993827, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1245.000;
+np=2;
+pt.0=50.00000000, 2089.99993827, 4200.00000000;
+pt.1=1295.00000000, 2089.99993827, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b6;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1245.000;
+np=2;
+pt.0=50.00000000, 1834.99994590, 4200.00000000;
+pt.1=1295.00000000, 1834.99994590, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1245.000;
+np=2;
+pt.0=50.00000000, 1774.99994590, 4200.00000000;
+pt.1=1295.00000000, 1774.99994590, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b5;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1240.000;
+np=2;
+pt.0=1405.00000000, 744.99999501, 4200.00000000;
+pt.1=2645.00000000, 744.99999501, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1240.000;
+np=2;
+pt.0=1405.00000000, 684.99999501, 4200.00000000;
+pt.1=2645.00000000, 684.99999501, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b10;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1240.000;
+np=2;
+pt.0=1405.00000000, 2149.99993827, 4200.00000000;
+pt.1=2645.00000000, 2149.99993827, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1240.000;
+np=2;
+pt.0=1405.00000000, 2089.99993827, 4200.00000000;
+pt.1=2645.00000000, 2089.99993827, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b7;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1240.000;
+np=2;
+pt.0=1405.00000000, 1834.99994590, 4200.00000000;
+pt.1=2645.00000000, 1834.99994590, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1240.000;
+np=2;
+pt.0=1405.00000000, 1774.99994590, 4200.00000000;
+pt.1=2645.00000000, 1774.99994590, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b3;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1020.000;
+np=2;
+pt.0=3165.00001042, 159.99999301, 4200.00000000;
+pt.1=3165.00000984, 1180.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1020.000;
+np=2;
+pt.0=3225.00001042, 159.99999296, 4200.00000000;
+pt.1=3225.00000984, 1180.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b15;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=485.000;
+np=2;
+pt.0=3340.00001085, 1290.00000026, 4200.00000000;
+pt.1=3340.00001085, 1774.99994590, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=485.000;
+np=2;
+pt.0=3370.00001085, 1290.00000026, 4200.00000000;
+pt.1=3370.00001085, 1774.99994590, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b11;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=765.000;
+np=2;
+pt.0=2755.00000000, 2149.99993827, 4200.00000000;
+pt.1=3519.99999994, 2149.99993827, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=765.000;
+np=2;
+pt.0=2755.00000000, 2089.99993827, 4200.00000000;
+pt.1=3519.99999994, 2089.99993827, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b8;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=765.000;
+np=2;
+pt.0=2755.00000000, 1834.99994590, 4200.00000000;
+pt.1=3520.00000000, 1834.99994590, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=765.000;
+np=2;
+pt.0=2755.00000000, 1774.99994590, 4200.00000000;
+pt.1=3520.00000000, 1774.99994590, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=CB14;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=310.000;
+np=2;
+pt.0=-370.00163663, 2429.99977233, 4200.00000000;
+pt.1=-60.00163126, 2429.99977424, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=310.000;
+np=2;
+pt.0=-370.00163641, 2394.99977233, 4200.00000000;
+pt.1=-60.00163104, 2394.99977424, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=B14;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1230.000;
+np=2;
+pt.0=60.00000000, 2510.00000026, 4200.00000000;
+pt.1=1290.00000000, 2510.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1230.000;
+np=2;
+pt.0=60.00000000, 2400.00000026, 4200.00000000;
+pt.1=1290.00000000, 2400.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=B15;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1230.000;
+np=2;
+pt.0=1410.00000000, 2510.00000026, 4200.00000000;
+pt.1=2640.00000000, 2510.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1230.000;
+np=2;
+pt.0=1410.00000000, 2400.00000026, 4200.00000000;
+pt.1=2640.00000000, 2400.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=B16;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=730.000;
+np=2;
+pt.0=2760.00000000, 2509.99999215, 4200.00000000;
+pt.1=3490.00000000, 2509.99999215, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=730.000;
+np=2;
+pt.0=2760.00000000, 2399.99999215, 4200.00000000;
+pt.1=3490.00000000, 2399.99999215, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=G13;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1080.000;
+np=2;
+pt.0=2645.00000000, 1290.00000026, 4200.00000000;
+pt.1=2645.00000000, 2370.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1080.000;
+np=2;
+pt.0=2755.00000000, 1290.00000026, 4200.00000000;
+pt.1=2755.00000000, 2370.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=B12;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=730.000;
+np=2;
+pt.0=2760.00000000, 1290.00000026, 4200.00000000;
+pt.1=3490.00000000, 1290.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=730.000;
+np=2;
+pt.0=2760.00000000, 1180.00000026, 4200.00000000;
+pt.1=3490.00000000, 1180.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=B11;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1230.000;
+np=2;
+pt.0=1410.00000000, 1290.00000026, 4200.00000000;
+pt.1=2640.00000000, 1290.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1230.000;
+np=2;
+pt.0=1410.00000000, 1180.00000026, 4200.00000000;
+pt.1=2640.00000000, 1180.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=G7;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=960.000;
+np=2;
+pt.0=1295.00000000, 189.99999549, 4200.00000000;
+pt.1=1295.00000000, 1150.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=960.000;
+np=2;
+pt.0=1405.00000000, 189.99999549, 4200.00000000;
+pt.1=1405.00000000, 1150.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=G8;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1080.000;
+np=2;
+pt.0=1295.00000000, 1290.00000026, 4200.00000000;
+pt.1=1295.00000000, 2370.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1080.000;
+np=2;
+pt.0=1405.00000000, 1290.00000026, 4200.00000000;
+pt.1=1405.00000000, 2370.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=B10;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1230.000;
+np=2;
+pt.0=60.00000000, 1290.00000026, 4200.00000000;
+pt.1=1290.00000000, 1290.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1230.000;
+np=2;
+pt.0=60.00000000, 1180.00000026, 4200.00000000;
+pt.1=1290.00000000, 1180.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=G3;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1080.000;
+np=2;
+pt.0=-60.00000000, 1290.00000629, 4200.00000000;
+pt.1=-60.00000000, 2370.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1080.000;
+np=2;
+pt.0=50.00000000, 1290.00000629, 4200.00000000;
+pt.1=50.00000000, 2370.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=B6;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1230.000;
+np=2;
+pt.0=60.00000006, 159.99999549, 4200.00000000;
+pt.1=1290.00000006, 159.99999451, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1230.000;
+np=2;
+pt.0=60.00000000, 49.99999549, 4200.00000000;
+pt.1=1290.00000000, 49.99999451, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=B7;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1230.000;
+np=2;
+pt.0=1410.00000000, 159.99999459, 4200.00000000;
+pt.1=2640.00000000, 159.99999459, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1230.000;
+np=2;
+pt.0=1410.00000000, 49.99999459, 4200.00000000;
+pt.1=2640.00000000, 49.99999459, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=B8;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=730.000;
+np=2;
+pt.0=2759.99999995, 159.99999508, 4200.00000000;
+pt.1=3490.00000001, 159.99999549, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=730.000;
+np=2;
+pt.0=2760.00000000, 49.99999508, 4200.00000000;
+pt.1=3490.00000006, 49.99999549, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=G12;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=960.000;
+np=2;
+pt.0=2645.00000000, 189.99999549, 4200.00000000;
+pt.1=2645.00000000, 1150.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=960.000;
+np=2;
+pt.0=2755.00000000, 189.99999549, 4200.00000000;
+pt.1=2755.00000000, 1150.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=Cb6;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=310.002;
+np=2;
+pt.0=-370.00163716, 1784.99213820, 4200.00000000;
+pt.1=-60.00000000, 1784.99994589, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=310.002;
+np=2;
+pt.0=-370.00163716, 1744.99212445, 4200.00000000;
+pt.1=-60.00000000, 1744.99994588, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b17;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=610.008;
+np=2;
+pt.0=-370.00163716, 1784.99213820, 4200.00000000;
+pt.1=-370.00163716, 2394.99977233, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=610.007;
+np=2;
+pt.0=-340.00163716, 1784.99289378, 4200.00000000;
+pt.1=-340.00163716, 2394.99977252, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=G17;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1110.000;
+np=2;
+pt.0=3520.00000000, 1290.00000026, 4200.00000000;
+pt.1=3520.00000000, 2399.99999215, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1110.000;
+np=2;
+pt.0=3600.00000000, 1290.00000026, 4200.00000000;
+pt.1=3600.00000000, 2399.99999215, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=G16;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=1020.000;
+np=2;
+pt.0=3520.00000006, 159.99999549, 4200.00000000;
+pt.1=3520.00000006, 1180.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=1020.000;
+np=2;
+pt.0=3600.00000006, 159.99999549, 4200.00000000;
+pt.1=3600.00000006, 1180.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b21;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=295.000;
+np=2;
+pt.0=3225.00001086, 535.49998834, 4200.00000000;
+pt.1=3519.99980440, 535.49998834, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=295.000;
+np=2;
+pt.0=3225.00001090, 475.49998834, 4200.00000000;
+pt.1=3519.99980440, 475.49998834, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=CB6;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=310.000;
+np=2;
+pt.0=-369.99998646, 169.99997547, 4200.00000000;
+pt.1=-60.00000000, 169.99997356, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=310.000;
+np=2;
+pt.0=-369.99998671, 134.99997547, 4200.00000000;
+pt.1=-60.00000000, 134.99997356, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=Cb4;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=310.000;
+np=2;
+pt.0=-369.99997944, 724.99996288, 4200.00000000;
+pt.1=-60.00000000, 724.99999501, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=310.000;
+np=2;
+pt.0=-369.99997998, 684.99996293, 4200.00000000;
+pt.1=-60.00000000, 684.99999501, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=b16;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=515.000;
+np=2;
+pt.0=-369.99998704, 169.99997547, 4200.00000000;
+pt.1=-369.99997998, 684.99996293, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=515.000;
+np=2;
+pt.0=-339.99998712, 169.99997528, 4200.00000000;
+pt.1=-339.99997990, 684.99996604, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=CB10;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=120.000;
+np=2;
+pt.0=-179.99997050, 1289.99999914, 4200.00000000;
+pt.1=-60.00000000, 1290.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=120.000;
+np=2;
+pt.0=-179.99997050, 1249.99999914, 4200.00000000;
+pt.1=-60.00000000, 1250.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;
+
+class=CRS_Beam;
+name=G2;
+floor=10F;
+rebar.direction=1;
+mp_Curve_2D_Upper=
+{class=CRS_Polyline;
+length=960.000;
+np=2;
+pt.0=-60.00000000, 189.99999549, 4200.00000000;
+pt.1=-60.00000000, 1150.00000026, 4200.00000000;
+};
+mp_Curve_2D_Lower=
+{class=CRS_Polyline;
+length=960.000;
+np=2;
+pt.0=20.00000000, 189.99999549, 4200.00000000;
+pt.1=20.00000000, 1150.00000026, 4200.00000000;
+};
+dz.L=0.00000;
+dz.R=0.00000;

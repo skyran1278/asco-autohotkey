@@ -1,0 +1,19 @@
+unit.len=cm;
+unit.wt=kg;
+unit.ang=rad;
+
+class=CRS_Floor;
+name=10F;
+Origin_DWG_2Dx= 0.00000;
+Origin_DWG_2Dy= 0.00000;
+height.DN= 320.00;
+elevation= 3020.00;
+material= con280;
+alias=;
+alias.beam=10F;
+alias.column=10;
+{
+   "elevation" : 3020.0,
+   "name" : "10F",
+   "type" : "CRS_Floor"
+}

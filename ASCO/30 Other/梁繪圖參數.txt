@@ -1,0 +1,540 @@
+[
+{
+   "colorIndex" : 4,
+   "layerName" : "圖框",
+   "line" : {
+      "pattern" : 1,
+      "width" : 1
+   },
+   "name" : "圖框",
+   "nameKey" : "BEAM_ASCO_ENTITY_Sheet_Boundary",
+   "rgba" : [ 0.0, 0.75, 0.75, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "邊界線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "梁邊界線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Boundary",
+   "rgba" : [ 1.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "梁柱截斷記號",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "梁柱截斷記號",
+   "nameKey" : "BEAM_ASCO_ENTITY_Boundary_Dimension_Member_Cutting",
+   "rgba" : [ 0.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 2,
+   "layerName" : "副梁線",
+   "line" : {
+      "pattern" : 1,
+      "width" : 1
+   },
+   "name" : "副梁線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Normal_Beam",
+   "rgba" : [ 1.0, 0.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "截斷符號",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "截斷符號",
+   "nameKey" : "BEAM_ASCO_ENTITY_Continuous_Mark",
+   "rgba" : [ 1.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 1,
+   "layerName" : "主筋線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 2
+   },
+   "name" : "主筋線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Rebar_Line",
+   "rgba" : [ 0.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 6,
+   "layerName" : "主筋文字引線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "主筋文字引線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Rebar_Guide",
+   "rgba" : [ 0.0, 1.0, 1.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 7,
+   "layerName" : "主筋文字",
+   "name" : "主筋文字",
+   "nameKey" : "BEAM_ASCO_ENTITY_Rebar_Text",
+   "rgba" : [ 1.0, 0.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "text" : {
+      "height" : 12.0,
+      "posId" : 2,
+      "trueType" : 0,
+      "width" : 9.0
+   },
+   "type" : 0,
+   "visible" : 1
+},
+{
+   "colorIndex" : 7,
+   "layerName" : "尺寸標註-字串",
+   "name" : "主筋尺寸標註-字串",
+   "nameKey" : "BEAM_ASCO_ENTITY_Rebar_Dimension_Text",
+   "rgba" : [ 1.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "text" : {
+      "height" : 9.0,
+      "posId" : 4,
+      "trueType" : 0,
+      "width" : 6.0
+   },
+   "type" : 0,
+   "visible" : 1
+},
+{
+   "colorIndex" : 6,
+   "layerName" : "尺寸標註-線性",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "主筋尺寸標註-線性",
+   "nameKey" : "BEAM_ASCO_ENTITY_Rebar_Dimension_Line",
+   "rgba" : [ 1.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 2,
+   "layerName" : "剪力筋線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "剪力筋線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Stirrup_VLine",
+   "rgba" : [ 1.0, 0.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 7,
+   "layerName" : "剪力筋文字引線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "剪力筋文字引線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Stirrup_Guide",
+   "rgba" : [ 1.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 7,
+   "layerName" : "stirrup-txt",
+   "name" : "剪力筋文字",
+   "nameKey" : "BEAM_ASCO_ENTITY_Stirrup_Text",
+   "rgba" : [ 1.0, 0.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "text" : {
+      "height" : 12.0,
+      "posId" : 4,
+      "trueType" : 0,
+      "width" : 9.0
+   },
+   "type" : 0,
+   "visible" : 1
+},
+{
+   "colorIndex" : 2,
+   "layerName" : "扭力筋線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "扭力筋線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Torsion_Line",
+   "rgba" : [ 1.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 3,
+   "layerName" : "扭力筋文字引線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "扭力筋文字引線 no use",
+   "nameKey" : "BEAM_ASCO_ENTITY_Torsion_Guide",
+   "rgba" : [ 1.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 3,
+   "layerName" : "扭力筋文字",
+   "name" : "扭力筋文字",
+   "nameKey" : "BEAM_ASCO_ENTITY_Torsion_Text",
+   "rgba" : [ 1.0, 0.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "text" : {
+      "height" : 9.0,
+      "posId" : 2,
+      "trueType" : 0,
+      "width" : 9.0
+   },
+   "type" : 0,
+   "visible" : 1
+},
+{
+   "colorIndex" : 5,
+   "layerName" : "梁跨名稱",
+   "name" : "梁跨名稱",
+   "nameKey" : "BEAM_ASCO_ENTITY_Span_Name",
+   "rgba" : [ 0.0, 1.0, 1.0, 1.0 ],
+   "styleName" : "txt",
+   "text" : {
+      "height" : 15.0,
+      "posId" : 4,
+      "trueType" : 0,
+      "width" : 12.0
+   },
+   "type" : 0,
+   "visible" : 1
+},
+{
+   "colorIndex" : 5,
+   "layerName" : "摘要資訊",
+   "name" : "摘要資訊",
+   "nameKey" : "BEAM_ASCO_ENTITY_Text_Summary",
+   "rgba" : [ 0.0, 1.0, 1.0, 1.0 ],
+   "styleName" : "txt",
+   "text" : {
+      "height" : 15.0,
+      "posId" : 9,
+      "trueType" : 0,
+      "width" : 12.0
+   },
+   "type" : 0,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "醒目標記線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 3
+   },
+   "name" : "醒目標記線",
+   "nameKey" : "BEAM_ASCO_ENTITY_HighLight",
+   "rgba" : [ 1.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "牆線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "牆線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Wall",
+   "rgba" : [ 0.0, 0.75, 0.75, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 7,
+   "layerName" : "3斷面-梁跨名",
+   "name" : "3斷面-梁跨名",
+   "nameKey" : "BEAM_ASCO_ENTITY_Section3_Span_Name",
+   "rgba" : [ 0.0, 1.0, 1.0, 1.0 ],
+   "styleName" : "romant",
+   "text" : {
+      "height" : 15.99,
+      "posId" : 5,
+      "trueType" : 0,
+      "width" : 12.0
+   },
+   "type" : 0,
+   "visible" : 1
+},
+{
+   "colorIndex" : 7,
+   "layerName" : "3斷面-一般文字",
+   "name" : "3斷面-一般文字",
+   "nameKey" : "BEAM_ASCO_ENTITY_Section3_Text",
+   "rgba" : [ 0.0, 1.0, 1.0, 1.0 ],
+   "styleName" : "txt",
+   "text" : {
+      "height" : 12.0,
+      "posId" : 5,
+      "trueType" : 0,
+      "width" : 9.0
+   },
+   "type" : 0,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "3斷面-梁斷面線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "3斷面-梁斷面線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Section3_Boundary",
+   "rgba" : [ 0.0, 0.75, 0.75, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "3斷面-網格線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "3斷面-網格線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Section3_Grid",
+   "rgba" : [ 0.0, 0.75, 0.75, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "3斷面-箍筋線-主筋點",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "3斷面-箍筋線-主筋點",
+   "nameKey" : "BEAM_ASCO_ENTITY_Section3_Rebar_Line",
+   "rgba" : [ 1.0, 0.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "3斷面表-網格線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "3斷面表-網格線",
+   "nameKey" : "BEAM_ASCO_ENTITY_TableCECI_Grid",
+   "rgba" : [ 1.0, 0.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 7,
+   "layerName" : "3斷面表-梁跨文字",
+   "name" : "3斷面表-梁跨文字",
+   "nameKey" : "BEAM_ASCO_ENTITY_TableCECI_SpanText",
+   "rgba" : [ 0.0, 1.0, 1.0, 1.0 ],
+   "styleName" : "txt",
+   "text" : {
+      "height" : 2.3999999999999999,
+      "posId" : 5,
+      "trueType" : 0,
+      "width" : 3.0
+   },
+   "type" : 0,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "搭接標線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "搭接標線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Splice_Line",
+   "rgba" : [ 1.0, 0.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 7,
+   "layerName" : "搭接標字",
+   "name" : "搭接標字",
+   "nameKey" : "BEAM_ASCO_ENTITY_Splice_Text",
+   "rgba" : [ 0.0, 1.0, 1.0, 1.0 ],
+   "styleName" : "txt",
+   "text" : {
+      "height" : 2.3999999999999999,
+      "posId" : 5,
+      "trueType" : 0,
+      "width" : 3.0
+   },
+   "type" : 0,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "版邊界線",
+   "line" : {
+      "pattern" : 1,
+      "width" : 1
+   },
+   "name" : "版邊界線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Boundary_Slab",
+   "rgba" : [ 1.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 3,
+   "layerName" : "梁跨名稱底線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "梁跨名稱底線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Span_Name_Line",
+   "rgba" : [ 1.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "邊界線-梁支撐外線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 2
+   },
+   "name" : "邊界線-梁支撐外線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Boundary_Girder_Outer",
+   "rgba" : [ 0.0, 1.0, 1.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "邊界線-梁支撐內線",
+   "line" : {
+      "pattern" : 1,
+      "width" : 1
+   },
+   "name" : "邊界線-梁支撐內線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Boundary_Girder_Inner",
+   "rgba" : [ 1.0, 0.0, 1.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 1,
+   "layerName" : "coupler",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "coupler",
+   "nameKey" : "BEAM_ASCO_ENTITY_Coupler",
+   "rgba" : [ 1.0, 1.0, 0.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "鋼柱.外線",
+   "line" : {
+      "pattern" : 0,
+      "width" : 1
+   },
+   "name" : "鋼柱.外線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Steel_Column",
+   "rgba" : [ 0.0, 0.80000001192092896, 1.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 4,
+   "layerName" : "鋼柱.內線",
+   "line" : {
+      "pattern" : 4,
+      "width" : 1
+   },
+   "name" : "鋼柱.內線",
+   "nameKey" : "BEAM_ASCO_ENTITY_Steel_Columni",
+   "rgba" : [ 0.0, 1.0, 1.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+},
+{
+   "colorIndex" : 7,
+   "layerName" : "鋼柱加勁版",
+   "line" : {
+      "pattern" : 4,
+      "width" : 1
+   },
+   "name" : "鋼柱加勁版",
+   "nameKey" : "BEAM_ASCO_ENTITY_Steel_Column_Reinforce_Plate",
+   "rgba" : [ 0.80000001192092896, 1.0, 1.0, 1.0 ],
+   "styleName" : "txt",
+   "type" : 1,
+   "visible" : 1
+}
+]
