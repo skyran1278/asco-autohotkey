@@ -55,12 +55,6 @@ testJustin(iniPath, filePath) {
   Sleep, 1000
 
   activate()
-  ; Click, 400, 110, 2 ; RCAD 內力配筋
-  ; Click, 400, 640, 2 ; Format_T
-  ; Click, 360, 70 ; OK
-  Click, 400, 130, 2 ; RCAD 內力配筋
-  Click, 400, 835 ; Format_T
-  Click, 400, 800, 2 ; Format_T
   Click, 360, 80 ; OK
   Sleep, 1000
 
@@ -110,8 +104,6 @@ testJustinAllColumn(iniPath, filePath) {
   Send, {Enter}
 
   activate()
-  ; ; Click, 400, 110, 2 ; RCAD 內力配筋
-  Click, 300, 700, 2 ; Format_T
   Click, 360, 80 ; OK
   Sleep, 1000
 
@@ -156,24 +148,12 @@ testTopTech(iniPath, filePath, columnCoordinate) {
   Sleep, 1000
 
   activate()
-  ; Click, Right, 1643, 500 ; 右鍵 檔名
-  ; Click, 1700, 580 ; 單柱設計
-  ; Click, Right, 530, 270 ; 右鍵 檔名
-  ; Click, 630, 360 ; 單柱設計
-  MouseClick, Right, % columnCoordinate.x, % columnCoordinate.y
-  MouseClick, , % columnCoordinate.x + 100, % columnCoordinate.y + 90
-  ; Click, Right, %x%, %y% ; 右鍵 檔名
-  ; Click, %x+100%, %y+90% ; 單柱設計
+  MouseClick, Right, % columnCoordinate.x, % columnCoordinate.y ; 右鍵 檔名
+  MouseClick, , % columnCoordinate.x + 100, % columnCoordinate.y + 90 ; 單柱設計
   Sleep, 1000
 
   activate()
-  ; Click, 400, 110, 2 ; RCAD 內力配筋
-  ; Click, 400, 640, 2 ; Format_T
-  ; Click, 360, 70 ; OK
-  Click, 400, 130, 2 ; RCAD 內力配筋
   Click, 400, 170, 2 ; Column-2
-  Click, 400, 835 ; Format_T
-  Click, 400, 800, 2 ; Format_T
   Click, 360, 80 ; OK
   Sleep, 1000
 
