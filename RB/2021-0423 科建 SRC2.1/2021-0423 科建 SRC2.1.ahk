@@ -5,7 +5,7 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 
-activate() {
+activateRB() {
     if WinExist("ahk_exe RCAD_Building.exe") {
         WinActivate ; Use the window found by WinExist.
         return true
@@ -14,16 +14,16 @@ activate() {
 }
 
 open(rb_path, dwg_path, excel_path) {
-    if (!activate())
+    if (!activateRB())
         return
     ; 登入
     Send, {enter}
     Sleep, 1000
-    activate()
+    activateRB()
     Send, {enter}
     Sleep, 5000
 
-    if (!activate())
+    if (!activateRB())
         return
     Send, ^o ; 開啟舊檔
     Sleep, 1000
@@ -33,23 +33,23 @@ open(rb_path, dwg_path, excel_path) {
     Send, {enter}
     Sleep, 2000
 
-    if (!activate())
+    if (!activateRB())
         return
     Click, 360, 70 ; OK
     Sleep, 4000
 
-    activate()
+    activateRB()
     Click, right, 200, 85 ; 右鍵 檔名
     Click, 300, 130 ; 展開
     Sleep, 1000
 
-    activate()
+    activateRB()
     Click, right, 200, 160 ; 右鍵 配筋-柱
     Click, 300, 220 ; 科建 SRC2.1
     Click, 600, 260 ; 科建 SRC2.1
     Sleep, 1000
 
-    activate()
+    activateRB()
     Click, 400, 110 ; 匯入 excel
     Click, 400, 110 ; read
     Sleep, 1000
@@ -59,11 +59,11 @@ open(rb_path, dwg_path, excel_path) {
     Send, {enter}
     Sleep, 3000
 
-    activate()
+    activateRB()
     Click, 450, 60 ; exit
     Sleep, 2000
 
-    activate()
+    activateRB()
     Click, 400, 150 ; 匯入結構平面圖
 
     Send, {Blind}{Text}%dwg_path%
@@ -76,7 +76,7 @@ open(rb_path, dwg_path, excel_path) {
         Sleep, 1000
     }
 
-    activate()
+    activateRB()
 }
 
 !1::

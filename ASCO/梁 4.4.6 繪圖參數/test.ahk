@@ -5,7 +5,7 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 
-activate() {
+activateASCO() {
   if WinExist("ahk_exe RCAD_ASCO.exe") {
     WinActivate ; Use the window found by WinExist.
     return true
@@ -14,13 +14,13 @@ activate() {
 }
 
 testOpenFile(ini_path, file_path) {
-  if (!activate())
+  if (!activateASCO())
     return
   ; 登入
   Send, {Enter}
   Sleep, 1000
 
-  activate()
+  activateASCO()
   Click, 200, 200 ; ini
   Sleep, 1000
 
@@ -31,7 +31,7 @@ testOpenFile(ini_path, file_path) {
   Click, 700, 60 ; ok
   Sleep, 4000
 
-  if (!activate())
+  if (!activateASCO())
     return
   Send, ^o ; 開啟舊檔
   Sleep, 1000
@@ -41,7 +41,7 @@ testOpenFile(ini_path, file_path) {
   Send, {Enter}
   Sleep, 2000
 
-  if (!activate())
+  if (!activateASCO())
     return
   ; Click, 360, 70 ; OK
   Click, 360, 80 ; OK

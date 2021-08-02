@@ -5,7 +5,7 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 
-activate() {
+activateR3() {
     if WinExist("ahk_exe RCAD_Rebar.exe") {
         WinActivate ; Use the window found by WinExist.
         return true
@@ -14,7 +14,7 @@ activate() {
 }
 
 import(file) {
-    if (!activate())
+    if (!activateR3())
         return
     ; 登入
     Send, {enter}
@@ -22,7 +22,7 @@ import(file) {
     Send, {enter}
     Sleep, 5000
 
-    if (!activate())
+    if (!activateR3())
         return
     Click, 260, 40 ; 左鍵 點選目錄
     Send, ^o ; 開啟舊檔
@@ -33,23 +33,23 @@ import(file) {
     Send, {enter}
     Sleep, 3000
 
-    if (!activate())
+    if (!activateR3())
         return
     ; Send, {enter} ; 匯入參數表
     Send, {enter} ; no RR file
     Sleep, 1000
 
-    if (!activate())
+    if (!activateR3())
         return
     Click, 670, 10 ; 專
     Sleep, 1000
 
-    if (!activate())
+    if (!activateR3())
         return
     Click, 250, 260 ; OK
     Sleep, 1000
 
-    if (!activate())
+    if (!activateR3())
         return
     Click, 100, 85 ; 計料模組
     Click, right, 120, 110 ; 右鍵 分區串 1
@@ -65,7 +65,7 @@ import(file) {
     Sleep, 10000
     Send, {Esc}
 
-    if (!activate())
+    if (!activateR3())
         return
     Click, right, 70, 210 ; 右鍵 圖塊 block
     Click, 200, 270 ; 左鍵 import
@@ -79,7 +79,7 @@ import(file) {
     ; 與 D:\Projects64-Azure\RCAD_Rebar\RCADLL_ODA_Rebar_Element\CRR_Rebar_Legends.h 不一致
     ; 因為 draw_rebar_hoop_beam_column 沒有用到
 
-    if (!activate())
+    if (!activateR3())
         return
     Send, {Esc}
     Click, right, 120, 110 ; 右鍵 分區串 1
