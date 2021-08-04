@@ -117,6 +117,25 @@ Return
 
 !t::
   ; 測試用
-  Sleep, 2000
-  Send, !c
+  Send, {Tab}
+  Send, {Tab}
+  Send, {Enter}
+
+  Send, {Tab}
+  Send, {Enter}
+
+  Send, {Tab}
+  Send, {Tab}
+  Send, {Enter}
+
+  Sleep, 1000
+
+  While WinExist("ahk_exe notepad.exe") {
+    WinKill ; 關檔
+  }
+
+  While WinExist("ahk_exe RCAD_ASCO.exe") {
+    WinKill ; 關檔
+  }
+
 Return
