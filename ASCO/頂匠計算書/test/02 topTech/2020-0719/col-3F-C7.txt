@@ -179,7 +179,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      80.72 T
+Vu(max) =      80.72 T (COMB76 Max 載重組合控制)
 Vp      =     173.81 T
 hc      =      60.73 cm
 Ag      =    7700.00 cm2

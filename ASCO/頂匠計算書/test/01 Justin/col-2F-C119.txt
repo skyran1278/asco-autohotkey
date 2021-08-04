@@ -163,7 +163,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      32.32 T
+Vu(max) =      32.32 T (USS67S Max 載重組合控制)
 Vp      =      49.73 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2

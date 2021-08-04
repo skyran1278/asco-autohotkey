@@ -173,7 +173,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       0.00 T
+Vu(max) =       0.00 T ( 更舱北)
 Vp      =      36.70 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -393,7 +393,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      21.35 T
+Vu(max) =      21.35 T (COMB44 更舱北)
 Vp      =      83.93 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -613,7 +613,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      39.15 T
+Vu(max) =      39.15 T (COMB3 更舱北)
 Vp      =      83.89 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -801,7 +801,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      21.02 T
+Vu(max) =      21.02 T (COMB3 更舱北)
 Vp      =      36.72 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -988,7 +988,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       0.39 T
+Vu(max) =       0.39 T (COMB44 更舱北)
 Vp      =      50.93 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -1208,7 +1208,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      12.75 T
+Vu(max) =      12.75 T (COMB76 Max 更舱北)
 Vp      =     107.76 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -1428,7 +1428,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      20.67 T
+Vu(max) =      20.67 T (COMB48 更舱北)
 Vp      =      74.93 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -1648,7 +1648,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      49.93 T
+Vu(max) =      49.93 T (COMB35 Max 更舱北)
 Vp      =     103.87 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -1868,7 +1868,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      49.06 T
+Vu(max) =      49.06 T (COMB7 更舱北)
 Vp      =      74.93 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -2056,7 +2056,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      52.48 T
+Vu(max) =      52.48 T (COMB35 Max 更舱北)
 Vp      =      51.10 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -2244,7 +2244,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      41.55 T
+Vu(max) =      41.55 T (COMB3 更舱北)
 Vp      =      37.01 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -2431,7 +2431,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       3.59 T
+Vu(max) =       3.59 T (COMB76 Max 更舱北)
 Vp      =      71.14 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -2623,7 +2623,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       8.96 T
+Vu(max) =       8.96 T (COMB44 更舱北)
 Vp      =      34.18 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -2847,7 +2847,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      28.35 T
+Vu(max) =      28.35 T (COMB44 更舱北)
 Vp      =      75.15 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -3071,7 +3071,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      42.26 T
+Vu(max) =      42.26 T (COMB3 更舱北)
 Vp      =      75.14 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -3263,7 +3263,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      23.35 T
+Vu(max) =      23.35 T (COMB3 更舱北)
 Vp      =      34.18 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -3481,7 +3481,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       6.56 T
+Vu(max) =       6.56 T (COMB48 更舱北)
 Vp      =      52.14 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -3705,7 +3705,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      45.97 T
+Vu(max) =      45.97 T (COMB76 Max 更舱北)
 Vp      =     121.96 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -3929,7 +3929,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      34.64 T
+Vu(max) =      34.64 T (COMB44 更舱北)
 Vp      =      89.75 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -4153,7 +4153,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      80.57 T
+Vu(max) =      80.57 T (COMB35 Max 更舱北)
 Vp      =     121.97 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -4377,7 +4377,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      59.25 T
+Vu(max) =      59.25 T (COMB3 更舱北)
 Vp      =      89.73 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -4569,7 +4569,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      39.01 T
+Vu(max) =      39.01 T (COMB35 Max 更舱北)
 Vp      =      62.77 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -4787,7 +4787,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      35.84 T
+Vu(max) =      35.84 T (COMB7 更舱北)
 Vp      =      52.14 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -4979,7 +4979,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       9.73 T
+Vu(max) =       9.73 T (COMB76 Max 更舱北)
 Vp      =      62.78 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -5171,7 +5171,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      14.39 T
+Vu(max) =      14.39 T (COMB44 更舱北)
 Vp      =      44.91 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -5389,7 +5389,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      39.75 T
+Vu(max) =      39.75 T (COMB44 更舱北)
 Vp      =      93.34 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -5607,7 +5607,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      54.23 T
+Vu(max) =      54.23 T (COMB3 更舱北)
 Vp      =      93.34 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -5799,7 +5799,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      30.15 T
+Vu(max) =      30.15 T (COMB3 更舱北)
 Vp      =      44.91 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -6017,7 +6017,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      12.62 T
+Vu(max) =      12.62 T (COMB44 更舱北)
 Vp      =      66.35 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -6235,7 +6235,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      55.80 T
+Vu(max) =      55.80 T (COMB76 Max 更舱北)
 Vp      =     147.63 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -6459,7 +6459,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      45.27 T
+Vu(max) =      45.27 T (COMB44 更舱北)
 Vp      =     111.67 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -6677,7 +6677,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      89.21 T
+Vu(max) =      89.21 T (COMB35 Max 更舱北)
 Vp      =     147.61 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -6901,7 +6901,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      70.27 T
+Vu(max) =      70.27 T (COMB3 更舱北)
 Vp      =     111.66 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -7093,7 +7093,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      50.75 T
+Vu(max) =      50.75 T (COMB35 Max 更舱北)
 Vp      =      73.42 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -7311,7 +7311,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      44.43 T
+Vu(max) =      44.43 T (COMB3 更舱北)
 Vp      =      66.35 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -7503,7 +7503,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      18.41 T
+Vu(max) =      18.41 T (COMB76 Max 更舱北)
 Vp      =      73.42 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -7689,7 +7689,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      19.23 T
+Vu(max) =      19.23 T (COMB44 更舱北)
 Vp      =      56.01 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -7907,7 +7907,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      50.02 T
+Vu(max) =      50.02 T (COMB44 更舱北)
 Vp      =     111.69 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -8125,7 +8125,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      64.31 T
+Vu(max) =      64.31 T (COMB3 更舱北)
 Vp      =     111.68 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -8311,7 +8311,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      35.30 T
+Vu(max) =      35.30 T (COMB3 更舱北)
 Vp      =      56.01 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -8529,7 +8529,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      17.08 T
+Vu(max) =      17.08 T (COMB44 更舱北)
 Vp      =      77.22 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -8753,7 +8753,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      70.00 T
+Vu(max) =      70.00 T (COMB76 Max 更舱北)
 Vp      =     169.18 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -8977,7 +8977,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      55.67 T
+Vu(max) =      55.67 T (COMB44 更舱北)
 Vp      =     133.46 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -9195,7 +9195,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     103.88 T
+Vu(max) =     103.88 T (COMB35 Max 更舱北)
 Vp      =     169.17 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -9419,7 +9419,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      82.15 T
+Vu(max) =      82.15 T (COMB3 更舱北)
 Vp      =     133.45 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -9611,7 +9611,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      56.56 T
+Vu(max) =      56.56 T (COMB35 Max 更舱北)
 Vp      =      88.01 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -9829,7 +9829,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      49.23 T
+Vu(max) =      49.23 T (COMB3 更舱北)
 Vp      =      77.22 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -10021,7 +10021,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      24.12 T
+Vu(max) =      24.12 T (COMB76 Max 更舱北)
 Vp      =      88.01 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -10207,7 +10207,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      24.87 T
+Vu(max) =      24.87 T (COMB44 更舱北)
 Vp      =      63.16 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -10425,7 +10425,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      59.70 T
+Vu(max) =      59.70 T (COMB44 更舱北)
 Vp      =     122.80 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -10643,7 +10643,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      71.62 T
+Vu(max) =      71.62 T (COMB3 更舱北)
 Vp      =     122.80 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -10829,7 +10829,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      40.87 T
+Vu(max) =      40.87 T (COMB3 更舱北)
 Vp      =      63.15 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -11047,7 +11047,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      23.45 T
+Vu(max) =      23.45 T (COMB44 更舱北)
 Vp      =      84.43 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -11265,7 +11265,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      83.04 T
+Vu(max) =      83.04 T (COMB76 Max 更舱北)
 Vp      =     187.42 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -11489,7 +11489,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      65.76 T
+Vu(max) =      65.76 T (COMB44 更舱北)
 Vp      =     147.99 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -11707,7 +11707,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     112.58 T
+Vu(max) =     112.58 T (COMB35 Max 更舱北)
 Vp      =     187.41 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -11925,7 +11925,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      91.18 T
+Vu(max) =      91.18 T (COMB3 更舱北)
 Vp      =     151.48 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -12111,7 +12111,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      62.71 T
+Vu(max) =      62.71 T (COMB35 Max 更舱北)
 Vp      =     102.01 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -12329,7 +12329,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      53.52 T
+Vu(max) =      53.52 T (COMB3 更舱北)
 Vp      =      84.43 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -12521,7 +12521,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      31.51 T
+Vu(max) =      31.51 T (COMB76 Max 更舱北)
 Vp      =     102.01 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -12707,7 +12707,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      29.68 T
+Vu(max) =      29.68 T (COMB44 更舱北)
 Vp      =      70.38 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -12893,7 +12893,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      67.37 T
+Vu(max) =      67.37 T (COMB44 更舱北)
 Vp      =     133.54 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -13079,7 +13079,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      78.69 T
+Vu(max) =      78.69 T (COMB3 更舱北)
 Vp      =     130.06 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -13265,7 +13265,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      44.50 T
+Vu(max) =      44.50 T (COMB3 更舱北)
 Vp      =      70.38 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -13483,7 +13483,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      27.44 T
+Vu(max) =      27.44 T (COMB44 更舱北)
 Vp      =      91.43 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -13701,7 +13701,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      94.26 T
+Vu(max) =      94.26 T (COMB76 Max 更舱北)
 Vp      =     209.54 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -13919,7 +13919,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      73.37 T
+Vu(max) =      73.37 T (COMB44 更舱北)
 Vp      =     162.41 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -14137,7 +14137,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     124.32 T
+Vu(max) =     124.32 T (COMB35 Max 更舱北)
 Vp      =     209.53 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -14355,7 +14355,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      98.18 T
+Vu(max) =      98.18 T (COMB3 更舱北)
 Vp      =     162.35 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -14541,7 +14541,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      70.33 T
+Vu(max) =      70.33 T (COMB35 Max 更舱北)
 Vp      =     120.46 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -14759,7 +14759,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      57.16 T
+Vu(max) =      57.16 T (COMB3 更舱北)
 Vp      =      91.42 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -14945,7 +14945,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      39.15 T
+Vu(max) =      39.15 T (COMB76 Max 更舱北)
 Vp      =     120.46 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -15131,7 +15131,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      33.72 T
+Vu(max) =      33.72 T (COMB44 更舱北)
 Vp      =      80.73 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -15317,7 +15317,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      73.29 T
+Vu(max) =      73.29 T (COMB44 更舱北)
 Vp      =     140.91 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -15503,7 +15503,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      83.44 T
+Vu(max) =      83.44 T (COMB3 更舱北)
 Vp      =     137.19 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -15689,7 +15689,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      47.33 T
+Vu(max) =      47.33 T (COMB3 更舱北)
 Vp      =      80.70 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -15907,7 +15907,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      30.39 T
+Vu(max) =      30.39 T (COMB44 更舱北)
 Vp      =      98.39 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -16125,7 +16125,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     104.23 T
+Vu(max) =     104.23 T (COMB76 Max 更舱北)
 Vp      =     228.47 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -16343,7 +16343,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      78.27 T
+Vu(max) =      78.27 T (COMB44 更舱北)
 Vp      =     169.65 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -16561,7 +16561,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     135.57 T
+Vu(max) =     135.57 T (COMB35 Max 更舱北)
 Vp      =     228.47 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -16779,7 +16779,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     102.22 T
+Vu(max) =     102.22 T (COMB3 更舱北)
 Vp      =     166.02 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -16965,7 +16965,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      81.35 T
+Vu(max) =      81.35 T (COMB35 Max 更舱北)
 Vp      =     134.67 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -17183,7 +17183,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      59.26 T
+Vu(max) =      59.26 T (COMB3 更舱北)
 Vp      =      98.39 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -17369,7 +17369,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      48.05 T
+Vu(max) =      48.05 T (COMB76 Max 更舱北)
 Vp      =     134.67 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -17555,7 +17555,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      37.26 T
+Vu(max) =      37.26 T (COMB43 更舱北)
 Vp      =      87.42 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -17741,7 +17741,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      78.34 T
+Vu(max) =      78.34 T (COMB44 更舱北)
 Vp      =     152.46 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -17927,7 +17927,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      87.01 T
+Vu(max) =      87.01 T (COMB3 更舱北)
 Vp      =     152.51 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -18113,7 +18113,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      50.14 T
+Vu(max) =      50.14 T (COMB3 更舱北)
 Vp      =      87.24 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -18331,7 +18331,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      34.17 T
+Vu(max) =      34.17 T (COMB44 更舱北)
 Vp      =     108.30 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -18549,7 +18549,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     112.01 T
+Vu(max) =     112.01 T (COMB76 Max 更舱北)
 Vp      =     244.78 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -18767,7 +18767,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      83.66 T
+Vu(max) =      83.66 T (COMB44 更舱北)
 Vp      =     180.89 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -18985,7 +18985,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     141.49 T
+Vu(max) =     141.49 T (COMB35 Max 更舱北)
 Vp      =     241.19 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -19203,7 +19203,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     107.81 T
+Vu(max) =     107.81 T (COMB3 更舱北)
 Vp      =     177.42 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -19389,7 +19389,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      83.92 T
+Vu(max) =      83.92 T (COMB35 Max 更舱北)
 Vp      =     144.39 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -19607,7 +19607,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      62.45 T
+Vu(max) =      62.45 T (COMB3 更舱北)
 Vp      =     108.24 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -19793,7 +19793,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      52.50 T
+Vu(max) =      52.50 T (COMB76 Max 更舱北)
 Vp      =     144.39 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -19979,7 +19979,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      39.78 T
+Vu(max) =      39.78 T (COMB43 更舱北)
 Vp      =      92.20 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -20165,7 +20165,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      83.35 T
+Vu(max) =      83.35 T (COMB44 更舱北)
 Vp      =     160.34 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -20351,7 +20351,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      92.43 T
+Vu(max) =      92.43 T (COMB3 更舱北)
 Vp      =     161.10 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -20537,7 +20537,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      51.04 T
+Vu(max) =      51.04 T (COMB3 更舱北)
 Vp      =      87.79 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -20755,7 +20755,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      35.31 T
+Vu(max) =      35.31 T (COMB76 Max 更舱北)
 Vp      =     110.18 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -20973,7 +20973,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     115.01 T
+Vu(max) =     115.01 T (COMB76 Max 更舱北)
 Vp      =     255.88 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -21191,7 +21191,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      88.44 T
+Vu(max) =      88.44 T (COMB76 Max 更舱北)
 Vp      =     188.60 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -21409,7 +21409,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     147.62 T
+Vu(max) =     147.62 T (COMB35 Max 更舱北)
 Vp      =     252.32 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -21633,7 +21633,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     112.16 T
+Vu(max) =     112.16 T (COMB35 Max 更舱北)
 Vp      =     188.89 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -21819,7 +21819,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      89.84 T
+Vu(max) =      89.84 T (COMB35 Max 更舱北)
 Vp      =     153.21 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -22037,7 +22037,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      65.64 T
+Vu(max) =      65.64 T (COMB35 Max 更舱北)
 Vp      =     108.94 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -22223,7 +22223,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      56.25 T
+Vu(max) =      56.25 T (COMB76 Max 更舱北)
 Vp      =     153.21 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -22409,7 +22409,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      38.98 T
+Vu(max) =      38.98 T (COMB4 更舱北)
 Vp      =      94.53 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -22595,7 +22595,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      87.30 T
+Vu(max) =      87.30 T (COMB44 更舱北)
 Vp      =     172.29 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -22781,7 +22781,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      96.05 T
+Vu(max) =      96.05 T (COMB3 更舱北)
 Vp      =     172.47 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -22967,7 +22967,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      49.15 T
+Vu(max) =      49.15 T (COMB3 更舱北)
 Vp      =      92.00 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -23184,7 +23184,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      33.36 T
+Vu(max) =      33.36 T (COMB76 Max 更舱北)
 Vp      =     113.76 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -23401,7 +23401,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     127.79 T
+Vu(max) =     127.79 T (COMB76 Max 更舱北)
 Vp      =     251.42 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -23619,7 +23619,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      80.72 T
+Vu(max) =      80.72 T (COMB76 Max 更舱北)
 Vp      =     173.81 T
 hc      =      60.73 cm
 Ag      =    7700.00 cm2
@@ -23837,7 +23837,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     163.09 T
+Vu(max) =     163.09 T (COMB35 Max 更舱北)
 Vp      =     251.38 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -24061,7 +24061,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     122.40 T
+Vu(max) =     122.40 T (COMB35 Max 更舱北)
 Vp      =     188.68 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -24247,7 +24247,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      88.66 T
+Vu(max) =      88.66 T (COMB35 Max 更舱北)
 Vp      =     158.82 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -24465,7 +24465,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      68.85 T
+Vu(max) =      68.85 T (COMB35 Max 更舱北)
 Vp      =     117.30 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -24650,7 +24650,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      54.91 T
+Vu(max) =      54.91 T (COMB76 Max 更舱北)
 Vp      =     158.83 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -24832,7 +24832,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      59.28 T
+Vu(max) =      59.28 T (COMB4 更舱北)
 Vp      =     121.61 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -25014,7 +25014,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      84.72 T
+Vu(max) =      84.72 T (COMB44 更舱北)
 Vp      =     124.88 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -25196,7 +25196,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      87.23 T
+Vu(max) =      87.23 T (COMB3 更舱北)
 Vp      =     124.46 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -25378,7 +25378,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      66.54 T
+Vu(max) =      66.54 T (COMB3 更舱北)
 Vp      =     122.01 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -25560,7 +25560,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      50.52 T
+Vu(max) =      50.52 T (COMB76 Max 更舱北)
 Vp      =     125.54 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -25774,7 +25774,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     103.71 T
+Vu(max) =     103.71 T (COMB76 Max 更舱北)
 Vp      =     172.29 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -25988,7 +25988,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      62.39 T
+Vu(max) =      62.39 T (COMB76 Max 更舱北)
 Vp      =     131.48 T
 hc      =      60.73 cm
 Ag      =    7700.00 cm2
@@ -26202,7 +26202,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     121.97 T
+Vu(max) =     121.97 T (COMB35 Max 更舱北)
 Vp      =     130.86 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -26422,7 +26422,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      96.03 T
+Vu(max) =      96.03 T (COMB35 Max 更舱北)
 Vp      =     164.69 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -26604,7 +26604,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     111.76 T
+Vu(max) =     111.76 T (COMB35 Max 更舱北)
 Vp      =     190.38 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -26786,7 +26786,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      71.44 T
+Vu(max) =      71.44 T (COMB35 Max 更舱北)
 Vp      =     129.53 T
 hc      =      70.73 cm
 Ag      =    7200.00 cm2
@@ -26968,7 +26968,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      90.45 T
+Vu(max) =      90.45 T (COMB76 Max 更舱北)
 Vp      =     203.61 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
