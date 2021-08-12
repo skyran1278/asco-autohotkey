@@ -5,7 +5,6 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 #SingleInstance Force
-#Include %A_ScriptDir%\Lib\
 
 !1::
   startTime := A_TickCount
