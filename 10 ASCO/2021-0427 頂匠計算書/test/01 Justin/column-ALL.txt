@@ -141,7 +141,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      12.59 T (USS76S Max 更舱北)
+Vu(max) =     -19.76 T (USS67S Min 更舱北)
 Vp      =      31.16 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -343,7 +343,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      11.65 T (USS76S Max 更舱北)
+Vu(max) =     -27.13 T (USS67S Min 更舱北)
 Vp      =      41.96 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -523,7 +523,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      14.37 T (USS76S Max 更舱北)
+Vu(max) =     -21.73 T (USS67S Min 更舱北)
 Vp      =      37.48 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -725,7 +725,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      22.36 T (USS76S Max 更舱北)
+Vu(max) =     -29.83 T (USS68S Min 更舱北)
 Vp      =      56.80 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -1107,7 +1107,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      20.30 T (USS76S Max 更舱北)
+Vu(max) =     -34.24 T (USS05 更舱北)
 Vp      =      66.81 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -1511,7 +1511,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      23.06 T (USS76S Max 更舱北)
+Vu(max) =     -33.90 T (USS75S Min 更舱北)
 Vp      =      72.00 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -2799,7 +2799,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      24.72 T (USS76S Max 更舱北)
+Vu(max) =     -25.23 T (USS37 更舱北)
 Vp      =      43.37 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -3001,7 +3001,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      32.32 T (USS67S Max 更舱北)
+Vu(max) =      23.43 T (USS75S Max 更舱北)
 Vp      =      49.73 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -3375,7 +3375,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      30.90 T (USS67S Max 更舱北)
+Vu(max) =      29.77 T (USS75S Max 更舱北)
 Vp      =      49.08 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
