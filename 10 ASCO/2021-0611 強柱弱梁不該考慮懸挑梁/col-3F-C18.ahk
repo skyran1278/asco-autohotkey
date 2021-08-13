@@ -31,31 +31,14 @@ Return
   }
 Return
 
-!q::
+!z::
   restartProgram()
 Return
 
-!t::
-  ; 測試用
-  Send, {Tab}
-  Send, {Tab}
-  Send, {Enter}
+!+z::
+  restartProductionProgram("C:\Program Files\RCAD\RCAD_ASCO\bin", "RCAD_ASCO")
+Return
 
-  Send, {Tab}
-  Send, {Enter}
-
-  Send, {Tab}
-  Send, {Tab}
-  Send, {Enter}
-
-  Sleep, 1000
-
-  While WinExist("ahk_exe notepad.exe") {
-    WinKill ; 關檔
-  }
-
-  While WinExist("ahk_exe RCAD_ASCO.exe") {
-    WinKill ; 關檔
-  }
-
+!c::
+  completeDesignColumn()
 Return

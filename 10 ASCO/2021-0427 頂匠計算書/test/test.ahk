@@ -21,7 +21,7 @@ Return
 
   filePath := A_WorkingDir . "\02 topTech\2021-0618 4F-C12.ASCO"
   iniPath := A_WorkingDir . "\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  columnCoordinate := {x: 530, y: 380}
+  columnCoordinate := {x: 530 / (A_ScreenDPI / 96), y: 380 / (A_ScreenDPI / 96)}
 
   logInASCO(iniPath)
   openASCO(filePath)
@@ -37,7 +37,7 @@ Return
 
   filePath := A_ScriptDir . "\02 topTech\2020-0719\3F-C7.ASCO"
   iniPath := A_ScriptDir . "\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  columnCoordinate := {x: 630, y: 290}
+  columnCoordinate := {x: 630 / (A_ScreenDPI / 96), y: 290 / (A_ScreenDPI / 96)}
 
   logInASCO(iniPath)
   openASCO(filePath)
@@ -111,31 +111,14 @@ Return
   }
 Return
 
-!q::
+!z::
   restartProgram()
 Return
 
-!t::
-  ; 測試用
-  Send, {Tab}
-  Send, {Tab}
-  Send, {Enter}
+!+z::
+  restartProductionProgram("C:\Program Files\RCAD\RCAD_ASCO\bin", "RCAD_ASCO")
+Return
 
-  Send, {Tab}
-  Send, {Enter}
-
-  Send, {Tab}
-  Send, {Tab}
-  Send, {Enter}
-
-  Sleep, 1000
-
-  While WinExist("ahk_exe notepad.exe") {
-    WinKill ; 關檔
-  }
-
-  While WinExist("ahk_exe RCAD_ASCO.exe") {
-    WinKill ; 關檔
-  }
-
+!c::
+  completeDesignColumn()
 Return
