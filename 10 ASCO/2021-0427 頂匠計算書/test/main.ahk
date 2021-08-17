@@ -5,15 +5,48 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 #SingleInstance Force
-#Include %A_ScriptDir%\Lib\
+
+env := "production"
 
 !1::
   ; 測試 2F 柱 柱底無梁 Mpr Vp 的計算
-  #Include %A_ScriptDir%\col-2F-C119.ahk
+  startTime := A_TickCount
+
+  iniPath := A_WorkingDir . "\01 Justin\RCAD_ASCO.ini"
+  filePath := A_WorkingDir . "\01 Justin\2021-0714 計算書.ASCO"
+
+  If (A_ScreenDPI = 96) {
+    columnCoordinate := {x: 1672, y: 495}
+  }
+  If (A_ScreenDPI = 120) {
+    columnCoordinate := {x: 1657, y: 487}
+  }
+
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designSingleColumnByGeometry(columnCoordinate)
+
+  showExecutionTime(startTime, A_TickCount)
 Return
 
 !2::
-  #Include %A_ScriptDir%\col-10F-C5.ahk
+  startTime := A_TickCount
+
+  iniPath := A_WorkingDir . "\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  filePath := A_WorkingDir . "\02 topTech\2021-0611 10F-C5.ASCO"
+  If (A_ScreenDPI = 96) {
+    columnCoordinate := {x: 530, y: 280}
+  }
+  If (A_ScreenDPI = 120) {
+    columnCoordinate := {x: 530, y: 280}
+  }
+
+  logInASCO(iniPath)
+  openASCO(filePath)
+  Sleep, 2000
+  designSingleColumnByGeometry(columnCoordinate)
+
+  showExecutionTime(startTime, A_TickCount)
 Return
 
 !3::
@@ -21,12 +54,17 @@ Return
 
   filePath := A_WorkingDir . "\02 topTech\2021-0618 4F-C12.ASCO"
   iniPath := A_WorkingDir . "\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  columnCoordinate := {x: 530 / (A_ScreenDPI / 96), y: 380 / (A_ScreenDPI / 96)}
+  If (A_ScreenDPI = 96) {
+    columnCoordinate := {x: 530, y: 380}
+  }
+  If (A_ScreenDPI = 120) {
+    columnCoordinate := {x: 530, y: 380}
+  }
 
   logInASCO(iniPath)
   openASCO(filePath)
   Sleep, 2000
-  designSingleColumn(columnCoordinate)
+  designSingleColumnByGeometry(columnCoordinate)
 
   showExecutionTime(startTime, A_TickCount)
 Return
@@ -37,12 +75,17 @@ Return
 
   filePath := A_ScriptDir . "\02 topTech\2020-0719\3F-C7.ASCO"
   iniPath := A_ScriptDir . "\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  columnCoordinate := {x: 630 / (A_ScreenDPI / 96), y: 290 / (A_ScreenDPI / 96)}
+  If (A_ScreenDPI = 96) {
+    columnCoordinate := {x: 630, y: 290}
+  }
+  If (A_ScreenDPI = 120) {
+    columnCoordinate := {x: 630, y: 290}
+  }
 
   logInASCO(iniPath)
   openASCO(filePath)
   Sleep, 1000
-  designSingleColumn(columnCoordinate)
+  designSingleColumnByGeometry(columnCoordinate)
 
   showExecutionTime(startTime, A_TickCount)
 Return
@@ -102,23 +145,8 @@ Return
   showExecutionTime(startTime, A_TickCount)
 Return
 
-!r::Reload
-; !x::ExitApp
-
-!w::
-  While WinExist("ahk_exe notepad.exe") {
-    WinKill ; 關檔
-  }
+!t::
+  MsgBox, % A_ScreenDPI
 Return
 
-!z::
-  restartProgram()
-Return
-
-!+z::
-  restartProductionProgram("C:\Program Files\RCAD\RCAD_ASCO\bin", "RCAD_ASCO")
-Return
-
-!c::
-  completeDesignColumn()
-Return
+#Include, %A_ScriptDir%\Lib\ASCOShortcut.ahk
