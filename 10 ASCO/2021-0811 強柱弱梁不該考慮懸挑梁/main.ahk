@@ -6,7 +6,7 @@ FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 #SingleInstance Force
 
-env := "dev"
+env := "production"
 
 !1::
   startTime := A_TickCount
@@ -17,8 +17,26 @@ env := "dev"
 
   logInASCO(iniPath)
   openASCO(filePath)
-  Sleep, 5000
+
+  Sleep, 2000
+  If (env != "production") {
+    Sleep, 3000
+  }
   designSingleColumnByGeometry(columnCoordinate)
+
+  showExecutionTime(startTime, A_TickCount)
+Return
+
+!2::
+  startTime := A_TickCount
+
+  filePath := A_WorkingDir . "\col-3F-C18.ASCO"
+  iniPath := A_WorkingDir . "\col-3F-C18.ini"
+
+  logInASCO(iniPath)
+  openASCO(filePath)
+
+  designAllColumn()
 
   showExecutionTime(startTime, A_TickCount)
 Return
