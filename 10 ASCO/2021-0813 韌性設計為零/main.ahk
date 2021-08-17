@@ -37,20 +37,6 @@ env := "dev"
   showExecutionTime(startTime, A_TickCount)
 Return
 
-!6::
-  startTime := A_TickCount
-
-  filePath := A_WorkingDir . "\2021-0813 韌性設計為零.ASCO"
-  iniPath := A_WorkingDir . "\2021-0813 韌性設計為零.ini"
-
-  logInASCO(iniPath)
-  openASCO(filePath)
-
-  designAllColumn()
-
-  showExecutionTime(startTime, A_TickCount)
-Return
-
 !t::
   RegDelete, HKEY_CURRENT_USER\SOFTWARE\RCAD.APPS\RCAD_ASCO\DockingPaneLayouts
 Return
