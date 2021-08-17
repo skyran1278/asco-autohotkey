@@ -6,38 +6,35 @@ FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 #SingleInstance Force
 
+env := "production"
+
 !1::
   startTime := A_TickCount
 
   filePath := A_WorkingDir . "\col-2F-C15.ASCO"
   iniPath := A_WorkingDir . "\col-2F-C15.ini"
-  columnCoordinate := {x: 850 / (A_ScreenDPI / 96), y: 460 / (A_ScreenDPI / 96)}
+  If (A_ScreenDPI = 96) {
+    columnCoordinate := {x: 1280, y: 710}
+  }
+  If (A_ScreenDPI = 120) {
+    columnCoordinate := {x: 850, y: 460}
+  }
 
   logInASCO(iniPath)
   openASCO(filePath)
-  Sleep, 5000
-  designSingleColumn(columnCoordinate)
+
+  Sleep, 1000
+  If (env != "production") {
+    Sleep, 4000
+  }
+
+  designSingleColumnByDraw(columnCoordinate)
 
   showExecutionTime(startTime, A_TickCount)
 Return
 
-!r::Reload
-; !x::ExitApp
-
-!w::
-  While WinExist("ahk_exe notepad.exe") {
-    WinKill ; 關檔
-  }
+!t::
+  MsgBox, % A_ScreenDPI
 Return
 
-!z::
-  restartProgram()
-Return
-
-!+z::
-  restartProductionProgram("C:\Program Files\RCAD\RCAD_ASCO\bin", "RCAD_ASCO")
-Return
-
-!c::
-  completeDesignColumn()
-Return
+#Include, %A_ScriptDir%\Lib\ASCOShortcut.ahk
