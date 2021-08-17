@@ -27,7 +27,7 @@ env := "production"
   showExecutionTime(startTime, A_TickCount)
 Return
 
-!2::
+!6::
   startTime := A_TickCount
 
   filePath := A_WorkingDir . "\col-3F-C18.ASCO"
