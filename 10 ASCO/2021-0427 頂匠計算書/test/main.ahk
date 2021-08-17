@@ -16,7 +16,7 @@ env := "production"
   filePath := A_WorkingDir . "\01 Justin\2021-0714 計算書.ASCO"
 
   If (A_ScreenDPI = 96) {
-    columnCoordinate := {x: 1672, y: 495}
+    columnCoordinate := {x: 1700, y: 500}
   }
   If (A_ScreenDPI = 120) {
     columnCoordinate := {x: 1657, y: 487}
