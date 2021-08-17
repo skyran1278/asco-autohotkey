@@ -1,4 +1,6 @@
 ﻿completeDesignColumn() {
+  Sleep, 2000
+
   Send, {Tab}
   Send, {Tab}
   Send, {Enter}
