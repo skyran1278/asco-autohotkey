@@ -147,7 +147,7 @@ Av / S  = (Vp /  - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       3.51 T (COMB82 Min 更舱北)
+Vu(max) =      40.34 T (COMB76 Max 更舱北)
 Vp      =     114.18 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2

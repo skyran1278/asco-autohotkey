@@ -1,8 +1,8 @@
-﻿designSingleColumn(columnCoordinate) {
+﻿designSingleColumn(columnCoordinate, downTimes) {
   activateOrExit("RCAD_ASCO")
   MouseClick, Right, % columnCoordinate.x * (A_ScreenDPI / 96), % columnCoordinate.y * (A_ScreenDPI / 96) ; 右鍵 檔名
-  Sleep, 100
-  Send, {Down 4}
+  Sleep, 1000
+  Send, {Down %downTimes%}
   Send, {Enter}
   Sleep, 1000
 

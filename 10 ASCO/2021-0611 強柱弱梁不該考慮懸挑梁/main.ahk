@@ -5,40 +5,26 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 #SingleInstance Force
-#Include %A_ScriptDir%\Lib\
+
+env := "dev"
 
 !1::
   startTime := A_TickCount
 
   filePath := A_WorkingDir . "\col-3F-C18.ASCO"
   iniPath := A_WorkingDir . "\col-3F-C18.ini"
-  columnCoordinate := {x: 850 / (A_ScreenDPI / 96), y: 460 / (A_ScreenDPI / 96)}
+  columnCoordinate := {x: 850, y: 460}
 
   logInASCO(iniPath)
   openASCO(filePath)
   Sleep, 5000
-  designSingleColumn(columnCoordinate)
+  designSingleColumnByGeometry(columnCoordinate)
 
   showExecutionTime(startTime, A_TickCount)
 Return
 
-!r::Reload
-; !x::ExitApp
-
-!w::
-  While WinExist("ahk_exe notepad.exe") {
-    WinKill ; 關檔
-  }
+!t::
+  RegDelete, HKEY_CURRENT_USER\SOFTWARE\RCAD.APPS\RCAD_ASCO\DockingPaneLayouts
 Return
 
-!z::
-  restartProgram()
-Return
-
-!+z::
-  restartProductionProgram("C:\Program Files\RCAD\RCAD_ASCO\bin", "RCAD_ASCO")
-Return
-
-!c::
-  completeDesignColumn()
-Return
+#Include, %A_ScriptDir%\Lib\ASCOShortcut.ahk
