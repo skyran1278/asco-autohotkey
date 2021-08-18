@@ -6,21 +6,26 @@ FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 #SingleInstance Force
 
-env := "production"
+env := "dev"
 
 !1::
   startTime := A_TickCount
 
   filePath := A_WorkingDir . "\col-3F-C18.ASCO"
   iniPath := A_WorkingDir . "\col-3F-C18.ini"
-  columnCoordinate := {x: 850, y: 460}
+  If (A_ScreenDPI = 96) {
+    columnCoordinate := {x: 850, y: 460}
+  }
+  If (A_ScreenDPI = 120) {
+    columnCoordinate := {x: 850, y: 460}
+  }
 
   logInASCO(iniPath)
   openASCO(filePath)
 
-  Sleep, 2000
+  Sleep, 3000
   If (env != "production") {
-    Sleep, 3000
+    Sleep, 2000
   }
   designSingleColumnByGeometry(columnCoordinate)
 
