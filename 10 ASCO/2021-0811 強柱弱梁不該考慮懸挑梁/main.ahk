@@ -6,7 +6,7 @@ FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 #SingleInstance Force
 
-env := "dev"
+env := "production"
 
 !1::
   ; 強柱弱梁不該考慮懸挑梁
@@ -37,13 +37,14 @@ Return
 !2::
   ; 13F-C11
   ; 有考慮 Vp 但中段控制載重為零
+  ; 因為 Vs = Ve / fai - Vc 扣掉 Vc 後小於零
 
   startTime := A_TickCount
 
   filePath := A_WorkingDir . "\col-13F-C11.ASCO"
   iniPath := A_WorkingDir . "\col-13F-C11.ini"
   If (A_ScreenDPI = 96) {
-    columnCoordinate := {x: 750, y: 290}
+    columnCoordinate := {x: 570, y: 380}
   }
   ; If (A_ScreenDPI = 120) {
   ;   columnCoordinate := {x: 750, y: 460}
