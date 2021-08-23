@@ -99,19 +99,12 @@ Return
   logInASCO(iniPath)
   openASCO(filePath)
 
-  activate("RCAD_ASCO")
-  Send, !c
-  Send, {Down 7}
-  Send, {Enter}
+  designAllColumn()
 
-  activate("RCAD_ASCO")
-  Send, {F9}
-  Sleep, 1000
-
-  activate("RCAD_ASCO")
-  Send, {Enter}
-  Send, {Right}
-  Send, {Enter}
+  If (env = "production") {
+    Sleep, 1000
+    completeDesignColumn()
+  }
 
   showExecutionTime(startTime, A_TickCount)
 Return
@@ -125,22 +118,12 @@ Return
   logInASCO(iniPath)
   openASCO(filePath)
 
-  activate("RCAD_ASCO")
-  Send, !c
-  Send, {Down 7}
-  Send, {Enter}
+  designAllColumn()
 
-  ; activate("RCAD_ASCO")
-  ; Click, 400, 170, 2 ; Column-2
-  ; Click, 470, 600 ; 滾輪條
-  ; Click, 300, 440, 2 ; Format_T
-  ; Send, {F9}
-  ; Sleep, 1000
-
-  ; activate("RCAD_ASCO")
-  ; Send, {Enter}
-  ; Send, {Right}
-  ; Send, {Enter}
+  If (env = "production") {
+    Sleep, 6000
+    completeDesignColumn()
+  }
 
   showExecutionTime(startTime, A_TickCount)
 Return
