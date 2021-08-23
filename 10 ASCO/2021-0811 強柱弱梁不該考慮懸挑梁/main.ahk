@@ -9,6 +9,8 @@ CoordMode, Mouse, Client
 env := "dev"
 
 !1::
+  ; 強柱弱梁不該考慮懸挑梁
+
   startTime := A_TickCount
 
   filePath := A_WorkingDir . "\col-3F-C18.ASCO"
@@ -28,6 +30,38 @@ env := "dev"
     Sleep, 2000
   }
   designSingleColumnByGeometry(columnCoordinate)
+
+  showExecutionTime(startTime, A_TickCount)
+Return
+
+!2::
+  ; 13F-C11
+  ; 有考慮 Vp 但中段控制載重為零
+
+  startTime := A_TickCount
+
+  filePath := A_WorkingDir . "\col-13F-C11.ASCO"
+  iniPath := A_WorkingDir . "\col-13F-C11.ini"
+  If (A_ScreenDPI = 96) {
+    columnCoordinate := {x: 750, y: 290}
+  }
+  ; If (A_ScreenDPI = 120) {
+  ;   columnCoordinate := {x: 750, y: 460}
+  ; }
+
+  logInASCO(iniPath)
+  openASCO(filePath)
+
+  Sleep, 3000
+  If (env != "production") {
+    Sleep, 2000
+  }
+  designSingleColumnByGeometry(columnCoordinate)
+
+  If (env = "production") {
+    Sleep, 3000
+    completeDesignColumn()
+  }
 
   showExecutionTime(startTime, A_TickCount)
 Return

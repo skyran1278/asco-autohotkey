@@ -1,59 +1,27 @@
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 PF (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 PF (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 PF (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 PF (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 PF (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 PF (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 PF (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 PF (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 PF (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 PF (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 PF (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 PF (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
 無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
 
@@ -63,29 +31,61 @@
 
 無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 R3F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 R3F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 R3F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 R3F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 R3F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 R3F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 R3F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 R3F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 R3F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 R3F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 R3F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 R3F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+本樓層位於 R2F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 R2F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 R2F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 R2F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 R2F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 R2F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 R2F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 R2F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 R2F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 R2F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 R2F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 R2F (ETABS 樓層)，高於強柱弱梁設定之最高樓層 (R1F)，未考慮韌性設計，故無輸出計算書。
 
 無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
 
@@ -1132,11 +1132,11 @@ Ag      =    6400.00 cm2
 Ac      =    5184.00 cm2
 
 Ash / S =      0.371 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
-Avh / S =      0.144 cm2 / cm (中央區) <--- 由 eq.(3) 控制
+Avh / S =      0.144 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 
 (minor)
 Ash / S =      0.371 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
-Avh / S =      0.113 cm2 / cm (中央區) <--- 由 eq.(3) 控制
+Avh / S =      0.113 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 
 (9) 柱圍束區及中央區之箍筋量配置
 ======================================================================================================================================================
@@ -1158,7 +1158,7 @@ Avh / S =      0.113 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 |       1.00 %[C9]                |                |   o  0-#0               |
 |                                 |                |   X- 5( 0)              |
 | Maj.Av/S=  0.371<15-4>[C9]      |                |   Y- 5( 0)              |
-|            0.144<5>[C9]         |                |   Hoop: 1-#4            |
+|            0.144<Mpr>[C9]       |                |   Hoop: 1-#4            |
 | Min.Av/S=  0.371<15-4>[C9]      |                |   Ties: 2-#4 @ 10 - 15  |
 |            0.113<Mpr>[C9]       +----------------+         2-#4            |
 +----------------------------------------------------------------------------+
@@ -1508,11 +1508,11 @@ Ag      =    8100.00 cm2
 Ac      =    6724.00 cm2
 
 Ash / S =      0.424 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
-Avh / S =      0.163 cm2 / cm (中央區) <--- 由 eq.(3) 控制
+Avh / S =      0.148 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 
 (minor)
 Ash / S =      0.424 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
-Avh / S =      0.195 cm2 / cm (中央區) <--- 由 eq.(3) 控制
+Avh / S =      0.195 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 
 (9) 柱圍束區及中央區之箍筋量配置
 ======================================================================================================================================================
@@ -1534,7 +1534,7 @@ Avh / S =      0.195 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 |       1.00 %[C11]               |                |   o  0-#0               |
 |                                 |                |   X- 5( 0)              |
 | Maj.Av/S=  0.424<15-4>[C11]     |                |   Y- 5( 0)              |
-|            0.163<9>[C11]        |                |   Hoop: 1-#4            |
+|            0.148<Mpr>[C11]      |                |   Hoop: 1-#4            |
 | Min.Av/S=  0.424<15-4>[C11]     |                |   Ties: 3-#4 @ 10 - 15  |
 |            0.195<Mpr>[C11]      +----------------+         3-#4            |
 +----------------------------------------------------------------------------+
@@ -2136,7 +2136,7 @@ Ag      =    8100.00 cm2
 Ac      =    6724.00 cm2
 
 Ash / S =      0.424 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
-Avh / S =      0.177 cm2 / cm (中央區) <--- 由 eq.(3) 控制
+Avh / S =      0.150 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 
 (minor)
 Ash / S =      0.424 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
@@ -2162,7 +2162,7 @@ Avh / S =      0.194 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 |       1.00 %[C14]               |                |   o  0-#0               |
 |                                 |                |   X- 5( 0)              |
 | Maj.Av/S=  0.424<15-4>[C14]     |                |   Y- 5( 0)              |
-|            0.177<7>[C14]        |                |   Hoop: 1-#4            |
+|            0.150<7>[C14]        |                |   Hoop: 1-#4            |
 | Min.Av/S=  0.424<15-4>[C14]     |                |   Ties: 3-#4 @ 10 - 15  |
 |            0.194<Mpr>[C14]      +----------------+         3-#4            |
 +----------------------------------------------------------------------------+
@@ -3140,11 +3140,11 @@ Ag      =    8100.00 cm2
 Ac      =    6724.00 cm2
 
 Ash / S =      0.424 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
-Avh / S =      0.163 cm2 / cm (中央區) <--- 由 eq.(3) 控制
+Avh / S =      0.149 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 
 (minor)
 Ash / S =      0.424 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
-Avh / S =      0.195 cm2 / cm (中央區) <--- 由 eq.(3) 控制
+Avh / S =      0.195 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 
 (9) 柱圍束區及中央區之箍筋量配置
 ======================================================================================================================================================
@@ -3166,7 +3166,7 @@ Avh / S =      0.195 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 |       1.00 %[C19]               |                |   o  0-#0               |
 |                                 |                |   X- 5( 0)              |
 | Maj.Av/S=  0.424<15-4>[C19]     |                |   Y- 5( 0)              |
-|            0.163<5>[C19]        |                |   Hoop: 1-#4            |
+|            0.149<Mpr>[C19]      |                |   Hoop: 1-#4            |
 | Min.Av/S=  0.424<15-4>[C19]     |                |   Ties: 3-#4 @ 10 - 15  |
 |            0.195<Mpr>[C19]      +----------------+         3-#4            |
 +----------------------------------------------------------------------------+
@@ -3328,7 +3328,7 @@ Ag      =    8100.00 cm2
 Ac      =    6724.00 cm2
 
 Ash / S =      0.424 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
-Avh / S =      0.176 cm2 / cm (中央區) <--- 由 eq.(3) 控制
+Avh / S =      0.151 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 
 (minor)
 Ash / S =      0.424 cm2 / cm (圍束區) <--- 由 eq.(2) 控制
@@ -3354,7 +3354,7 @@ Avh / S =      0.194 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 |       1.00 %[C20]               |                |   o  0-#0               |
 |                                 |                |   X- 5( 0)              |
 | Maj.Av/S=  0.424<15-4>[C20]     |                |   Y- 5( 0)              |
-|            0.176<3>[C20]        |                |   Hoop: 1-#4            |
+|            0.151<3>[C20]        |                |   Hoop: 1-#4            |
 | Min.Av/S=  0.424<15-4>[C20]     |                |   Ties: 3-#4 @ 10 - 15  |
 |            0.194<Mpr>[C20]      +----------------+         3-#4            |
 +----------------------------------------------------------------------------+
@@ -3993,7 +3993,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -16.35 T (COMB82 Min 載重組合控制)
+Vu(max) =     -60.12 T (COMB5 載重組合控制)
 Vp      =      89.80 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -4217,7 +4217,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      15.67 T (COMB82 Min 載重組合控制)
+Vu(max) =      61.49 T (COMB3 載重組合控制)
 Vp      =      89.80 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -5017,7 +5017,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -16.53 T (COMB82 Min 載重組合控制)
+Vu(max) =     -59.86 T (COMB9 載重組合控制)
 Vp      =      89.80 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -5241,7 +5241,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      15.88 T (COMB82 Min 載重組合控制)
+Vu(max) =      61.41 T (COMB7 載重組合控制)
 Vp      =      89.81 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -6873,7 +6873,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.50 T (COMB82 Min 載重組合控制)
+Vu(max) =     -46.39 T (COMB5 載重組合控制)
 Vp      =      78.90 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -7097,7 +7097,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       2.92 T (COMB82 Min 載重組合控制)
+Vu(max) =      41.54 T (COMB44 載重組合控制)
 Vp      =      81.93 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -7321,7 +7321,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -15.67 T (COMB82 Min 載重組合控制)
+Vu(max) =     -57.49 T (COMB5 載重組合控制)
 Vp      =      98.33 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -7545,7 +7545,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      14.41 T (COMB82 Min 載重組合控制)
+Vu(max) =      58.02 T (COMB3 載重組合控制)
 Vp      =      98.35 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -8345,7 +8345,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -15.85 T (COMB82 Min 載重組合控制)
+Vu(max) =     -57.69 T (COMB9 載重組合控制)
 Vp      =      98.33 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -8569,7 +8569,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      14.75 T (COMB82 Min 載重組合控制)
+Vu(max) =      58.69 T (COMB7 載重組合控制)
 Vp      =      98.34 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -9177,7 +9177,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.12 T (COMB82 Min 載重組合控制)
+Vu(max) =     -42.29 T (COMB50 載重組合控制)
 Vp      =      78.94 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -9401,7 +9401,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       3.40 T (COMB82 Min 載重組合控制)
+Vu(max) =      42.04 T (COMB48 載重組合控制)
 Vp      =      81.95 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -10201,7 +10201,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.52 T (COMB82 Min 載重組合控制)
+Vu(max) =     -48.09 T (COMB46 載重組合控制)
 Vp      =      90.74 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -10425,7 +10425,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       2.64 T (COMB82 Min 載重組合控制)
+Vu(max) =      46.66 T (COMB44 載重組合控制)
 Vp      =      90.74 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -10649,7 +10649,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -15.67 T (COMB82 Min 載重組合控制)
+Vu(max) =     -64.36 T (COMB5 載重組合控制)
 Vp      =     106.74 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -10873,7 +10873,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      14.45 T (COMB82 Min 載重組合控制)
+Vu(max) =      65.13 T (COMB3 載重組合控制)
 Vp      =     106.76 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -11065,7 +11065,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.43 T (COMB82 Min 載重組合控制)
+Vu(max) =     -29.13 T (COMB5 載重組合控制)
 Vp      =      51.09 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -11257,7 +11257,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       5.07 T (COMB82 Min 載重組合控制)
+Vu(max) =      26.64 T (COMB35 Max 載重組合控制)
 Vp      =      51.11 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -11449,7 +11449,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -10.43 T (COMB82 Min 載重組合控制)
+Vu(max) =     -35.87 T (COMB9 載重組合控制)
 Vp      =      51.09 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -11482,7 +11482,7 @@ Avh / S =      0.081 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 |       1.00 %[C11]               |                |   o  0-#0               |
 |                                 |                |   X- 5( 0)              |
 | Maj.Av/S=  0.424<15-4>[C11]     |                |   Y- 5( 0)              |
-|            0.000<82 Min>[C11]   |                |   Hoop: 1-#4            |
+|            0.000<9>[C11]        |                |   Hoop: 1-#4            |
 | Min.Av/S=  0.424<15-4>[C11]     |                |   Ties: 3-#4 @ 10 - 15  |
 |            0.081<Mpr>[C11]      +----------------+         3-#4            |
 +----------------------------------------------------------------------------+
@@ -11673,7 +11673,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -15.85 T (COMB82 Min 載重組合控制)
+Vu(max) =     -64.46 T (COMB9 載重組合控制)
 Vp      =     106.74 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -11897,7 +11897,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      14.75 T (COMB82 Min 載重組合控制)
+Vu(max) =      65.60 T (COMB7 載重組合控制)
 Vp      =     106.76 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -12089,7 +12089,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      10.15 T (COMB82 Min 載重組合控制)
+Vu(max) =      36.00 T (COMB35 Max 載重組合控制)
 Vp      =      56.62 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -12281,7 +12281,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.27 T (COMB82 Min 載重組合控制)
+Vu(max) =     -28.67 T (COMB9 載重組合控制)
 Vp      =      48.27 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -12505,7 +12505,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.16 T (COMB82 Min 載重組合控制)
+Vu(max) =     -47.48 T (COMB50 載重組合控制)
 Vp      =      90.78 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -12729,7 +12729,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       3.12 T (COMB82 Min 載重組合控制)
+Vu(max) =      47.21 T (COMB48 載重組合控制)
 Vp      =      90.78 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -12921,7 +12921,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       5.39 T (COMB82 Min 載重組合控制)
+Vu(max) =      27.82 T (COMB35 Max 載重組合控制)
 Vp      =      51.11 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -13113,7 +13113,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -10.33 T (COMB82 Min 載重組合控制)
+Vu(max) =     -35.76 T (COMB5 載重組合控制)
 Vp      =      51.09 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -13146,7 +13146,7 @@ Avh / S =      0.060 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 |       1.00 %[C19]               |                |   o  0-#0               |
 |                                 |                |   X- 5( 0)              |
 | Maj.Av/S=  0.424<15-4>[C19]     |                |   Y- 5( 0)              |
-|            0.000<82 Min>[C19]   |                |   Hoop: 1-#4            |
+|            0.000<5>[C19]        |                |   Hoop: 1-#4            |
 | Min.Av/S=  0.424<15-4>[C19]     |                |   Ties: 3-#4 @ 10 - 15  |
 |            0.060<Mpr>[C19]      +----------------+         3-#4            |
 +----------------------------------------------------------------------------+
@@ -13305,7 +13305,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       9.93 T (COMB82 Min 載重組合控制)
+Vu(max) =      35.48 T (COMB35 Max 載重組合控制)
 Vp      =      56.62 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -13529,7 +13529,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.57 T (COMB82 Min 載重組合控制)
+Vu(max) =     -53.19 T (COMB46 載重組合控制)
 Vp      =     102.40 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -13753,7 +13753,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       2.53 T (COMB82 Min 載重組合控制)
+Vu(max) =      51.72 T (COMB44 載重組合控制)
 Vp      =     102.41 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -13977,7 +13977,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -15.46 T (COMB82 Min 載重組合控制)
+Vu(max) =     -68.22 T (COMB5 載重組合控制)
 Vp      =     115.52 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -14201,7 +14201,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      14.21 T (COMB82 Min 載重組合控制)
+Vu(max) =      68.98 T (COMB3 載重組合控制)
 Vp      =     115.54 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -14393,7 +14393,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.51 T (COMB82 Min 載重組合控制)
+Vu(max) =     -31.74 T (COMB5 載重組合控制)
 Vp      =      54.08 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -14585,7 +14585,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       5.10 T (COMB82 Min 載重組合控制)
+Vu(max) =      29.17 T (COMB35 Max 載重組合控制)
 Vp      =      54.08 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -14777,7 +14777,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -10.36 T (COMB82 Min 載重組合控制)
+Vu(max) =     -38.33 T (COMB9 載重組合控制)
 Vp      =      56.86 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -15001,7 +15001,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -15.63 T (COMB82 Min 載重組合控制)
+Vu(max) =     -68.38 T (COMB9 載重組合控制)
 Vp      =     115.52 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -15225,7 +15225,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      14.52 T (COMB82 Min 載重組合控制)
+Vu(max) =      69.52 T (COMB7 載重組合控制)
 Vp      =     115.54 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -15417,7 +15417,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      10.11 T (COMB82 Min 載重組合控制)
+Vu(max) =      38.34 T (COMB35 Max 載重組合控制)
 Vp      =      62.36 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -15609,7 +15609,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.33 T (COMB82 Min 載重組合控制)
+Vu(max) =     -31.32 T (COMB9 載重組合控制)
 Vp      =      51.25 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -15833,7 +15833,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.18 T (COMB82 Min 載重組合控制)
+Vu(max) =     -52.64 T (COMB50 載重組合控制)
 Vp      =     102.45 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -16057,7 +16057,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       3.04 T (COMB82 Min 載重組合控制)
+Vu(max) =      52.39 T (COMB48 載重組合控制)
 Vp      =     102.45 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -16249,7 +16249,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       5.45 T (COMB82 Min 載重組合控制)
+Vu(max) =      30.42 T (COMB35 Max 載重組合控制)
 Vp      =      56.88 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -16441,7 +16441,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -10.27 T (COMB82 Min 載重組合控制)
+Vu(max) =     -38.22 T (COMB5 載重組合控制)
 Vp      =      56.86 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -16633,7 +16633,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       9.89 T (COMB82 Min 載重組合控制)
+Vu(max) =      37.82 T (COMB35 Max 載重組合控制)
 Vp      =      62.36 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -16857,7 +16857,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.71 T (COMB82 Min 載重組合控制)
+Vu(max) =     -58.11 T (COMB46 載重組合控制)
 Vp      =     111.19 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -17081,7 +17081,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       2.22 T (COMB82 Min 載重組合控制)
+Vu(max) =      56.64 T (COMB44 載重組合控制)
 Vp      =     114.12 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -17305,7 +17305,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -15.27 T (COMB82 Min 載重組合控制)
+Vu(max) =     -63.65 T (COMB46 載重組合控制)
 Vp      =     121.35 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -17529,7 +17529,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      13.91 T (COMB82 Min 載重組合控制)
+Vu(max) =      64.32 T (COMB44 載重組合控制)
 Vp      =     121.38 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -17721,7 +17721,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.53 T (COMB82 Min 載重組合控制)
+Vu(max) =     -30.54 T (COMB46 載重組合控制)
 Vp      =      57.08 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -17913,7 +17913,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       4.86 T (COMB82 Min 載重組合控制)
+Vu(max) =      28.10 T (COMB76 Max 載重組合控制)
 Vp      =      57.10 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -18105,7 +18105,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -10.14 T (COMB82 Min 載重組合控制)
+Vu(max) =     -40.13 T (COMB9 載重組合控制)
 Vp      =      62.51 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -18329,7 +18329,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -15.44 T (COMB82 Min 載重組合控制)
+Vu(max) =     -63.77 T (COMB50 載重組合控制)
 Vp      =     121.35 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -18553,7 +18553,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      14.21 T (COMB82 Min 載重組合控制)
+Vu(max) =      64.64 T (COMB48 載重組合控制)
 Vp      =     121.37 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -18745,7 +18745,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       9.76 T (COMB82 Min 載重組合控制)
+Vu(max) =      40.24 T (COMB35 Max 載重組合控制)
 Vp      =      68.14 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -18937,7 +18937,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.36 T (COMB82 Min 載重組合控制)
+Vu(max) =     -30.28 T (COMB50 載重組合控制)
 Vp      =      57.09 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -19161,7 +19161,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.34 T (COMB82 Min 載重組合控制)
+Vu(max) =     -57.61 T (COMB50 載重組合控制)
 Vp      =     111.23 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -19385,7 +19385,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       2.73 T (COMB82 Min 載重組合控制)
+Vu(max) =      57.36 T (COMB48 載重組合控制)
 Vp      =     114.18 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -19577,7 +19577,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       5.21 T (COMB82 Min 載重組合控制)
+Vu(max) =      29.26 T (COMB76 Max 載重組合控制)
 Vp      =      59.89 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -19769,7 +19769,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -10.05 T (COMB82 Min 載重組合控制)
+Vu(max) =     -40.02 T (COMB5 載重組合控制)
 Vp      =      62.51 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -19961,7 +19961,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       9.55 T (COMB82 Min 載重組合控制)
+Vu(max) =      39.68 T (COMB35 Max 載重組合控制)
 Vp      =      68.14 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -20409,7 +20409,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       2.13 T (COMB82 Min 載重組合控制)
+Vu(max) =      60.56 T (COMB44 載重組合控制)
 Vp      =     120.01 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -20633,7 +20633,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -15.02 T (COMB82 Min 載重組合控制)
+Vu(max) =     -67.22 T (COMB46 載重組合控制)
 Vp      =     127.18 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -20857,7 +20857,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      13.74 T (COMB82 Min 載重組合控制)
+Vu(max) =      67.93 T (COMB44 載重組合控制)
 Vp      =     129.53 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -21049,7 +21049,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.45 T (COMB82 Min 載重組合控制)
+Vu(max) =     -32.40 T (COMB46 載重組合控制)
 Vp      =      62.77 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -21241,7 +21241,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       4.80 T (COMB82 Min 載重組合控制)
+Vu(max) =      30.09 T (COMB76 Max 載重組合控制)
 Vp      =      62.78 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -21433,7 +21433,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -9.88 T (COMB82 Min 載重組合控制)
+Vu(max) =     -40.75 T (COMB10 載重組合控制)
 Vp      =      68.13 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -21657,7 +21657,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -15.18 T (COMB82 Min 載重組合控制)
+Vu(max) =     -67.35 T (COMB50 載重組合控制)
 Vp      =     129.52 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -21881,7 +21881,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      14.04 T (COMB82 Min 載重組合控制)
+Vu(max) =      68.26 T (COMB48 載重組合控制)
 Vp      =     129.52 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -22073,7 +22073,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       9.57 T (COMB82 Min 載重組合控制)
+Vu(max) =      41.90 T (COMB35 Max 載重組合控制)
 Vp      =      71.03 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -22265,7 +22265,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.26 T (COMB82 Min 載重組合控制)
+Vu(max) =     -32.17 T (COMB50 載重組合控制)
 Vp      =      62.78 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -22905,7 +22905,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       5.18 T (COMB82 Min 載重組合控制)
+Vu(max) =      31.27 T (COMB76 Max 載重組合控制)
 Vp      =      62.78 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -23097,7 +23097,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -9.80 T (COMB82 Min 載重組合控制)
+Vu(max) =     -40.65 T (COMB6 載重組合控制)
 Vp      =      68.12 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -23289,7 +23289,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       9.36 T (COMB82 Min 載重組合控制)
+Vu(max) =      41.35 T (COMB35 Max 載重組合控制)
 Vp      =      71.03 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -23961,7 +23961,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -14.77 T (COMB82 Min 載重組合控制)
+Vu(max) =     -70.48 T (COMB46 載重組合控制)
 Vp      =     133.03 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -24179,7 +24179,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      13.38 T (COMB82 Min 載重組合控制)
+Vu(max) =      71.22 T (COMB44 載重組合控制)
 Vp      =     138.32 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -24371,7 +24371,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.47 T (COMB82 Min 載重組合控制)
+Vu(max) =     -34.40 T (COMB46 載重組合控制)
 Vp      =      68.46 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -24563,7 +24563,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       4.54 T (COMB82 Min 載重組合控制)
+Vu(max) =      32.10 T (COMB76 Max 載重組合控制)
 Vp      =      68.48 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -24755,7 +24755,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -9.65 T (COMB82 Min 載重組合控制)
+Vu(max) =     -37.69 T (COMB50 載重組合控制)
 Vp      =      71.20 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -24979,7 +24979,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -14.92 T (COMB82 Min 載重組合控制)
+Vu(max) =     -70.61 T (COMB50 載重組合控制)
 Vp      =     135.38 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -25197,7 +25197,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      13.67 T (COMB82 Min 載重組合控制)
+Vu(max) =      71.55 T (COMB48 載重組合控制)
 Vp      =     138.32 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -25389,7 +25389,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       9.20 T (COMB82 Min 載重組合控制)
+Vu(max) =      37.53 T (COMB76 Max 載重組合控制)
 Vp      =      73.91 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -25581,7 +25581,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.28 T (COMB82 Min 載重組合控制)
+Vu(max) =     -34.19 T (COMB50 載重組合控制)
 Vp      =      68.47 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -26221,7 +26221,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       4.93 T (COMB82 Min 載重組合控制)
+Vu(max) =      33.42 T (COMB76 Max 載重組合控制)
 Vp      =      68.47 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -26413,7 +26413,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -9.57 T (COMB82 Min 載重組合控制)
+Vu(max) =     -37.62 T (COMB46 載重組合控制)
 Vp      =      71.20 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -26605,7 +26605,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       9.00 T (COMB82 Min 載重組合控制)
+Vu(max) =      37.06 T (COMB76 Max 載重組合控制)
 Vp      =      73.91 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -27271,7 +27271,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -14.46 T (COMB82 Min 載重組合控制)
+Vu(max) =     -73.10 T (COMB46 載重組合控制)
 Vp      =     138.83 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -27489,7 +27489,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      13.18 T (COMB82 Min 載重組合控制)
+Vu(max) =      73.90 T (COMB44 載重組合控制)
 Vp      =     141.79 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -27681,7 +27681,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.34 T (COMB82 Min 載重組合控制)
+Vu(max) =     -35.76 T (COMB46 載重組合控制)
 Vp      =      71.37 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -27873,7 +27873,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       4.45 T (COMB82 Min 載重組合控制)
+Vu(max) =      33.70 T (COMB76 Max 載重組合控制)
 Vp      =      71.37 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -28065,7 +28065,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -9.33 T (COMB82 Min 載重組合控制)
+Vu(max) =     -38.91 T (COMB50 載重組合控制)
 Vp      =      74.07 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -28283,7 +28283,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -14.60 T (COMB82 Min 載重組合控制)
+Vu(max) =     -73.24 T (COMB50 載重組合控制)
 Vp      =     138.83 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -28501,7 +28501,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      13.47 T (COMB82 Min 載重組合控制)
+Vu(max) =      74.23 T (COMB48 載重組合控制)
 Vp      =     141.79 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -28693,7 +28693,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       8.96 T (COMB82 Min 載重組合控制)
+Vu(max) =      38.96 T (COMB76 Max 載重組合控制)
 Vp      =      76.80 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -28885,7 +28885,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.14 T (COMB82 Min 載重組合控制)
+Vu(max) =     -35.56 T (COMB50 載重組合控制)
 Vp      =      71.37 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -29525,7 +29525,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       4.89 T (COMB82 Min 載重組合控制)
+Vu(max) =      35.01 T (COMB76 Max 載重組合控制)
 Vp      =      71.50 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -29717,7 +29717,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -9.26 T (COMB82 Min 載重組合控制)
+Vu(max) =     -38.85 T (COMB46 載重組合控制)
 Vp      =      74.07 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -29909,7 +29909,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       8.75 T (COMB82 Min 載重組合控制)
+Vu(max) =      38.50 T (COMB76 Max 載重組合控制)
 Vp      =      76.80 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -30569,7 +30569,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -14.14 T (COMB82 Min 載重組合控制)
+Vu(max) =     -75.42 T (COMB46 載重組合控制)
 Vp      =     144.62 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -30787,7 +30787,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      12.78 T (COMB82 Min 載重組合控制)
+Vu(max) =      76.27 T (COMB44 載重組合控制)
 Vp      =     147.55 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -30979,7 +30979,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.33 T (COMB82 Min 載重組合控制)
+Vu(max) =     -37.36 T (COMB46 載重組合控制)
 Vp      =      71.50 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -31171,7 +31171,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       4.16 T (COMB82 Min 載重組合控制)
+Vu(max) =      35.35 T (COMB76 Max 載重組合控制)
 Vp      =      71.50 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -31363,7 +31363,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -9.04 T (COMB82 Min 載重組合控制)
+Vu(max) =     -40.15 T (COMB50 載重組合控制)
 Vp      =      76.99 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -31581,7 +31581,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -14.27 T (COMB82 Min 載重組合控制)
+Vu(max) =     -75.55 T (COMB50 載重組合控制)
 Vp      =     144.63 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -31799,7 +31799,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      13.07 T (COMB82 Min 載重組合控制)
+Vu(max) =      74.13 T (COMB76 Max 載重組合控制)
 Vp      =     147.55 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -31991,7 +31991,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       8.53 T (COMB82 Min 載重組合控制)
+Vu(max) =      40.35 T (COMB76 Max 載重組合控制)
 Vp      =      76.98 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -32183,7 +32183,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.13 T (COMB82 Min 載重組合控制)
+Vu(max) =     -37.17 T (COMB50 載重組合控制)
 Vp      =      71.51 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -32811,7 +32811,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       4.61 T (COMB82 Min 載重組合控制)
+Vu(max) =      36.82 T (COMB76 Max 載重組合控制)
 Vp      =      74.39 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -33003,7 +33003,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -8.97 T (COMB82 Min 載重組合控制)
+Vu(max) =     -40.09 T (COMB46 載重組合控制)
 Vp      =      76.98 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -33195,7 +33195,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       8.35 T (COMB82 Min 載重組合控制)
+Vu(max) =      39.88 T (COMB76 Max 載重組合控制)
 Vp      =      76.99 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -33849,7 +33849,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -13.74 T (COMB82 Min 載重組合控制)
+Vu(max) =     -76.83 T (COMB46 載重組合控制)
 Vp      =     150.38 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -34067,7 +34067,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      12.56 T (COMB82 Min 載重組合控制)
+Vu(max) =      75.36 T (COMB76 Max 載重組合控制)
 Vp      =     153.33 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -34259,7 +34259,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.17 T (COMB82 Min 載重組合控制)
+Vu(max) =      26.37 T (COMB44 載重組合控制)
 Vp      =      74.39 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -34451,7 +34451,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       4.06 T (COMB82 Min 載重組合控制)
+Vu(max) =      36.60 T (COMB76 Max 載重組合控制)
 Vp      =      74.37 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -34643,7 +34643,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -8.66 T (COMB82 Min 載重組合控制)
+Vu(max) =     -40.30 T (COMB76 Min 載重組合控制)
 Vp      =      77.17 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -34861,7 +34861,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -13.88 T (COMB82 Min 載重組合控制)
+Vu(max) =     -76.99 T (COMB50 載重組合控制)
 Vp      =     150.39 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -35079,7 +35079,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      12.78 T (COMB82 Min 載重組合控制)
+Vu(max) =      76.07 T (COMB76 Max 載重組合控制)
 Vp      =     157.31 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -35271,7 +35271,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       8.29 T (COMB82 Min 載重組合控制)
+Vu(max) =      41.74 T (COMB76 Max 載重組合控制)
 Vp      =      79.85 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -35463,7 +35463,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -5.94 T (COMB82 Min 載重組合控制)
+Vu(max) =      26.72 T (COMB48 載重組合控制)
 Vp      =      74.44 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -36085,7 +36085,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       4.55 T (COMB82 Min 載重組合控制)
+Vu(max) =      38.06 T (COMB76 Max 載重組合控制)
 Vp      =      77.17 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -36277,7 +36277,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -8.64 T (COMB82 Min 載重組合控制)
+Vu(max) =     -40.09 T (COMB76 Min 載重組合控制)
 Vp      =      77.17 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -36469,7 +36469,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       8.01 T (COMB82 Min 載重組合控制)
+Vu(max) =      41.17 T (COMB76 Max 載重組合控制)
 Vp      =      79.83 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -37123,7 +37123,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -13.43 T (COMB82 Min 載重組合控制)
+Vu(max) =     -78.32 T (COMB46 載重組合控制)
 Vp      =     158.00 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -37341,7 +37341,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      12.05 T (COMB82 Min 載重組合控制)
+Vu(max) =      77.22 T (COMB76 Max 載重組合控制)
 Vp      =     157.94 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -37527,7 +37527,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.15 T (COMB82 Min 載重組合控制)
+Vu(max) =      27.91 T (COMB44 載重組合控制)
 Vp      =      77.34 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -37713,7 +37713,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       3.71 T (COMB82 Min 載重組合控制)
+Vu(max) =      37.89 T (COMB76 Max 載重組合控制)
 Vp      =      77.34 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -37915,7 +37915,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -8.34 T (COMB82 Min 載重組合控制)
+Vu(max) =      25.01 T (COMB48 載重組合控制)
 Vp      =      80.13 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -38133,7 +38133,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -13.47 T (COMB82 Min 載重組合控制)
+Vu(max) =     -78.36 T (COMB50 載重組合控制)
 Vp      =     157.93 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -38351,7 +38351,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      12.51 T (COMB82 Min 載重組合控制)
+Vu(max) =      78.22 T (COMB76 Max 載重組合控制)
 Vp      =     157.88 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -38543,7 +38543,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       7.53 T (COMB82 Min 載重組合控制)
+Vu(max) =      42.56 T (COMB76 Max 載重組合控制)
 Vp      =      82.78 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -38729,7 +38729,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -5.96 T (COMB82 Min 載重組合控制)
+Vu(max) =      28.20 T (COMB48 載重組合控制)
 Vp      =      77.34 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -39351,7 +39351,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       4.19 T (COMB82 Min 載重組合控制)
+Vu(max) =      39.44 T (COMB76 Max 載重組合控制)
 Vp      =      77.46 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -39543,7 +39543,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -8.19 T (COMB82 Min 載重組合控制)
+Vu(max) =      25.19 T (COMB44 載重組合控制)
 Vp      =      80.08 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -39735,7 +39735,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       7.66 T (COMB82 Min 載重組合控制)
+Vu(max) =      42.47 T (COMB76 Max 載重組合控制)
 Vp      =      82.79 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -40171,7 +40171,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       0.37 T (COMB82 Min 載重組合控制)
+Vu(max) =      72.58 T (COMB76 Max 載重組合控制)
 Vp      =     146.82 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -40389,7 +40389,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -12.75 T (COMB82 Min 載重組合控制)
+Vu(max) =     -78.27 T (COMB46 載重組合控制)
 Vp      =     151.42 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -40607,7 +40607,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      12.02 T (COMB82 Min 載重組合控制)
+Vu(max) =      78.44 T (COMB76 Max 載重組合控制)
 Vp      =     154.26 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -40799,7 +40799,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.00 T (COMB82 Min 載重組合控制)
+Vu(max) =      28.64 T (COMB44 載重組合控制)
 Vp      =      77.52 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -41183,7 +41183,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -8.11 T (COMB82 Min 載重組合控制)
+Vu(max) =      26.10 T (COMB48 載重組合控制)
 Vp      =      80.21 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -41401,7 +41401,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -13.11 T (COMB82 Min 載重組合控制)
+Vu(max) =     -78.79 T (COMB50 載重組合控制)
 Vp      =     151.36 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -41619,7 +41619,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      11.60 T (COMB82 Min 載重組合控制)
+Vu(max) =      78.49 T (COMB76 Max 載重組合控制)
 Vp      =     154.26 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -41811,7 +41811,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       8.60 T (COMB82 Min 載重組合控制)
+Vu(max) =      45.15 T (COMB76 Max 載重組合控制)
 Vp      =      83.01 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -42003,7 +42003,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -5.53 T (COMB82 Min 載重組合控制)
+Vu(max) =      29.37 T (COMB48 載重組合控制)
 Vp      =      77.52 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -42221,7 +42221,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.06 T (COMB82 Min 載重組合控制)
+Vu(max) =     -76.77 T (COMB50 載重組合控制)
 Vp      =     149.61 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -42625,7 +42625,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       4.46 T (COMB82 Min 載重組合控制)
+Vu(max) =      40.78 T (COMB76 Max 載重組合控制)
 Vp      =      77.64 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -42817,7 +42817,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -8.51 T (COMB82 Min 載重組合控制)
+Vu(max) =      25.57 T (COMB44 載重組合控制)
 Vp      =      80.08 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -43009,7 +43009,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       7.11 T (COMB82 Min 載重組合控制)
+Vu(max) =      43.07 T (COMB76 Max 載重組合控制)
 Vp      =      83.01 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -43227,7 +43227,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.93 T (COMB82 Min 載重組合控制)
+Vu(max) =     -78.31 T (COMB46 載重組合控制)
 Vp      =     173.08 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -43663,7 +43663,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -14.83 T (COMB82 Min 載重組合控制)
+Vu(max) =     -83.40 T (COMB46 載重組合控制)
 Vp      =     163.66 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -43881,7 +43881,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      12.38 T (COMB82 Min 載重組合控制)
+Vu(max) =      82.41 T (COMB76 Max 載重組合控制)
 Vp      =     165.77 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -44067,7 +44067,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.52 T (COMB82 Min 載重組合控制)
+Vu(max) =      28.66 T (COMB44 載重組合控制)
 Vp      =      74.44 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -44445,7 +44445,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -8.58 T (COMB82 Min 載重組合控制)
+Vu(max) =      25.96 T (COMB48 載重組合控制)
 Vp      =      74.15 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -44663,7 +44663,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =     -13.89 T (COMB82 Min 載重組合控制)
+Vu(max) =     -81.68 T (COMB76 Min 載重組合控制)
 Vp      =     163.47 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -44881,7 +44881,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      15.27 T (COMB82 Min 載重組合控制)
+Vu(max) =      85.90 T (COMB76 Max 載重組合控制)
 Vp      =     165.46 T
 hc      =      65.73 cm
 Ag      =    9750.00 cm2
@@ -45073,7 +45073,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       3.92 T (COMB82 Min 載重組合控制)
+Vu(max) =      39.86 T (COMB76 Max 載重組合控制)
 Vp      =      88.46 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -45259,7 +45259,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.99 T (COMB82 Min 載重組合控制)
+Vu(max) =      27.88 T (COMB48 載重組合控制)
 Vp      =      74.16 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -45477,7 +45477,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -5.98 T (COMB82 Min 載重組合控制)
+Vu(max) =     -78.79 T (COMB50 載重組合控制)
 Vp      =     170.99 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -45881,7 +45881,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       3.51 T (COMB82 Min 載重組合控制)
+Vu(max) =      40.34 T (COMB76 Max 載重組合控制)
 Vp      =     114.18 T
 hc      =      70.73 cm
 Ag      =    6400.00 cm2
@@ -46073,7 +46073,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -6.83 T (COMB82 Min 載重組合控制)
+Vu(max) =      28.23 T (COMB44 載重組合控制)
 Vp      =      71.17 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -46265,7 +46265,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       8.66 T (COMB82 Min 載重組合控制)
+Vu(max) =      45.67 T (COMB76 Max 載重組合控制)
 Vp      =      79.82 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -46479,7 +46479,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -3.06 T (COMB82 Min 載重組合控制)
+Vu(max) =      71.87 T (COMB44 載重組合控制)
 Vp      =     123.73 T
 hc      =      90.73 cm
 Ag      =   10000.00 cm2
@@ -46693,7 +46693,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -4.85 T (COMB82 Min 載重組合控制)
+Vu(max) =     -75.14 T (COMB46 載重組合控制)
 Vp      =     115.87 T
 hc      =      90.73 cm
 Ag      =   10000.00 cm2
@@ -46907,7 +46907,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -3.32 T (COMB82 Min 載重組合控制)
+Vu(max) =     -46.57 T (COMB76 Min 載重組合控制)
 Vp      =      69.30 T
 hc      =      65.73 cm
 Ag      =   10500.00 cm2
@@ -46940,7 +46940,7 @@ Avh / S =      0.017 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 |       2.17 %[C3]                |                |   o  0-#0               |
 |                                 |                |   X- 7( 0)              |
 | Maj.Av/S=  0.784<15-4>[C3]      |                |   Y-18( 0)              |
-|            0.000<82 Min>[C3]    |                |   Hoop: 1-#4            |
+|            0.000<76 Min>[C3]    |                |   Hoop: 1-#4            |
 | Min.Av/S=  0.394<15-4>[C3]      |                |   Ties: 2-#4 @ 10 - 15  |
 |            0.017<Mpr>[C3]       +----------------+         8-#4            |
 +----------------------------------------------------------------------------+
@@ -47121,7 +47121,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       5.62 T (COMB82 Min 載重組合控制)
+Vu(max) =      50.91 T (COMB76 Max 載重組合控制)
 Vp      =      74.22 T
 hc      =      65.73 cm
 Ag      =   10500.00 cm2
@@ -47154,7 +47154,7 @@ Avh / S =      0.033 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 |       2.42 %[C4]                |                |   o  0-#0               |
 |                                 |                |   X- 7( 3)              |
 | Maj.Av/S=  0.784<15-4>[C4]      |                |   Y-18( 2)              |
-|            0.000<82 Min>[C4]    |                |   Hoop: 1-#4            |
+|            0.000<76 Max>[C4]    |                |   Hoop: 1-#4            |
 | Min.Av/S=  0.394<15-4>[C4]      |                |   Ties: 2-#4 @ 10 - 15  |
 |            0.033<Mpr>[C4]       +----------------+         8-#4            |
 +----------------------------------------------------------------------------+
@@ -47699,7 +47699,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -5.82 T (COMB82 Min 載重組合控制)
+Vu(max) =      54.45 T (COMB48 載重組合控制)
 Vp      =     116.74 T
 hc      =     100.73 cm
 Ag      =    9900.00 cm2
@@ -47913,7 +47913,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -4.74 T (COMB82 Min 載重組合控制)
+Vu(max) =     -48.49 T (COMB76 Min 載重組合控制)
 Vp      =      69.21 T
 hc      =      65.73 cm
 Ag      =   10500.00 cm2
@@ -47946,7 +47946,7 @@ Avh / S =      0.014 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 |       2.06 %[C12]               |                |   o  0-#0               |
 |                                 |                |   X- 7( 0)              |
 | Maj.Av/S=  0.784<15-4>[C12]     |                |   Y-17( 0)              |
-|            0.000<82 Min>[C12]   |                |   Hoop: 1-#4            |
+|            0.000<76 Min>[C12]   |                |   Hoop: 1-#4            |
 | Min.Av/S=  0.394<15-4>[C12]     |                |   Ties: 2-#4 @ 10 - 15  |
 |            0.014<Mpr>[C12]      +----------------+         7-#4            |
 +----------------------------------------------------------------------------+
@@ -48127,7 +48127,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       2.53 T (COMB82 Min 載重組合控制)
+Vu(max) =      48.00 T (COMB76 Max 載重組合控制)
 Vp      =      66.38 T
 hc      =      65.73 cm
 Ag      =   10500.00 cm2
@@ -48160,9 +48160,9 @@ Avh / S =      0.000 cm2 / cm (中央區) <--- 由 eq.(3) 控制
 |       1.96 %[C13]               |                |   o  0-#0               |
 |                                 |                |   X- 7( 0)              |
 | Maj.Av/S=  0.784<15-4>[C13]     |                |   Y-16( 0)              |
-|            0.000<82 Min>[C13]   |                |   Hoop: 1-#4            |
+|            0.000<76 Max>[C13]   |                |   Hoop: 1-#4            |
 | Min.Av/S=  0.394<15-4>[C13]     |                |   Ties: 2-#4 @ 10 - 15  |
-|            0.000<82 Min>[C13]   +----------------+         7-#4            |
+|            0.000<15-3>[C13]     +----------------+         7-#4            |
 +----------------------------------------------------------------------------+
 設計柱名: 1F C8 (ETABS: 2F C14)
 ======================================================================================================================================================
@@ -48309,7 +48309,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       3.28 T (COMB82 Min 載重組合控制)
+Vu(max) =      57.18 T (COMB76 Max 載重組合控制)
 Vp      =     109.09 T
 hc      =      90.73 cm
 Ag      =   10000.00 cm2
@@ -48507,7 +48507,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -5.43 T (COMB82 Min 載重組合控制)
+Vu(max) =      38.27 T (COMB48 載重組合控制)
 Vp      =      79.24 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -48721,7 +48721,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -3.18 T (COMB82 Min 載重組合控制)
+Vu(max) =      68.53 T (COMB76 Max 載重組合控制)
 Vp      =     110.53 T
 hc      =      90.73 cm
 Ag      =   10000.00 cm2
@@ -48935,7 +48935,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       0.05 T (COMB82 Min 載重組合控制)
+Vu(max) =      72.85 T (COMB76 Max 載重組合控制)
 Vp      =     102.13 T
 hc      =      90.73 cm
 Ag      =   10000.00 cm2
@@ -49117,7 +49117,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       0.61 T (COMB82 Min 載重組合控制)
+Vu(max) =      45.23 T (COMB76 Max 載重組合控制)
 Vp      =      78.63 T
 hc      =      80.73 cm
 Ag      =    8100.00 cm2
@@ -49315,7 +49315,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =      -7.82 T (COMB82 Min 載重組合控制)
+Vu(max) =      51.86 T (COMB44 載重組合控制)
 Vp      =     120.56 T
 hc      =     100.73 cm
 Ag      =    9900.00 cm2
@@ -49497,7 +49497,7 @@ Av / S  = (Vp / φ - Vc) / (fy x d)-------------------eq.(4)
 
 (major)
 IF Pu < 0.05Agfc', Vc = 0
-Vu(max) =       5.32 T (COMB82 Min 載重組合控制)
+Vu(max) =      58.56 T (COMB76 Max 載重組合控制)
 Vp      =      96.10 T
 hc      =      90.73 cm
 Ag      =   10000.00 cm2
@@ -49535,123 +49535,39 @@ Avh / S =      0.090 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 |            0.090<Mpr>[C20]      +----------------+         3-#4            |
 +----------------------------------------------------------------------------+
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
 無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
 
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
-
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
 無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
 
@@ -49703,39 +49619,123 @@ Avh / S =      0.090 cm2 / cm (中央區) <--- 由 eq.(4) 控制
 
 無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
 無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
-韌性計算缺少數據，請檢查參數是否有做韌性計算。
+本樓層位於 B1F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
+
+本樓層位於 B2F (ETABS 樓層)，低於強柱弱梁設定之最低樓層 (2F)，未考慮韌性設計，故無輸出計算書。
 
 無連動之繪圖柱，故無輸出計算書，請再重新計算一次試試。
 
