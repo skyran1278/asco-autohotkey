@@ -5,6 +5,7 @@ log.txt
 UnitCtl.ini
 UnitCtl_C.ini
 tmp-Addn.txt
+*.mdb
 
 # ETBAS Output
 *.$ET
