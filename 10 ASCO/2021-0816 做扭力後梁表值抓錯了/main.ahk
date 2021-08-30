@@ -14,14 +14,20 @@ env := "dev"
   filePath := A_WorkingDir . "\3F G3.ASCO"
   iniPath := A_WorkingDir . "\3F G3.ini"
   If (A_ScreenDPI = 96) {
-    columnCoordinate := {x: 1220, y: 510}
+    columnCoordinate := {x: 1300, y: 750}
   }
-  If (A_ScreenDPI = 120) {
-    columnCoordinate := {x: 1220, y: 510}
+  ; If (A_ScreenDPI = 120) {
+  ;   columnCoordinate := {x: 1220, y: 510}
+  ; }
+  If (A_ScreenDPI = 144) {
+    columnCoordinate := {x: 2300, y: 1600}
   }
 
   logInASCO(iniPath)
   openASCO(filePath)
+
+  Sleep, 2000
+  ; designSingleBeamByDraw(columnCoordinate)
 
   showExecutionTime(startTime, A_TickCount)
 Return
