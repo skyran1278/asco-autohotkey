@@ -13,6 +13,12 @@ Types of changes
 
 ## [Unreleased]
 
+## [2.3.0] - 2021-08-24
+
+### ADDED
+
+- 增加單梁設計
+
 ## [2.2.0] - 2021-08-23
 
 ### ADDED
