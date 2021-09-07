@@ -1,17 +1,20 @@
-# Change Log
+# Changelog
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-Types of changes
+## 2.6.0 (2021-09-07)
 
-- Added for new features.
-- Changed for changes in existing functionality.
-- Deprecated for soon-to-be removed features.
-- Removed for now removed features.
-- Fixed for any bug fixes.
-- Security in case of vulnerabilities.
 
-## [Unreleased]
+### Features
+
+* **lib:** release 2.5.0 ([7725a6f](https://github.com/skyran1278/autohotkey/commit/7725a6f11e4ff04d5b896cf03694b281a2c214ea))
+* migrate to standard-version to auto generate CHANGELOG ([c76dee5](https://github.com/skyran1278/autohotkey/commit/c76dee5346c87cdeacee433a3af7492d27b0c9af))
+
+
+### Bug Fixes
+
+* (6) Mu,maj, Mu,min相反 ([2758c70](https://github.com/skyran1278/autohotkey/commit/2758c70c62d871d11b32b6b6630f8f1d37e10111))
+* 移除重複的全棟計算測試 ([e461168](https://github.com/skyran1278/autohotkey/commit/e4611689d14214e728838dfaf26db249312a09bb))
 
 ## [2.5.0] - 2021-09-07
 
