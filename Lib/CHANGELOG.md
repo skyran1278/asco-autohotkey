@@ -13,6 +13,12 @@ Types of changes
 
 ## [Unreleased]
 
+## [2.5.0] - 2021-09-07
+
+### ADDED
+
+- 現在 designAllColumn、designSingleColumn 都可以完全自動完成設計了
+
 ## [2.4.0] - 2021-09-07
 
 ### ADDED

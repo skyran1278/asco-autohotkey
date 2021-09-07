@@ -14,5 +14,13 @@
   activate("RCAD_ASCO")
   Send, {Enter}
 
+  ; 建立 PMM
   startDialog()
+  waitForDesign()
+  exitDialog()
+
+  ; 計算
+  startDialog()
+  waitForDesign()
+  exitDialog()
 }

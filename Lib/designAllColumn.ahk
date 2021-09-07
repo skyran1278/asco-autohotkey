@@ -1,11 +1,6 @@
 ﻿designAllColumn() {
   activateOrExit("RCAD_ASCO")
-  Send, !c
-  activateOrExit("RCAD_ASCO")
-  Send, {Down 7}
-  ; 這裡不能 active 否則有時候點不到
-  ; activateOrExit("RCAD_ASCO")
-  Send, {Enter}
+  WinMenuSelectItem, ahk_exe RCAD_ASCO.exe,, RC柱(C), M3 全棟計算
 
   activate("RCAD_ASCO")
   Send, {F9}
@@ -14,5 +9,13 @@
   activate("RCAD_ASCO")
   Send, {Enter}
 
+  ; 建立 PMM
   startDialog()
+  waitForDesign()
+  exitDialog()
+
+  ; 計算
+  startDialog()
+  waitForDesign()
+  exitDialog()
 }
