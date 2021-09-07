@@ -13,6 +13,6 @@
 
   activate("RCAD_ASCO")
   Send, {Enter}
-  Send, {Right}
-  Send, {Enter}
+
+  startDialog()
 }
