@@ -7,5 +7,6 @@
   },
   "[log]": {
     "files.autoGuessEncoding": true
-  }
+  },
+  "cSpell.words": ["autohotkey"]
 }
