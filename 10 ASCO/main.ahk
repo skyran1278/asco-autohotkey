@@ -20,8 +20,14 @@ env := "production"
   designAllColumn()
 
   If (env = "production") {
-    Sleep, 1000
-    completeDesignColumn()
+    Sleep, 2000
+
+    exitDialog()
+
+    startDialog()
+    Sleep, 2000
+
+    exitDialog()
   }
 
   showExecutionTime(startTime, A_TickCount)
@@ -39,8 +45,14 @@ Return
   designAllColumn()
 
   If (env = "production") {
-    Sleep, 7000
-    completeDesignColumn()
+    Sleep, 6000
+
+    exitDialog()
+
+    startDialog()
+    Sleep, 2000
+
+    exitDialog()
   }
 
   showExecutionTime(startTime, A_TickCount)
@@ -56,6 +68,22 @@ Return
   openASCO(filePath)
 
   designAllColumn()
+
+  If (env = "production") {
+    Sleep, 7000
+
+    exitDialog()
+
+    startDialog()
+    Sleep, 2000
+
+    Send, {Enter}
+    Sleep, 1000
+    Send, {Enter}
+    Sleep, 2000
+
+    exitDialog()
+  }
 
   showExecutionTime(startTime, A_TickCount)
 Return

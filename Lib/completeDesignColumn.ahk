@@ -1,4 +1,5 @@
-﻿completeDesignColumn() {
+﻿; @Deprecated
+completeDesignColumn() {
   Sleep, 2000
 
   Send, {Tab}
