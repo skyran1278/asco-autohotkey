@@ -1,5 +1,4 @@
-﻿; @Deprecated use poenASCOFile instead
-openASCO(filePath) {
+﻿openASCOFile(filePath) {
   activateOrExit("RCAD_ASCO")
   Send, ^o ; 開啟舊檔
   Sleep, 1000
