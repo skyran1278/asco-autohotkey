@@ -9,6 +9,7 @@ CoordMode, Mouse, Client
 env := "production"
 
 !1::
+  ; 018 支柱
   startTime := A_TickCount
 
   filePath := A_ScriptDir . "\2021-0427 頂匠計算書\test\01 Justin\2021-0714 計算書.ASCO"
@@ -19,21 +20,11 @@ env := "production"
 
   designAllColumn()
 
-  If (env = "production") {
-    Sleep, 2000
-
-    exitDialog()
-
-    startDialog()
-    Sleep, 2000
-
-    exitDialog()
-  }
-
   showExecutionTime(startTime, A_TickCount)
 Return
 
 !2::
+  ; 132 支柱
   startTime := A_TickCount
 
   filePath := A_ScriptDir . "\2021-0427 頂匠計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
@@ -44,21 +35,11 @@ Return
 
   designAllColumn()
 
-  If (env = "production") {
-    Sleep, 6000
-
-    exitDialog()
-
-    startDialog()
-    Sleep, 2000
-
-    exitDialog()
-  }
-
   showExecutionTime(startTime, A_TickCount)
 Return
 
 !3::
+  ; 240 支柱
   startTime := A_TickCount
 
   filePath := A_WorkingDir . "\2021-0811 強柱弱梁不該考慮懸挑梁\col-3F-C18.ASCO"
@@ -69,27 +50,38 @@ Return
 
   designAllColumn()
 
-  If (env = "production") {
-    Sleep, 7000
+  showExecutionTime(startTime, A_TickCount)
+Return
 
-    exitDialog()
+!4::
+  ; 455 支柱
+  startTime := A_TickCount
 
-    startDialog()
-    Sleep, 2000
+  filePath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ASCO"
+  iniPath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ini"
 
-    Send, {Enter}
-    Sleep, 1000
-    Send, {Enter}
-    Sleep, 2000
+  logInASCO(iniPath)
+  openASCO(filePath)
 
-    exitDialog()
-  }
+  designAllColumn()
 
   showExecutionTime(startTime, A_TickCount)
 Return
 
 !t::
-  MsgBox, % A_ScreenDPI
+  ControlClick, 是(&Y), ahk_exe RCAD_ASCO.exe
+  startDialog()
+  waitForDesign()
+  exitDialog()
+  ; ControlGetText, OutputVar , Button2, ahk_exe RCAD_ASCO.exe
+  ; MsgBox, Control with focus = %exitOrAbort%
+  ; ControlGet, OutputVar, List, Focused,,ahk_exe RCAD_ASCO.exe
+  ; ControlGetFocus, OutputVar, Untitled - Notepad
+  ; if ErrorLevel
+  ; MsgBox, The target window doesn't exist or none of its controls has input focus.
+  ; else
+  ; MsgBox, Control with focus = %OutputVar%
+  ; ControlSend, Button2, {Enter}, ahk_exe RCAD_ASCO.exe
 Return
 
 #Include, %A_ScriptDir%\Lib\ASCOShortcut.ahk
