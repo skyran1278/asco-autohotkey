@@ -3,7 +3,8 @@
   Send, !c
   activateOrExit("RCAD_ASCO")
   Send, {Down 7}
-  activateOrExit("RCAD_ASCO")
+  ; 這裡不能 active 否則有時候點不到
+  ; activateOrExit("RCAD_ASCO")
   Send, {Enter}
 
   activate("RCAD_ASCO")
@@ -12,8 +13,6 @@
 
   activate("RCAD_ASCO")
   Send, {Enter}
-  activate("RCAD_ASCO")
-  Send, {Right}
-  activate("RCAD_ASCO")
-  Send, {Enter}
+
+  startDialog()
 }

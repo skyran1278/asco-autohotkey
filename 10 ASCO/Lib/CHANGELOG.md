@@ -13,6 +13,22 @@ Types of changes
 
 ## [Unreleased]
 
+## [2.4.0] - 2021-09-07
+
+### ADDED
+
+- 退出 Dialog (exitDialog)
+- 開始 Dialog (startDialog)
+
+### FIXED
+
+- 修正全棟計算有時候點不到的問題
+- 修正重新啟動 Visual Studio 有時候沒有啟動的問題
+
+### DEPRECATED
+
+- completeDesignColumn
+
 ## [2.3.0] - 2021-08-24
 
 ### ADDED
