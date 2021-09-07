@@ -59,11 +59,6 @@ Return
   }
   designSingleColumnByGeometry(columnCoordinate)
 
-  If (env = "production") {
-    Sleep, 3000
-    completeDesignColumn()
-  }
-
   showExecutionTime(startTime, A_TickCount)
 Return
 

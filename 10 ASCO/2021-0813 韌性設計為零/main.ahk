@@ -29,11 +29,6 @@ env := "dev"
   }
   ; designSingleColumnByDraw(columnCoordinate)
 
-  If (env = "production") {
-    Sleep, 1000
-    completeDesignColumn()
-  }
-
   showExecutionTime(startTime, A_TickCount)
 Return
 

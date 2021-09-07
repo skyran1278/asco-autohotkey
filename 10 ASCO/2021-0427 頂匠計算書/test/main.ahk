@@ -101,11 +101,6 @@ Return
 
   designAllColumn()
 
-  If (env = "production") {
-    Sleep, 1000
-    completeDesignColumn()
-  }
-
   showExecutionTime(startTime, A_TickCount)
 Return
 
@@ -119,11 +114,6 @@ Return
   openASCO(filePath)
 
   designAllColumn()
-
-  If (env = "production") {
-    Sleep, 6000
-    completeDesignColumn()
-  }
 
   showExecutionTime(startTime, A_TickCount)
 Return
