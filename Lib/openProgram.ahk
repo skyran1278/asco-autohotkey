@@ -1,4 +1,5 @@
-﻿openProgram(workingDir, programName) {
+﻿; 適用於 RCAD_ASCO, RCAD_Building, ...
+openProgram(workingDir, programName) {
   If (env = "production") {
     Run, % workingDir . "\" programName . ".exe", % workingDir
   } Else {
