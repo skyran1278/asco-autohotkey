@@ -53,19 +53,12 @@ global env := "production"
 Return
 
 !t::
-  ControlClick, 是(&Y), ahk_exe RCAD_ASCO.exe
-  startDialog()
-  waitForDesign()
-  exitDialog()
-  ; ControlGetText, OutputVar , Button2, ahk_exe RCAD_ASCO.exe
-  ; MsgBox, Control with focus = %exitOrAbort%
-  ; ControlGet, OutputVar, List, Focused,,ahk_exe RCAD_ASCO.exe
-  ; ControlGetFocus, OutputVar, Untitled - Notepad
-  ; if ErrorLevel
-  ; MsgBox, The target window doesn't exist or none of its controls has input focus.
-  ; else
-  ; MsgBox, Control with focus = %OutputVar%
-  ; ControlSend, Button2, {Enter}, ahk_exe RCAD_ASCO.exe
+  restartASCO()
+  filePath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ASCO"
+  iniPath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllColumn()
 Return
 
 !q::
@@ -73,7 +66,7 @@ Return
 Return
 
 !w::
-  closeProgram("notepad")
+  closeApp("notepad")
 Return
 
 !e::ExitApp
