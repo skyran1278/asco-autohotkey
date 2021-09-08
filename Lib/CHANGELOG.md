@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/skyran1278/autohotkey/compare/v2.6.0...v3.0.0) (2021-09-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* 將 restartProgram 整合 dev and production
+
+### Features
+
+* 將 restartProgram 整合 dev and production ([3fa2254](https://github.com/skyran1278/autohotkey/commit/3fa225433670ca16f6c80fa29eefaec8c70394ac))
+* 整合所有的流程到同一個 shortcut ([68dd295](https://github.com/skyran1278/autohotkey/commit/68dd2957c1f3c57cbe03f86bc6b24fe129618378))
+
 ## 2.6.0 (2021-09-07)
 
 ### Features
