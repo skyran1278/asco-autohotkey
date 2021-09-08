@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ⚠ BREAKING CHANGES
 
-* 將 restartProgram 整合 dev and production
+* 將 restartProgram 整合 dev and production，傳入的變數與先前的不一致
 
 ### Features
 
