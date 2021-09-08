@@ -19,7 +19,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 * migrate to standard-version to auto generate CHANGELOG ([c76dee5](https://github.com/skyran1278/autohotkey/commit/c76dee5346c87cdeacee433a3af7492d27b0c9af))
 
-## Before 3.0.0 Changelog
+## Before 2.6.0 Changelog
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 We follow [Semantic Versioning](https://semver.org/).
