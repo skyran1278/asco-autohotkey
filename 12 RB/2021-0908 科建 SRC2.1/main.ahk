@@ -9,8 +9,6 @@ CoordMode, Mouse, Client
 global env := "dev"
 
 !1::
-  closeApp("notepad")
-
   startTime := A_TickCount
 
   iniPath := A_ScriptDir . "\2021-0908 科建 SRC2.1.ini"
@@ -21,6 +19,8 @@ global env := "dev"
   logInRB(iniPath)
   openRBFile(filePath)
 
+  Sleep, 3000
+
   If (A_ScreenDPI = 96) {
     columnCoordinate := {x: 200, y: 160}
   }
@@ -30,6 +30,7 @@ global env := "dev"
   Send, {Down 3}
   Send, {Enter}
   Send, {Down}
+  Sleep, 1000
   Send, {Enter}
 
   Sleep, 3000
@@ -46,6 +47,7 @@ global env := "dev"
   Send, {enter}
   Send, {enter}
 
+  closeApp("notepad")
   WinWaitActive % "ahk_exe " . "notepad" . ".exe",, 20
 
   activateOrExit("RCAD_Building")
@@ -59,6 +61,42 @@ global env := "dev"
   Send, {enter}
   Send, {enter}
   Sleep, 1000
+
+  showExecutionTime(startTime, A_TickCount)
+Return
+
+!2::
+  startTime := A_TickCount
+
+  iniPath := A_ScriptDir . "\2021-0908 科建 SRC2.1.ini"
+  filePath := A_ScriptDir . "\02 關閉不需要的圖層 完成.rb"
+
+  logInRB(iniPath)
+  openRBFile(filePath)
+
+  showExecutionTime(startTime, A_TickCount)
+Return
+
+!3::
+  startTime := A_TickCount
+
+  iniPath := A_ScriptDir . "\2021-0908 科建 SRC2.1.ini"
+  filePath := A_ScriptDir . "\03 模型辨識 完成.rb"
+
+  logInRB(iniPath)
+  openRBFile(filePath)
+
+  showExecutionTime(startTime, A_TickCount)
+Return
+
+!5::
+  startTime := A_TickCount
+
+  iniPath := A_ScriptDir . "\2021-0908 科建 SRC2.1.ini"
+  filePath := A_ScriptDir . "\05 排列鋼筋位置 完成.rb"
+
+  logInRB(iniPath)
+  openRBFile(filePath)
 
   showExecutionTime(startTime, A_TickCount)
 Return
