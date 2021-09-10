@@ -11,8 +11,8 @@ global env := "dev"
 !1::
   startTime := A_TickCount
 
-  iniPath := A_ScriptDir . "\2021-0908 科建 SRC2.1.ini"
-  filePath := A_ScriptDir . "\01 空檔.rb"
+  iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
+  filePath := A_ScriptDir . "\00 空檔.rb"
   excelPath := A_ScriptDir . "\00 Input\inp-05-科建聯合 SRC 柱配筋 (需微調成 SRC.2.1 格式).xlsx"
   dwgPath := A_ScriptDir . "\00 Input\結構平面圖 (需增加對位點).dwg"
 
@@ -68,7 +68,7 @@ Return
 !2::
   startTime := A_TickCount
 
-  iniPath := A_ScriptDir . "\2021-0908 科建 SRC2.1.ini"
+  iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
   filePath := A_ScriptDir . "\02 關閉不需要的圖層 完成.rb"
 
   logInRB(iniPath)
@@ -80,8 +80,20 @@ Return
 !3::
   startTime := A_TickCount
 
-  iniPath := A_ScriptDir . "\2021-0908 科建 SRC2.1.ini"
+  iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
   filePath := A_ScriptDir . "\03 模型辨識 完成.rb"
+
+  logInRB(iniPath)
+  openRBFile(filePath)
+
+  showExecutionTime(startTime, A_TickCount)
+Return
+
+!4::
+  startTime := A_TickCount
+
+  iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
+  filePath := A_ScriptDir . "\04 梁自動截齊 完成.rb"
 
   logInRB(iniPath)
   openRBFile(filePath)
@@ -92,7 +104,7 @@ Return
 !5::
   startTime := A_TickCount
 
-  iniPath := A_ScriptDir . "\2021-0908 科建 SRC2.1.ini"
+  iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
   filePath := A_ScriptDir . "\05 排列鋼筋位置 完成.rb"
 
   logInRB(iniPath)
