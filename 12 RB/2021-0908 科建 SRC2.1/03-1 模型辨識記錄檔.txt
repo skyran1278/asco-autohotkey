@@ -1,0 +1,416 @@
+
+select object count: 5175
+select string count: 1678
+select loop count: 1174
+valid name count: 18
+success pair name count: 18
+success pair alignment count: 18
+19F 13F 1F 21F 20F 15~18F 14F 11F 10F 9+12F 8F 7F 6F 4F 3F 2F 1MF 5F
+
+
+Start vision 19F...
+
+
+select object count: 312
+select string count: 100
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C13 A_C9 A_C12 A_C6 A_C3 A_C4 A_C5 A_C8 A_C10 A_C2 A_C14 A_C1 A_C15 A_C11 A_C7 A_C16
+
+select object count: 312
+select string count: 100
+select line count: 212
+valid name count: 68
+success pair name count: 68
+SCG4 SCG2 SCG4 SCG2 B_SB3 A_SB3 A_SG11 B_SB8 B_SG11 A_SG12 B_SG12 B_SB1 A_SB1 A_SG13 B_SG13 A_SB8 B_SB10 B_SB12 B_SB11 A_SG8 A_SG3 A_SG2 A_SG9 A_SG6 A_SG7 B_SG9 B_SG8 B_SG3 B_SG7 B_SG6 B_SG2 B_SB6 B_SB5 B_SB4 B_SB2 B_SB9 A_SB6 A_SB5 A_SB4 A_SB11 A_SB10 A_SB9 A_SB2 A_SB12 B_SB7 A_SB7 A_SG10 B_SG10 A_SG5 B_SG5 A_SG4a B_SG4a B_SB10 B_SB11 B_SB12 A_SG1a B_SG1a SCG4 SCG2 SCG4 SCG2 B_SB13 A_SB13 SCG1 SCG1 SCG1 SCG1 A_SB11
+
+Not be yield, cause of duplicate or other problem:
+B_SB10 B_SB12 B_SB11 B_SB10 B_SB11 B_SB12
+
+
+Start vision 13F...
+
+
+select object count: 270
+select string count: 88
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C13 A_C3 A_C6 A_C12 A_C9 A_C5 A_C10 A_C4 A_C2 A_C8 A_C14 A_C11 A_C1 A_C15 A_C7 A_C16
+
+select object count: 270
+select string count: 88
+select line count: 182
+valid name count: 56
+success pair name count: 56
+A_SB8 B_SB8 A_SG12 B_SG12 A_SG3 A_SG2 A_SG8 A_SG7 A_SG6 A_SG11 A_SB9 A_SB2 A_SB6 A_SB12 A_SB11 A_SB5 A_SB4 A_SB10 A_SB3 B_SG8 B_SB12 B_SB2 B_SG3 B_SB11 B_SB5 B_SG7 B_SB6 B_SB4 B_SG6 B_SB9 B_SG2 B_SB10 B_SG11 B_SB3 A_SG10 B_SG10 A_SB1 B_SB1 A_SG9 B_SG9 A_SG13 B_SG13 A_SB7 B_SB7 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13
+
+
+Start vision 1F...
+
+
+select object count: 234
+select string count: 79
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C16 A_C6 A_C9 A_C3 A_C7 A_C8 A_C5 A_C14 A_C15 A_C11 A_C10 A_C1 A_C4 A_C12 A_C2 A_C13
+
+select object count: 234
+select string count: 79
+select line count: 155
+valid name count: 43
+success pair name count: 43
+A_SG11 B_SB6 B_SB7 B_SB9 B_SB1 B_SB3 A_SG12 B_SG12 A_SG10 B_SG10 A_SB6 A_SB9 A_SB1 A_SB3 B_SB8 A_SB8 B_SB2 A_SB2 A_SG6 B_SB10 B_SG6 A_SB14 A_SG2 B_SB5 B_SG2 B_SB4 B_SB11 A_SG3 A_SB5 B_SG3 A_SB4 A_SB11 B_SB12 A_SB12 A_SG13 A_SG5 A_SB13 A_SG14 B_SB13 A_SG4a B_SG4a A_SG1a B_SG1a
+
+
+Start vision 21F...
+
+
+select object count: 270
+select string count: 88
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C6 A_C12 A_C3 A_C9 A_C4 A_C5 A_C8 A_C13 A_C10 A_C2 A_C1 A_C15 A_C14 A_C16 A_C11 A_C7
+
+select object count: 270
+select string count: 88
+select line count: 182
+valid name count: 56
+success pair name count: 56
+B_SB3 A_SB3 A_SG11 B_SB8 B_SG11 A_SG12 B_SG12 B_SB1 A_SB1 A_SG13 B_SG13 A_SB8 A_SG8 A_SG3 A_SG2 A_SG9 A_SG7 A_SG6 B_SG2 B_SG8 B_SG3 B_SG7 B_SG9 B_SG6 B_SB11 B_SB10 B_SB9 B_SB2 B_SB6 B_SB5 B_SB4 B_SB12 A_SB11 A_SB10 A_SB9 A_SB2 A_SB6 A_SB5 A_SB4 A_SB12 B_SB7 A_SB7 A_SG10 B_SG10 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13
+
+
+Start vision 20F...
+
+
+select object count: 288
+select string count: 94
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C6 A_C12 A_C3 A_C9 A_C4 A_C5 A_C8 A_C10 A_C13 A_C2 A_C1 A_C15 A_C14 A_C16 A_C11 A_C7
+
+select object count: 288
+select string count: 94
+select line count: 194
+valid name count: 60
+success pair name count: 60
+B_SB3 A_SB3 A_SG11 B_SB8 B_SG11 A_SG12 B_SG12 B_SB1 A_SB1 A_SG13 B_SG13 A_SB8 A_SG8 A_SG3 A_SG2 A_SG9 A_SG7 A_SG6 B_SG2 B_SG9 B_SG8 B_SG3 B_SG7 B_SG6 B_SB11 B_SB10 B_SB9 B_SB2 B_SB6 B_SB5 B_SB4 B_SB12 A_SB11 A_SB10 A_SB9 A_SB2 A_SB6 A_SB5 A_SB4 A_SB12 B_SB7 A_SB7 A_SG10 B_SG10 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG4 SCG4 SCG1 SCG1 SCG1 SCG1 SCG4 SCG4 B_SB13 A_SB13
+
+
+Start vision 18F...
+
+
+select object count: 270
+select string count: 88
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C13 A_C9 A_C12 A_C6 A_C3 A_C4 A_C5 A_C8 A_C10 A_C2 A_C14 A_C1 A_C15 A_C11 A_C7 A_C16
+
+select object count: 270
+select string count: 88
+select line count: 182
+valid name count: 56
+success pair name count: 56
+A_SB8 B_SB8 A_SG12 B_SG12 A_SG3 A_SG2 A_SG8 A_SG7 A_SG6 A_SG11 A_SB2 A_SB6 A_SB9 A_SB11 A_SB12 A_SB4 A_SB10 A_SB5 A_SB3 B_SB9 B_SG2 B_SB2 B_SB6 B_SG3 B_SB12 B_SB5 B_SG8 B_SG7 B_SB11 B_SG11 B_SB4 B_SB10 B_SG6 B_SB3 A_SG10 B_SG10 A_SB1 B_SB1 A_SG9 B_SG9 A_SG13 B_SG13 A_SB7 B_SB7 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13
+
+
+Start vision 17F...
+
+
+select object count: 270
+select string count: 88
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C13 A_C9 A_C12 A_C6 A_C3 A_C4 A_C5 A_C8 A_C10 A_C2 A_C14 A_C1 A_C15 A_C11 A_C7 A_C16
+
+select object count: 270
+select string count: 88
+select line count: 182
+valid name count: 56
+success pair name count: 56
+A_SB8 B_SB8 A_SG12 B_SG12 A_SG3 A_SG2 A_SG8 A_SG7 A_SG6 A_SG11 A_SB9 A_SB2 A_SB6 A_SB12 A_SB11 A_SB5 A_SB4 A_SB10 A_SB3 B_SB2 B_SG8 B_SG2 B_SG3 B_SB6 B_SB12 B_SB5 B_SG7 B_SB11 B_SB9 B_SG11 B_SG6 B_SB10 B_SB4 B_SB3 A_SG10 B_SG10 A_SB1 B_SB1 A_SG9 B_SG9 A_SG13 B_SG13 A_SB7 B_SB7 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13
+
+
+Start vision 16F...
+
+
+select object count: 270
+select string count: 88
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C13 A_C9 A_C12 A_C6 A_C3 A_C4 A_C5 A_C8 A_C10 A_C2 A_C14 A_C1 A_C15 A_C11 A_C7 A_C16
+
+select object count: 270
+select string count: 88
+select line count: 182
+valid name count: 56
+success pair name count: 56
+A_SB8 B_SB8 A_SG12 B_SG12 A_SG3 A_SG2 A_SG8 A_SG7 A_SG6 A_SG11 A_SB9 A_SB2 A_SB6 A_SB12 A_SB11 A_SB5 A_SB4 A_SB10 A_SB3 B_SB2 B_SG8 B_SG2 B_SG3 B_SB6 B_SB12 B_SB5 B_SG7 B_SB11 B_SB9 B_SG11 B_SG6 B_SB10 B_SB4 B_SB3 A_SG10 B_SG10 A_SB1 B_SB1 A_SG9 B_SG9 A_SG13 B_SG13 A_SB7 B_SB7 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13
+
+
+Start vision 15F...
+
+
+select object count: 270
+select string count: 88
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C13 A_C9 A_C12 A_C6 A_C3 A_C4 A_C5 A_C8 A_C10 A_C2 A_C14 A_C1 A_C15 A_C11 A_C7 A_C16
+
+select object count: 270
+select string count: 88
+select line count: 182
+valid name count: 56
+success pair name count: 56
+A_SB8 B_SB8 A_SG12 B_SG12 A_SG3 A_SG2 A_SG8 A_SG7 A_SG6 A_SG11 A_SB9 A_SB2 A_SB6 A_SB12 A_SB11 A_SB5 A_SB4 A_SB10 A_SB3 B_SB2 B_SG8 B_SG2 B_SG3 B_SB6 B_SB12 B_SB5 B_SG7 B_SB11 B_SB9 B_SG11 B_SG6 B_SB10 B_SB4 B_SB3 A_SG10 B_SG10 A_SB1 B_SB1 A_SG9 B_SG9 A_SG13 B_SG13 A_SB7 B_SB7 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13
+
+
+Start vision 14F...
+
+
+select object count: 270
+select string count: 88
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C13 A_C12 A_C6 A_C3 A_C9 A_C4 A_C5 A_C8 A_C10 A_C2 A_C14 A_C1 A_C15 A_C11 A_C7 A_C16
+
+select object count: 270
+select string count: 88
+select line count: 182
+valid name count: 56
+success pair name count: 56
+A_SB8 B_SB8 A_SG12 B_SG12 A_SG2 A_SG8 A_SG6 A_SG7 A_SG3 A_SG11 A_SB6 A_SB2 A_SB9 A_SB12 A_SB11 A_SB4 A_SB10 A_SB5 A_SB3 B_SB2 B_SG3 B_SG2 B_SB6 B_SB9 B_SB12 B_SB11 B_SG7 B_SG8 B_SB4 B_SB5 B_SG6 B_SB10 B_SG11 B_SB3 A_SG10 B_SG10 A_SB1 B_SB1 A_SG9 B_SG9 A_SG13 B_SG13 A_SB7 B_SB7 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13
+
+
+Start vision 11F...
+
+
+select object count: 270
+select string count: 88
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C13 A_C3 A_C6 A_C12 A_C9 A_C5 A_C10 A_C4 A_C2 A_C8 A_C14 A_C11 A_C1 A_C15 A_C7 A_C16
+
+select object count: 270
+select string count: 88
+select line count: 182
+valid name count: 56
+success pair name count: 56
+A_SB8 B_SB8 A_SG12 B_SG12 A_SB3 A_SB6 A_SB9 B_SB3 B_SB6 B_SB9 A_SB12 B_SB12 A_SB5 A_SB2 A_SB11 B_SB5 B_SB2 B_SB11 A_SB4 A_SB10 B_SB4 B_SB10 A_SG7 B_SG7 A_SG2 A_SG11 A_SG8 A_SG3 A_SG6 B_SG2 B_SG11 B_SG8 B_SG3 B_SG6 A_SG10 B_SG10 A_SB1 B_SB1 A_SG9 B_SG9 A_SB7 B_SB7 A_SG13 B_SG13 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13
+
+
+Start vision 10F...
+
+
+select object count: 286
+select string count: 92
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C3 A_C12 A_C6 A_C13 A_C9 A_C5 A_C10 A_C4 A_C2 A_C8 A_C14 A_C11 A_C1 A_C15 A_C7 A_C16
+
+select object count: 286
+select string count: 92
+select line count: 194
+valid name count: 60
+success pair name count: 60
+A_SB8 B_SB8 A_SG12 B_SG12 A_SB3 A_SB6 A_SB9 B_SB3 B_SB6 B_SB9 A_SB12 B_SB12 A_SB5 A_SB2 A_SB11 B_SB5 B_SB2 B_SB11 A_SB4 A_SB10 B_SB4 B_SB10 A_SG7 B_SG7 A_SG2 A_SG11 A_SG8 A_SG3 A_SG6 B_SG2 B_SG11 B_SG8 B_SG3 B_SG6 A_SG10 B_SG10 A_SB1 B_SB1 A_SG9 B_SG9 A_SB7 B_SB7 A_SG13 B_SG13 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG3 SCG3 SCG3 SCG3 SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13
+
+
+Start vision 9F...
+
+
+select object count: 295
+select string count: 95
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C13 A_C3 A_C6 A_C12 A_C9 A_C5 A_C10 A_C4 A_C2 A_C8 A_C14 A_C11 A_C1 A_C15 A_C7 A_C16
+
+select object count: 295
+select string count: 95
+select line count: 200
+valid name count: 63
+success pair name count: 63
+A_SB8 B_SB8 A_SG12 B_SG12 A_SB3 A_SB6 A_SB9 B_SB3 B_SB6 B_SB9 A_SB12 B_SB12 A_SB5 A_SB2 A_SB11 B_SB5 B_SB2 B_SB11 A_SB4 A_SB10 B_SB4 B_SB10 A_SG7 B_SG7 A_SG2 A_SG11 A_SG8 A_SG3 A_SG6 B_SG2 B_SG11 B_SG8 B_SG3 B_SG6 A_SG10 B_SG10 A_SB1 B_SB1 A_SG9 B_SG9 A_SB7 B_SB7 A_SG13 B_SG13 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG3 SCG3 SCG3 SCG3 SCG3 SCG3 SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13 B_SG10
+
+Not be yield, cause of duplicate or other problem:
+B_SG10
+
+
+Start vision 12F...
+
+
+select object count: 295
+select string count: 95
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C13 A_C3 A_C6 A_C12 A_C9 A_C5 A_C10 A_C4 A_C2 A_C8 A_C14 A_C11 A_C1 A_C15 A_C7 A_C16
+
+select object count: 295
+select string count: 95
+select line count: 200
+valid name count: 63
+success pair name count: 63
+A_SB8 B_SB8 A_SG12 B_SG12 A_SB3 A_SB6 A_SB9 B_SB3 B_SB6 B_SB9 A_SB12 B_SB12 A_SB5 A_SB2 A_SB11 B_SB5 B_SB2 B_SB11 A_SB4 A_SB10 B_SB4 B_SB10 A_SG7 B_SG7 A_SG2 A_SG11 A_SG8 A_SG3 A_SG6 B_SG2 B_SG11 B_SG8 B_SG3 B_SG6 A_SG10 B_SG10 A_SB1 B_SB1 A_SG9 B_SG9 A_SB7 B_SB7 A_SG13 B_SG13 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG3 SCG3 SCG3 SCG3 SCG3 SCG3 SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13 B_SG10
+
+Not be yield, cause of duplicate or other problem:
+B_SG10
+
+
+Start vision 8F...
+
+
+select object count: 270
+select string count: 88
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C3 A_C12 A_C6 A_C10 A_C9 A_C5 A_C13 A_C4 A_C2 A_C8 A_C14 A_C11 A_C1 A_C15 A_C7 A_C16
+
+select object count: 270
+select string count: 88
+select line count: 182
+valid name count: 56
+success pair name count: 56
+A_SB8 B_SB8 A_SG12 B_SG12 A_SB3 A_SB6 A_SB9 B_SB3 B_SB6 B_SB9 A_SB12 B_SB12 A_SB5 A_SB2 A_SB11 B_SB5 B_SB2 B_SB11 A_SB4 A_SB10 B_SB4 B_SB10 A_SG7 B_SG7 A_SG2 A_SG11 A_SG8 A_SG3 A_SG6 B_SG2 B_SG11 B_SG8 B_SG3 B_SG6 A_SG10 B_SG10 A_SB1 B_SB1 A_SG9 B_SG9 A_SB7 B_SB7 A_SG13 B_SG13 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13
+
+
+Start vision 7F...
+
+
+select object count: 286
+select string count: 92
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C14 A_C15 A_C16 A_C10 A_C12 A_C11 A_C7 A_C6 A_C3 A_C1 A_C5 A_C9 A_C13 A_C4 A_C2 A_C8
+
+select object count: 286
+select string count: 92
+select line count: 194
+valid name count: 60
+success pair name count: 60
+B_SB8 A_SB8 B_SG12 A_SG12 B_SB3 B_SB6 B_SB9 B_SB12 A_SB3 A_SB6 A_SB9 A_SB12 B_SB5 B_SB2 B_SB11 A_SB5 A_SB2 A_SB11 B_SB4 B_SB10 A_SB4 A_SB10 B_SG7 B_SG2 B_SG11 B_SG8 B_SG3 B_SG6 A_SG7 A_SG2 A_SG11 A_SG8 A_SG3 A_SG6 B_SG10 A_SG10 B_SB1 A_SB1 B_SG9 A_SG9 B_SB7 A_SB7 B_SG13 A_SG13 B_SG5 A_SG5 B_SG4a A_SG4a A_SG1a B_SG1a SCG2 SCG2 SCG2 SCG2 SCG1 SCG1 SCG1 SCG1 A_SB13 B_SB13
+
+
+Start vision 6F...
+
+
+select object count: 286
+select string count: 92
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C14 A_C15 A_C16 A_C10 A_C12 A_C11 A_C7 A_C6 A_C3 A_C13 A_C5 A_C1 A_C9 A_C4 A_C2 A_C8
+
+select object count: 286
+select string count: 92
+select line count: 194
+valid name count: 60
+success pair name count: 60
+B_SB8 A_SB8 B_SG12 A_SG12 B_SB3 B_SB6 B_SB9 B_SB12 A_SB3 A_SB6 A_SB9 A_SB12 B_SB5 B_SB2 B_SB11 A_SB5 A_SB2 A_SB11 B_SB4 B_SB10 A_SB4 A_SB10 B_SG7 B_SG2 B_SG11 B_SG8 B_SG3 B_SG6 A_SG7 A_SG2 A_SG11 A_SG8 A_SG3 A_SG6 B_SG10 A_SG10 B_SB1 A_SB1 B_SG9 A_SG9 B_SB7 A_SB7 B_SG13 A_SG13 B_SG5 A_SG5 B_SG4a A_SG4a B_SG1a A_SG1a SCG2 SCG2 SCG2 SCG2 SCG1 SCG1 SCG1 SCG1 A_SB13 B_SB13
+
+
+Start vision 4F...
+
+
+select object count: 270
+select string count: 88
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C14 A_C15 A_C16 A_C7 A_C12 A_C11 A_C10 A_C6 A_C3 A_C13 A_C1 A_C9 A_C5 A_C4 A_C2 A_C8
+
+select object count: 270
+select string count: 88
+select line count: 182
+valid name count: 56
+success pair name count: 56
+B_SB8 A_SB8 A_SG12 B_SG12 A_SG2 A_SG8 A_SG7 A_SG6 A_SG3 A_SG11 B_SB2 B_SB6 B_SB12 B_SB11 B_SB9 B_SB5 B_SB4 B_SB10 B_SB3 A_SB6 A_SB9 A_SB2 A_SB12 A_SB11 A_SB10 A_SB4 A_SB5 A_SB3 B_SG3 B_SG2 B_SG8 B_SG7 B_SG6 B_SG11 A_SG10 B_SG10 B_SB1 A_SB1 A_SG9 B_SG9 A_SG13 B_SG13 B_SB7 A_SB7 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13
+
+
+Start vision 3F...
+
+
+select object count: 270
+select string count: 88
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C14 A_C15 A_C16 A_C7 A_C12 A_C11 A_C10 A_C6 A_C3 A_C13 A_C1 A_C9 A_C5 A_C4 A_C2 A_C8
+
+select object count: 270
+select string count: 88
+select line count: 182
+valid name count: 56
+success pair name count: 56
+B_SB8 A_SB8 A_SG12 B_SG12 A_SG2 A_SG8 A_SG7 A_SG6 A_SG3 A_SG11 B_SB2 B_SB5 B_SB12 B_SB6 B_SB9 B_SB11 B_SB10 B_SB4 B_SB3 A_SB6 A_SB9 A_SB2 A_SB12 A_SB11 A_SB10 A_SB4 A_SB5 A_SB3 B_SG3 B_SG2 B_SG8 B_SG7 B_SG6 B_SG11 A_SG10 B_SG10 B_SB1 A_SB1 A_SG9 B_SG9 A_SG13 B_SG13 B_SB7 A_SB7 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG1 SCG1 SCG1 SCG1 B_SB13 A_SB13
+
+
+Start vision 2F...
+
+
+select object count: 318
+select string count: 100
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C14 A_C1 A_C15 A_C9 A_C16 A_C13 A_C12 A_C11 A_C10 A_C3 A_C7 A_C6 A_C5 A_C4 A_C2 A_C8
+
+select object count: 318
+select string count: 100
+select line count: 218
+valid name count: 68
+success pair name count: 68
+B_SB8 A_SB8 A_SG12 B_SG12 A_SG3 A_SG2 A_SG8 A_SG7 A_SG6 A_SG11 B_SB6 B_SB5 B_SB11 B_SB9 B_SB12 B_SB2 B_SB10 B_SB4 B_SB3 A_SB6 A_SB9 A_SB2 A_SB12 A_SB11 A_SB10 A_SB4 A_SB5 A_SB3 B_SG7 B_SG3 B_SG2 B_SG8 B_SG11 B_SG6 A_SG10 B_SG10 B_SB1 A_SB1 A_SG9 B_SG9 A_SG13 B_SG13 B_SB7 A_SB7 A_SG5 B_SG5 A_SG4a B_SG4a A_SG1a B_SG1a SCG4 SCG4 SCG3 SCG3 SCG1 SCG1 SCG2 SCG2 SCG2 SCG3 SCG2 SCG3 SCG1 SCG1 SCG4 SCG4 B_SB13 A_SB13
+
+
+Start vision 1MF...
+
+
+select object count: 374
+select string count: 119
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C14 A_C5 A_C15 A_C3 A_C6 A_C11 A_C12 A_C7 A_C16 A_C10 A_C13 A_C9 A_C1 A_C4 A_C2 A_C8
+
+select object count: 374
+select string count: 119
+select line count: 255
+valid name count: 83
+success pair name count: 83
+B_SB2 A_SB2 B_SB6 A_SB6 A_SB7 B_SB7 A_SG11 B_SG11 B_SB9 A_SB9 B_SB1 A_SB1 A_SB3 B_SB3 B_SG12 A_SG12 B_SG10 A_SG10 B_SB8 A_SB8 B_SG7 A_SG7 B_SB10 A_SB10 B_SG6 A_SG9 B_SG9 A_SG6 A_SB14 B_SG8 A_SG8 A_SB5 B_SB5 A_SG2 B_SG2 B_SB4 A_SB4 A_SB11 B_SB11 A_SG13 B_SG13 A_SG3 B_SG3 B_SB12 A_SB12 A_SG13 A_SG5 B_SG5 A_SB13 A_SG14 B_SB13 A_SG4a B_SG4a A_SG1a B_SG1a SCG2 SCG2 SCG4 SCG1 SCG3 SCG3 SCG3 SCG3 SCG3 SCG4 SCG3 SCG2 SCG2 SCG4 SCG2 SCG2 SCG4 SCG4 SCG3 SCG4 SCG4 SCG4 SCG4 SCG4 SCG3 SCG3 SCG3 SCG4
+
+Not be yield, cause of duplicate or other problem:
+SCG4
+
+
+Start vision 5F...
+
+
+select object count: 270
+select string count: 88
+select loop count: 64
+valid name count: 16
+success pair name count: 16
+A_C14 A_C15 A_C16 A_C7 A_C12 A_C11 A_C10 A_C6 A_C3 A_C13 A_C1 A_C9 A_C5 A_C4 A_C2 A_C8
+
+select object count: 270
+select string count: 88
+select line count: 182
+valid name count: 56
+success pair name count: 56
+B_SB8 A_SB8 B_SG12 A_SG12 B_SB3 B_SB6 B_SB9 B_SB12 A_SB3 A_SB6 A_SB9 A_SB12 B_SB5 B_SB2 B_SB11 A_SB5 A_SB2 A_SB11 B_SB4 B_SB10 A_SB4 A_SB10 B_SG7 B_SG2 B_SG11 B_SG8 B_SG3 B_SG6 A_SG7 A_SG2 A_SG11 A_SG8 A_SG3 A_SG6 B_SG10 A_SG10 B_SB1 A_SB1 B_SG9 A_SG9 B_SB7 A_SB7 B_SG13 A_SG13 B_SG5 A_SG5 B_SG4a A_SG4a B_SG1a A_SG1a SCG1 SCG1 SCG1 SCG1 A_SB13 B_SB13
