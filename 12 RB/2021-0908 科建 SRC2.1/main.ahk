@@ -30,7 +30,6 @@ global env := "dev"
   Send, {Down 3}
   Send, {Enter}
   Send, {Down}
-  Sleep, 1000
   Send, {Enter}
 
   Sleep, 3000
@@ -60,7 +59,6 @@ global env := "dev"
   Send, {Blind}{Text}%dwgPath%
   Send, {enter}
   Send, {enter}
-  Sleep, 1000
 
   showExecutionTime(startTime, A_TickCount)
 Return
@@ -105,7 +103,7 @@ Return
   startTime := A_TickCount
 
   iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
-  filePath := A_ScriptDir . "\05 排列鋼筋位置 完成.rb"
+  filePath := A_ScriptDir . "\05 佈設鋼筋位置 完成.rb"
 
   logInRB(iniPath)
   openRBFile(filePath)
