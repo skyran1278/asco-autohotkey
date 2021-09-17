@@ -1,4 +1,5 @@
-﻿restartProductionProgram(workingDir, programName) {
+﻿; @Deprecated use restartProgram instead
+restartProductionProgram(workingDir, programName) {
   While WinExist("ahk_exe " . programName . ".exe") {
     WinKill ; 關檔
   }

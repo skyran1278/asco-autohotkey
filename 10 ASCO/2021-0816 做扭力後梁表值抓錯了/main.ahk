@@ -6,7 +6,7 @@ FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 #SingleInstance Force
 
-env := "dev"
+global env := "dev"
 
 !1::
   startTime := A_TickCount
@@ -36,4 +36,13 @@ Return
   RegDelete, HKEY_CURRENT_USER\SOFTWARE\RCAD.APPS\RCAD_ASCO\DockingPaneLayouts
 Return
 
-#Include, %A_ScriptDir%\Lib\ASCOShortcut.ahk
+!q::
+  restartASCO()
+Return
+
+!w::
+  closeApp("notepad")
+Return
+
+!e::ExitApp
+!r::Reload
