@@ -1,4 +1,5 @@
-﻿completeDesignColumn() {
+﻿; @Deprecated use startDialog waitForDesign exitDialog instead
+completeDesignColumn() {
   Sleep, 2000
 
   Send, {Tab}

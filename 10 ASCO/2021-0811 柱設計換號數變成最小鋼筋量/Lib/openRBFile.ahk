@@ -1,6 +1,5 @@
-﻿; @Deprecated use poenASCOFile instead
-openASCO(filePath) {
-  activateOrExit("RCAD_ASCO")
+﻿openRBFile(filePath) {
+  activateOrExit("RCAD_Building")
   Send, ^o ; 開啟舊檔
   Sleep, 1000
 
@@ -9,7 +8,7 @@ openASCO(filePath) {
   Send, {Enter}
   Sleep, 2000
 
-  activateOrExit("RCAD_ASCO")
+  activateOrExit("RCAD_Building")
   Send, {F9}
   Sleep, 1000
 }

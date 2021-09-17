@@ -1,8 +1,4 @@
-﻿restartProgram() {
-  activateOrExit("devenv")
-
-  Send, {F5}
-
-  ; Ctrl + Shift + F5
-  Send, ^+{F5}
+﻿restartProgram(workingDir, programName) {
+  closeProgram(programName)
+  openProgram(workingDir, programName)
 }
