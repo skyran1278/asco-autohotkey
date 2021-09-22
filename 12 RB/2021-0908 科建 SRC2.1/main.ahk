@@ -9,6 +9,8 @@ CoordMode, Mouse, Client
 global env := "dev"
 
 !1::
+  restartRB()
+
   startTime := A_TickCount
 
   iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
@@ -64,6 +66,8 @@ global env := "dev"
 Return
 
 !2::
+  restartRB()
+
   startTime := A_TickCount
 
   iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
@@ -76,6 +80,8 @@ Return
 Return
 
 !3::
+  restartRB()
+
   startTime := A_TickCount
 
   iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
@@ -88,6 +94,8 @@ Return
 Return
 
 !4::
+  restartRB()
+
   startTime := A_TickCount
 
   iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
@@ -100,6 +108,8 @@ Return
 Return
 
 !5::
+  restartRB()
+
   startTime := A_TickCount
 
   iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
