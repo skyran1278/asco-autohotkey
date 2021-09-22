@@ -6,5 +6,5 @@ openProgram(workingDir, programName) {
     activateOrExit("devenv")
     Send, {F5}
   }
-  WinWaitActive % "ahk_exe " . programName . ".exe",, 5
+  WinWaitActive % "ahk_exe " . programName . ".exe",, 10
 }
