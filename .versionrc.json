@@ -1,0 +1,16 @@
+{
+  "packageFiles": [
+    {
+      "filename": "Lib/package.json",
+      "type": "json"
+    }
+  ],
+  "bumpFiles": [
+    {
+      "filename": "Lib/package.json",
+      "type": "json"
+    }
+  ],
+  "infile": "Lib/CHANGELOG.md",
+  "path": "Lib"
+}

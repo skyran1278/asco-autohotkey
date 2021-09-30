@@ -1,0 +1,18 @@
+{
+  "name": "autohotkey_library",
+  "version": "1.0.0",
+  "description": "autohotkey user library",
+  "main": "main.ahk",
+  "scripts": {
+    "release": "standard-version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "autohotkey"
+  ],
+  "author": "ran",
+  "license": "ISC",
+  "devDependencies": {
+    "standard-version": "^9.3.1"
+  }
+}
