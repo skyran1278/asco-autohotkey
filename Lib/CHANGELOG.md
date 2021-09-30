@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.2.0](https://github.com/skyran1278/autohotkey/compare/v3.0.0...v3.2.0) (2021-09-30)
+
+
+### Features
+
+* 增加 open program 的等待時間 ([f25cb2a](https://github.com/skyran1278/autohotkey/commit/f25cb2a34f26937a045a5be77d23918a7d66500b))
+* 支援可以關閉一般程式 ([d6bfcdf](https://github.com/skyran1278/autohotkey/commit/d6bfcdfa9efd37d87714b910f59097d58694bef3))
+* 支援打開 RB 檔案 ([9f80aaa](https://github.com/skyran1278/autohotkey/commit/9f80aaad186d4501887c1f9e9351a8a152ebde4a))
+* 現在可以登入 rb 了 ([6731f28](https://github.com/skyran1278/autohotkey/commit/6731f28bbb0c9493f6933e13f39ecbf4b19266fa))
+* 自動重新啟動 rb ([c859911](https://github.com/skyran1278/autohotkey/commit/c8599113bfcdaae43d7d040dc476429e71537d5b))
+
+
+### Bug Fixes
+
+* 開發環境也會等待 asco 重啟 ([da1c1bd](https://github.com/skyran1278/autohotkey/commit/da1c1bd32ebb51bd99d5a492b1cf724f8f35c37b))
+
 ## [3.0.0](https://github.com/skyran1278/autohotkey/compare/v2.6.0...v3.0.0) (2021-09-08)
 
 ### ⚠ BREAKING CHANGES
