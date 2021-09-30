@@ -54,11 +54,25 @@ Return
 
 !t::
   restartASCO()
-  filePath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ASCO"
-  iniPath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ini"
+
+  iniPath := A_WorkingDir . "\2021-0427 頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  filePath := A_WorkingDir . "\2021-0427 頂匠計算書\test\02 topTech\2021-0611 10F-C5.ASCO"
+  If (A_ScreenDPI = 96) {
+    columnCoordinate := {x: 530, y: 280}
+  }
+  If (A_ScreenDPI = 120) {
+    columnCoordinate := {x: 530, y: 280}
+  }
   logInASCO(iniPath)
   openASCO(filePath)
-  designAllColumn()
+  Sleep, 2000
+  designSingleColumnByGeometry(columnCoordinate)
+
+  ; filePath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ASCO"
+  ; iniPath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ini"
+  ; logInASCO(iniPath)
+  ; openASCO(filePath)
+  ; designAllColumn()
 Return
 
 !q::

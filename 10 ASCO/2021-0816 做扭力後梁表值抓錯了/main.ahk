@@ -9,6 +9,8 @@ CoordMode, Mouse, Client
 global env := "dev"
 
 !1::
+  restartASCO()
+
   startTime := A_TickCount
 
   filePath := A_WorkingDir . "\3F G3.ASCO"
