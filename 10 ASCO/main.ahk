@@ -49,6 +49,14 @@ global env := "production"
   openASCO(filePath)
   designAllColumn()
 
+  ; 374 支柱
+  restartASCO()
+  filePath := A_WorkingDir . "\2021-1006 剪力實配比需求少\2021-1006 剪力實配比需求少.ASCO"
+  iniPath := A_WorkingDir . "\2021-1006 剪力實配比需求少\2021-1006 剪力實配比需求少.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllColumn()
+
   showExecutionTime(startTime, A_TickCount)
 Return
 
