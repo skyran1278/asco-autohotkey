@@ -17,7 +17,7 @@
   Send, {Enter}
   Sleep, 1000 ; 避免 login 介面還沒退出 WinWaitActive 誤判
 
-  WinWaitActive % "ahk_exe " . programName ".exe",, 6
+  WinWaitActive % "ahk_exe " . programName . ".exe",, 10
   activateOrExit(programName)
 }
 
