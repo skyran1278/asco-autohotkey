@@ -6,6 +6,7 @@ UnitCtl.ini
 UnitCtl_C.ini
 tmp-Addn.txt
 *.mdb
+tmp-Col-重算繫筋.txt
 
 # ETBAS Output
 *.$ET
