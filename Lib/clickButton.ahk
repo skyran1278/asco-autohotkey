@@ -1,4 +1,4 @@
-﻿clickCCMD3Button(buttonName, programName) {
+﻿clickButton(buttonName, programName) {
   activateOrExit(programName)
 
   ; https://www.autohotkey.com/boards/viewtopic.php?t=63999

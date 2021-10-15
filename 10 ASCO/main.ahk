@@ -76,7 +76,7 @@ Return
   ; openASCO(filePath)
   ; Sleep, 2000
   ; designSingleColumnByGeometry(columnCoordinate)
-  WinMenuSelectItem, ahk_exe RCAD_ASCO.exe,, RC柱(C), R2 更改配筋-1
+  ; WinMenuSelectItem, ahk_exe RCAD_ASCO.exe,, RC柱(C), R2 更改配筋-1
 
   ; exitOrAbort := ""
   ; times1 := 0
@@ -105,10 +105,10 @@ Return
   ; }
 
   ; WinWait , % "ahk_exe " . programName . ".exe", % buttonName, 10
-
-  WinWait, % "ahk_exe " . "RCAD_ASCO" . ".exe", % "5.1Write", 10
-  ControlClick , % "5.1Write", % "ahk_exe " . "RCAD_ASCO" . ".exe",,,, NA
-  MsgBox, % times1
+  clickButton("確定", "RCAD_ASCO")
+  ; WinWait, % "ahk_exe " . "RCAD_ASCO" . ".exe", % "5.1Write", 10
+  ; ControlClick , % "確定", % "ahk_exe " . "RCAD_ASCO" . ".exe",,,, NA
+  ; MsgBox, % times1
   ; Send, {F2}
   showExecutionTime(startTime, A_TickCount)
   ; redesignTie()
@@ -116,7 +116,7 @@ Return
 
   ; activateOrExit("RCAD_ASCO")
   ; WinMenuSelectItem, ahk_exe RCAD_ASCO.exe,, RC柱(C), R2 更改配筋-1
-  ; clickCCMD3Button("2.12重算繫筋-ALL", "RCAD_ASCO")
+  ; clickButton("2.12重算繫筋-ALL", "RCAD_ASCO")
 
   ; ; Sleep, 2000
   ; ; num := 0
