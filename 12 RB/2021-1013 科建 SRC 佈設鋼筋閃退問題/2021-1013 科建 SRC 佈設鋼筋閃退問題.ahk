@@ -15,8 +15,8 @@ global env := "dev"
 
   iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
   filePath := A_ScriptDir . "\00 空檔.rb"
-  excelPath := A_ScriptDir . "\inp-05-科建聯合 SRC柱配筋-v4-鋼柱置中2.xlsx"
-  ; dwgPath := A_ScriptDir . "\init\結構平面圖 (需增加對位點).dwg"
+  excelPath := A_ScriptDir . "\00 Input\V241_inp-05-科建聯合 SRC 柱配筋 (修正 3F C8 尺寸).xlsx"
+  dwgPath := A_ScriptDir . "\00 Input\V241-S1A-1結構平面圖RCAD SRC範本-fix 4F 5F C12a.dwg"
 
   logInRB(iniPath)
   openRBFile(filePath)
@@ -48,19 +48,47 @@ global env := "dev"
   Send, {enter}
   Send, {enter}
 
-  ; closeApp("notepad")
-  ; WinWaitActive % "ahk_exe " . "notepad" . ".exe",, 20
+  closeApp("notepad")
+  WinWaitActive % "ahk_exe " . "notepad" . ".exe",, 20
 
-  ; activateOrExit("RCAD_Building")
-  ; Send, {F2} ; exit
-  ; Sleep, 1000
+  activateOrExit("RCAD_Building")
+  Send, {F2} ; exit
+  Sleep, 1000
 
-  ; ControlClick , 匯入結構平面圖, ahk_exe RCAD_Building.exe,,,, NA
-  ; Sleep, 1000
+  ControlClick , 匯入結構平面圖, ahk_exe RCAD_Building.exe,,,, NA
+  Sleep, 1000
 
-  ; Send, {Blind}{Text}%dwgPath%
-  ; Send, {enter}
-  ; Send, {enter}
+  Send, {Blind}{Text}%dwgPath%
+  Send, {enter}
+  Send, {enter}
+
+  showExecutionTime(startTime, A_TickCount)
+Return
+
+!2::
+  restartRB()
+
+  startTime := A_TickCount
+
+  iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
+  filePath := A_ScriptDir . "\02 關閉不需要的圖層 完成.rb"
+
+  logInRB(iniPath)
+  openRBFile(filePath)
+
+  showExecutionTime(startTime, A_TickCount)
+Return
+
+!4::
+  restartRB()
+
+  startTime := A_TickCount
+
+  iniPath := A_ScriptDir . "\科建 SRC2.1.ini"
+  filePath := A_ScriptDir . "\04 梁自動截齊 完成.rb"
+
+  logInRB(iniPath)
+  openRBFile(filePath)
 
   showExecutionTime(startTime, A_TickCount)
 Return
