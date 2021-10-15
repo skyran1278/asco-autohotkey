@@ -24,6 +24,8 @@ global env := "production"
   logInASCO(iniPath)
   openASCO(filePath)
   designAllColumn()
+  redesignTie()
+  outputDrawColumn()
 
   ; 132 支柱
   restartASCO()
@@ -32,6 +34,8 @@ global env := "production"
   logInASCO(iniPath)
   openASCO(filePath)
   designAllColumn()
+  redesignTie()
+  outputDrawColumn()
 
   ; 240 支柱
   restartASCO()
@@ -40,6 +44,8 @@ global env := "production"
   logInASCO(iniPath)
   openASCO(filePath)
   designAllColumn()
+  redesignTie()
+  outputDrawColumn()
 
   ; 455 支柱
   restartASCO()
@@ -48,19 +54,14 @@ global env := "production"
   logInASCO(iniPath)
   openASCO(filePath)
   designAllColumn()
-
-  ; 374 支柱
-  restartASCO()
-  filePath := A_WorkingDir . "\2021-1006 剪力實配比需求少\2021-1006 剪力實配比需求少.ASCO"
-  iniPath := A_WorkingDir . "\2021-1006 剪力實配比需求少\2021-1006 剪力實配比需求少.ini"
-  logInASCO(iniPath)
-  openASCO(filePath)
-  designAllColumn()
+  redesignTie()
+  outputDrawColumn()
 
   showExecutionTime(startTime, A_TickCount)
 Return
 
 !t::
+  startTime := A_TickCount
   ; restartASCO()
 
   ; iniPath := A_WorkingDir . "\2021-0427 頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
@@ -75,10 +76,43 @@ Return
   ; openASCO(filePath)
   ; Sleep, 2000
   ; designSingleColumnByGeometry(columnCoordinate)
-  ; WinMenuSelectItem, ahk_exe RCAD_ASCO.exe,, RC柱(C), R2 更改配筋-1
-  ; clickCCMD3Button("5.1Write", "RCAD_ASCO")
+  WinMenuSelectItem, ahk_exe RCAD_ASCO.exe,, RC柱(C), R2 更改配筋-1
+
+  ; exitOrAbort := ""
+  ; times1 := 0
+  ; While, exitOrAbort != "exit" {
+  ;   ; 出現意外狀況
+  ;   If (exitOrAbort = "確定") {
+  ;     Send, {Enter}
+  ;   }
+  ;   ControlGetText, exitOrAbort , "5.1Write", ahk_exe RCAD_ASCO.exe
+  ;   times1 += 1
+  ;   If (times1 > 1000) {
+  ;     Break
+  ;   }
+  ; }
+
+  ; times1 := 0
+  ; available1 := 0
+  ; While (available1 != 1) {
+  ;   ControlGet, available1, Visible, , % "5.1Write", % "ahk_exe " . "RCAD_ASCO" . ".exe"
+  ;   Sleep, 10
+  ;   times1 += 1
+
+  ;   If (times1 > 1000) {
+  ;     Break
+  ;   }
+  ; }
+
+  ; WinWait , % "ahk_exe " . programName . ".exe", % buttonName, 10
+
+  WinWait, % "ahk_exe " . "RCAD_ASCO" . ".exe", % "5.1Write", 10
+  ControlClick , % "5.1Write", % "ahk_exe " . "RCAD_ASCO" . ".exe",,,, NA
+  MsgBox, % times1
+  ; Send, {F2}
+  showExecutionTime(startTime, A_TickCount)
   ; redesignTie()
-  outputDrawColumn()
+  ; outputDrawColumn()
 
   ; activateOrExit("RCAD_ASCO")
   ; WinMenuSelectItem, ahk_exe RCAD_ASCO.exe,, RC柱(C), R2 更改配筋-1
