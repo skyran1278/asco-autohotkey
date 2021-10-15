@@ -61,20 +61,40 @@ global env := "production"
 Return
 
 !t::
-  restartASCO()
+  ; restartASCO()
 
-  iniPath := A_WorkingDir . "\2021-0427 頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  filePath := A_WorkingDir . "\2021-0427 頂匠計算書\test\02 topTech\2021-0611 10F-C5.ASCO"
-  If (A_ScreenDPI = 96) {
-    columnCoordinate := {x: 530, y: 280}
-  }
-  If (A_ScreenDPI = 120) {
-    columnCoordinate := {x: 530, y: 280}
-  }
-  logInASCO(iniPath)
-  openASCO(filePath)
-  Sleep, 2000
-  designSingleColumnByGeometry(columnCoordinate)
+  ; iniPath := A_WorkingDir . "\2021-0427 頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  ; filePath := A_WorkingDir . "\2021-0427 頂匠計算書\test\02 topTech\2021-0611 10F-C5.ASCO"
+  ; If (A_ScreenDPI = 96) {
+  ;   columnCoordinate := {x: 530, y: 280}
+  ; }
+  ; If (A_ScreenDPI = 120) {
+  ;   columnCoordinate := {x: 530, y: 280}
+  ; }
+  ; logInASCO(iniPath)
+  ; openASCO(filePath)
+  ; Sleep, 2000
+  ; designSingleColumnByGeometry(columnCoordinate)
+  ; WinMenuSelectItem, ahk_exe RCAD_ASCO.exe,, RC柱(C), R2 更改配筋-1
+  ; clickCCMD3Button("5.1Write", "RCAD_ASCO")
+  ; redesignTie()
+  outputDrawColumn()
+
+  ; activateOrExit("RCAD_ASCO")
+  ; WinMenuSelectItem, ahk_exe RCAD_ASCO.exe,, RC柱(C), R2 更改配筋-1
+  ; clickCCMD3Button("2.12重算繫筋-ALL", "RCAD_ASCO")
+
+  ; ; Sleep, 2000
+  ; ; num := 0
+  ; available := False
+  ; While (available = False) {
+  ;   ControlGet, available, Enabled, , 2.12重算繫筋-ALL, ahk_exe RCAD_ASCO.exe
+  ;   ; Sleep, 10
+  ;   ; num += 1
+  ; }
+  ; ; MsgBox, % num
+
+  ; ControlClick , 2.12重算繫筋-ALL, ahk_exe RCAD_ASCO.exe,,,, NA
 
   ; filePath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ASCO"
   ; iniPath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ini"
