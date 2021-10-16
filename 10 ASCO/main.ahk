@@ -5,6 +5,7 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 FileEncoding UTF-8-RAW
 CoordMode, Mouse, Client
 #SingleInstance Force
+SetControlDelay 0 ; https://www.autohotkey.com/docs/commands/SetControlDelay.htm
 
 ; https://www.autohotkey.com/docs/Functions.htm#lib
 
