@@ -1,0 +1,47 @@
+$RCAD_ASCO POSTPROCESSOR FILES
+   TYPE= ETABS2013
+   FILE VERSION= 2012.11.15.0
+   PROG VERSION= 2021.9.2.1
+   COMMENT-0= 
+   COMMENT-1= 
+   COMMENT-2= 
+   FLOOR_NUM= 0
+   MODEL FILE= 10050.mdb
+   FORCE FILE= 10050.mdb
+   REBAR FILE= 10050.mdb
+
+
+$RCAD_ASCO DRAWING_FLOORS_COLUMNS
+FORMAT= 3
+5
+1.0	3900.0	15000.0
+1
+
+$RCAD_ASCO COLUMN-PAGE
+p-1
+1
+
+$RCAD_ASCO COLUMN-TABLE
+  730.50     272.00
+6
+RF
+4F
+3F
+2F
+1F
+B1F
+
+1
+$RCAD_ASCO COLUMN-LINE
+C7B  (COL. LINE : C41,C43,C48)
++----------------------------------------------------------------------------+
+| FL:1F       (92.5  )x  (40.0  )   Fc'=210    Fy=4200   Fyh=2800     RECT   |
+|                                 +----------------+                         |
+| As=  45.3 <COMB1>               |                |   o 18-#6  [ 51.6]      |
+|       1.22 %[C41]               |                |   o  0-#0               |
+|                                 |                |   X- 7( 0)              |
+| Maj.Av/S=  0.255<15-3>[C48]     |                |   Y- 4( 2)              |
+|            0.103<43>[C43]       |                |   Hoop: 1-#4            |
+| Min.Av/S=  0.690<15-3>[C41]     |                |   Ties: 4-#4 @ 10 - 10  |
+|            0.264<43>[C43]       +----------------+         1-#4            |
++----------------------------------------------------------------------------+
