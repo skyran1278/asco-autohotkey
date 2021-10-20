@@ -61,8 +61,68 @@ global env := "production"
   showExecutionTime(startTime, A_TickCount)
 Return
 
+!2::
+  startTime := A_TickCount
+
+  restartASCO()
+  filePath := A_ScriptDir . "\2021-0427 頂匠計算書\test\01 Justin\2021-0714 計算書.ASCO"
+  iniPath := A_ScriptDir . "\2021-0427 頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllBeam()
+  outputDrawBeam()
+
+  restartASCO()
+  filePath := A_ScriptDir . "\2021-0427 頂匠計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
+  iniPath := A_ScriptDir . "\2021-0427 頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllBeam()
+  outputDrawBeam()
+
+  restartASCO()
+  filePath := A_WorkingDir . "\2021-0811 強柱弱梁不該考慮懸挑梁\col-3F-C18.ASCO"
+  iniPath := A_WorkingDir . "\2021-0811 強柱弱梁不該考慮懸挑梁\col-3F-C18.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllBeam()
+  outputDrawBeam()
+
+  ; restartASCO()
+  ; filePath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ASCO"
+  ; iniPath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ini"
+  ; logInASCO(iniPath)
+  ; openASCO(filePath)
+  ; designAllBeam()
+  ; outputDrawBeam()
+
+  restartASCO()
+  filePath := A_WorkingDir . "\2021-1020 梁表 Avt 沒出來\2021-1020 梁表 Avt 沒出來.ASCO"
+  iniPath := A_WorkingDir . "\2021-1020 梁表 Avt 沒出來\2021-1020 梁表 Avt 沒出來.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllBeam()
+  outputDrawBeam()
+
+  showExecutionTime(startTime, A_TickCount)
+Return
+
 !t::
   startTime := A_TickCount
+
+  restartASCO()
+  filePath := A_WorkingDir . "\2021-1020 梁表 Avt 沒出來\2021-1020 梁表 Avt 沒出來.ASCO"
+  iniPath := A_WorkingDir . "\2021-1020 梁表 Avt 沒出來\2021-1020 梁表 Avt 沒出來.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  ; designAllBeam()
+  outputDrawBeam()
+
+  ; redesignTie()
+  ; outputDrawColumn()
+  ; designAllColumn()
+  ; redesignTie()
+  ; outputDrawColumn()
   ; restartASCO()
 
   ; iniPath := A_WorkingDir . "\2021-0427 頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
@@ -106,7 +166,7 @@ Return
   ; }
 
   ; WinWait , % "ahk_exe " . programName . ".exe", % buttonName, 10
-  clickButton("確定", "RCAD_ASCO")
+  ; clickButton("確定", "RCAD_ASCO")
   ; WinWait, % "ahk_exe " . "RCAD_ASCO" . ".exe", % "5.1Write", 10
   ; ControlClick , % "確定", % "ahk_exe " . "RCAD_ASCO" . ".exe",,,, NA
   ; MsgBox, % times1
