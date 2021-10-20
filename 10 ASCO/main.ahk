@@ -88,14 +88,6 @@ Return
   designAllBeam()
   outputDrawBeam()
 
-  ; restartASCO()
-  ; filePath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ASCO"
-  ; iniPath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ini"
-  ; logInASCO(iniPath)
-  ; openASCO(filePath)
-  ; designAllBeam()
-  ; outputDrawBeam()
-
   restartASCO()
   filePath := A_WorkingDir . "\2021-1020 梁表 Avt 沒出來\2021-1020 梁表 Avt 沒出來.ASCO"
   iniPath := A_WorkingDir . "\2021-1020 梁表 Avt 沒出來\2021-1020 梁表 Avt 沒出來.ini"
@@ -116,7 +108,7 @@ Return
   logInASCO(iniPath)
   openASCO(filePath)
   ; designAllBeam()
-  outputDrawBeam()
+  ; outputDrawBeam()
 
   ; redesignTie()
   ; outputDrawColumn()
