@@ -13,100 +13,21 @@ SetControlDelay 0 ; https://www.autohotkey.com/docs/commands/SetControlDelay.htm
 ; 僅為了方便快速迭代開發用
 ; 比較完整的做法是把 %Documents%\autohotkey\Lib 的內容 copy 過來
 
-global env := "production"
+global env := "dev"
 
 !1::
   startTime := A_TickCount
 
-  ; 018 支柱
   restartASCO()
-  filePath := A_ScriptDir . "\2021-0427 頂匠計算書\test\01 Justin\2021-0714 計算書.ASCO"
-  iniPath := A_ScriptDir . "\2021-0427 頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
+  filePath := A_WorkingDir . "\2021-1022 頂匠\2021-1022 頂匠.mdb"
+  iniPath := A_WorkingDir . "\2021-1022 頂匠\2021-1022 頂匠.ini"
   logInASCO(iniPath)
   openASCO(filePath)
-  designAllColumn()
-  redesignTie()
-  outputDrawColumn()
-
-  ; 132 支柱
-  restartASCO()
-  filePath := A_ScriptDir . "\2021-0427 頂匠計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
-  iniPath := A_ScriptDir . "\2021-0427 頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  logInASCO(iniPath)
-  openASCO(filePath)
-  designAllColumn()
-  redesignTie()
-  outputDrawColumn()
-
-  ; 240 支柱
-  restartASCO()
-  filePath := A_WorkingDir . "\2021-0811 強柱弱梁不該考慮懸挑梁\col-3F-C18.ASCO"
-  iniPath := A_WorkingDir . "\2021-0811 強柱弱梁不該考慮懸挑梁\col-3F-C18.ini"
-  logInASCO(iniPath)
-  openASCO(filePath)
-  designAllColumn()
-  redesignTie()
-  outputDrawColumn()
-
-  ; 455 支柱
-  restartASCO()
-  filePath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ASCO"
-  iniPath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ini"
-  logInASCO(iniPath)
-  openASCO(filePath)
-  designAllColumn()
-  redesignTie()
-  outputDrawColumn()
-
-  showExecutionTime(startTime, A_TickCount)
-Return
-
-!2::
-  startTime := A_TickCount
-
-  restartASCO()
-  filePath := A_ScriptDir . "\2021-0427 頂匠計算書\test\01 Justin\2021-0714 計算書.ASCO"
-  iniPath := A_ScriptDir . "\2021-0427 頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
-  logInASCO(iniPath)
-  openASCO(filePath)
-  designAllBeam()
-  outputDrawBeam()
-
-  restartASCO()
-  filePath := A_ScriptDir . "\2021-0427 頂匠計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
-  iniPath := A_ScriptDir . "\2021-0427 頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
-  logInASCO(iniPath)
-  openASCO(filePath)
-  designAllBeam()
-  outputDrawBeam()
-
-  restartASCO()
-  filePath := A_WorkingDir . "\2021-0811 強柱弱梁不該考慮懸挑梁\col-3F-C18.ASCO"
-  iniPath := A_WorkingDir . "\2021-0811 強柱弱梁不該考慮懸挑梁\col-3F-C18.ini"
-  logInASCO(iniPath)
-  openASCO(filePath)
-  designAllBeam()
-  outputDrawBeam()
-
-  restartASCO()
-  filePath := A_WorkingDir . "\2021-1020 梁表 Avt 沒出來\2021-1020 梁表 Avt 沒出來.ASCO"
-  iniPath := A_WorkingDir . "\2021-1020 梁表 Avt 沒出來\2021-1020 梁表 Avt 沒出來.ini"
-  logInASCO(iniPath)
-  openASCO(filePath)
-  designAllBeam()
-  outputDrawBeam()
-
-  showExecutionTime(startTime, A_TickCount)
-Return
-
-!t::
-  startTime := A_TickCount
-
-  restartASCO()
-  filePath := A_WorkingDir . "\2021-1020 梁表 Avt 沒出來\2021-1020 梁表 Avt 沒出來.ASCO"
-  iniPath := A_WorkingDir . "\2021-1020 梁表 Avt 沒出來\2021-1020 梁表 Avt 沒出來.ini"
-  logInASCO(iniPath)
-  openASCO(filePath)
+  ; restartASCO()
+  ; filePath := A_WorkingDir . "\2021-1021 n345\n345.mdb"
+  ; iniPath := A_WorkingDir . "\2021-1021 n345\n345.ini"
+  ; logInASCO(iniPath)
+  ; openASCO(filePath)
   ; designAllBeam()
   ; outputDrawBeam()
 
@@ -163,7 +84,6 @@ Return
   ; ControlClick , % "確定", % "ahk_exe " . "RCAD_ASCO" . ".exe",,,, NA
   ; MsgBox, % times1
   ; Send, {F2}
-  showExecutionTime(startTime, A_TickCount)
   ; redesignTie()
   ; outputDrawColumn()
 
@@ -188,6 +108,91 @@ Return
   ; logInASCO(iniPath)
   ; openASCO(filePath)
   ; designAllColumn()
+  showExecutionTime(startTime, A_TickCount)
+Return
+
+!2::
+  startTime := A_TickCount
+
+  ; 018 支柱
+  restartASCO()
+  filePath := A_ScriptDir . "\2021-0427 頂匠計算書\test\01 Justin\2021-0714 計算書.ASCO"
+  iniPath := A_ScriptDir . "\2021-0427 頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllColumn()
+  redesignTie()
+  outputDrawColumn()
+
+  ; 132 支柱
+  restartASCO()
+  filePath := A_ScriptDir . "\2021-0427 頂匠計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
+  iniPath := A_ScriptDir . "\2021-0427 頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllColumn()
+  redesignTie()
+  outputDrawColumn()
+
+  ; 240 支柱
+  restartASCO()
+  filePath := A_WorkingDir . "\2021-0811 強柱弱梁不該考慮懸挑梁\col-3F-C18.ASCO"
+  iniPath := A_WorkingDir . "\2021-0811 強柱弱梁不該考慮懸挑梁\col-3F-C18.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllColumn()
+  redesignTie()
+  outputDrawColumn()
+
+  ; 455 支柱
+  restartASCO()
+  filePath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ASCO"
+  iniPath := A_WorkingDir . "\2021-0907 層剪力計算\2021-0907 層剪力計算.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllColumn()
+  redesignTie()
+  outputDrawColumn()
+
+  showExecutionTime(startTime, A_TickCount)
+Return
+
+!3::
+  startTime := A_TickCount
+
+  restartASCO()
+  filePath := A_ScriptDir . "\2021-0427 頂匠計算書\test\01 Justin\2021-0714 計算書.ASCO"
+  iniPath := A_ScriptDir . "\2021-0427 頂匠計算書\test\01 Justin\RCAD_ASCO.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllBeam()
+  outputDrawBeam()
+
+  restartASCO()
+  filePath := A_ScriptDir . "\2021-0427 頂匠計算書\test\02 topTech\2021-0618 4F-C12.ASCO"
+  iniPath := A_ScriptDir . "\2021-0427 頂匠計算書\test\02 topTech\RCAD_ASCO_20210610_for Review.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllBeam()
+  outputDrawBeam()
+
+  restartASCO()
+  filePath := A_WorkingDir . "\2021-0811 強柱弱梁不該考慮懸挑梁\col-3F-C18.ASCO"
+  iniPath := A_WorkingDir . "\2021-0811 強柱弱梁不該考慮懸挑梁\col-3F-C18.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllBeam()
+  outputDrawBeam()
+
+  restartASCO()
+  filePath := A_WorkingDir . "\2021-1020 梁表 Avt 沒出來\2021-1020 梁表 Avt 沒出來.ASCO"
+  iniPath := A_WorkingDir . "\2021-1020 梁表 Avt 沒出來\2021-1020 梁表 Avt 沒出來.ini"
+  logInASCO(iniPath)
+  openASCO(filePath)
+  designAllBeam()
+  outputDrawBeam()
+
+  showExecutionTime(startTime, A_TickCount)
 Return
 
 !q::
