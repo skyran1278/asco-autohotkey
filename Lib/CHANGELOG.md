@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.3.0](https://github.com/skyran1278/autohotkey/compare/v3.2.0...v3.3.0) (2021-10-21)
+
+
+### Features
+
+* 可重算繫筋 ([3590b6e](https://github.com/skyran1278/autohotkey/commit/3590b6e7d42e9f83c46fdb144210a9492d2bcd4c))
+* 可輸出柱表 ([939893f](https://github.com/skyran1278/autohotkey/commit/939893f5d77a73c1a5faabc86a1be03d663850be))
+* 梁全棟計算是否考慮 Tu 可由參數控制 ([cf064fb](https://github.com/skyran1278/autohotkey/commit/cf064fbf5f340be2c77120d3c1d79479927886d4))
+* 現在可以全棟計算梁了 ([675dfd7](https://github.com/skyran1278/autohotkey/commit/675dfd7af65e7640efaa95bb54cc6546f6d17bc9))
+* 現在可以輸出梁表，以供查驗 ([a682fff](https://github.com/skyran1278/autohotkey/commit/a682fff1e72c5e8cd03fd6d149d24f74ffa16ec6))
+* 現在可以點擊 ccmd3 的 button 不用再設定等待時間了 ([3e351f2](https://github.com/skyran1278/autohotkey/commit/3e351f2eabdd5047f60c62b6e116b95be407c963))
+
+
+### Bug Fixes
+
+* 有可能會出現 ACAD對某些字元過敏 提示視窗，修正避免影響 RB 登入 ([a4bf38e](https://github.com/skyran1278/autohotkey/commit/a4bf38e61eb06e5446392078562486eab5928cce))
+* 延長開啟 debug 程式的等待時間 ([cc5e186](https://github.com/skyran1278/autohotkey/commit/cc5e186b53a375cd61378e003048cc51af2c4af5))
+* 修正 clickButton 可能沒有按到按鈕 ([daa72a8](https://github.com/skyran1278/autohotkey/commit/daa72a8e27cb60ed49fb2a6fa677df3dde8b8ed9))
+* 修正重設繫筋沒有保存結果 ([5c96446](https://github.com/skyran1278/autohotkey/commit/5c96446d7ca991f253ee2b59b6dd36a3a40003f9))
+* 修正輸出柱表可能沒有退出 ([12a9838](https://github.com/skyran1278/autohotkey/commit/12a98386c6ab2e5b0f608bc618ab84600adfb153))
+* 開放 WinWaitActive 到 10 秒，避免啟動時過慢而退出 ([afe38bd](https://github.com/skyran1278/autohotkey/commit/afe38bd42f495593bd2cca4722a199ccf01a702e))
+
 ## [3.2.0](https://github.com/skyran1278/autohotkey/compare/v3.0.0...v3.2.0) (2021-09-30)
 
 

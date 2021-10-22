@@ -445,6 +445,8 @@ tmp-Addn.txt
 *.mdb
 tmp-Col-重算繫筋.txt
 10 ASCO/2021-0427 頂匠計算書/test/01 Justin/Beam-Log.txt
+result-BEAM.txt
+!10 ASCO/2021-1021 n345/n345.mdb
 
 # ETBAS Output
 *.$ET

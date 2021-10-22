@@ -1,4 +1,4 @@
-﻿; @Deprecated use poenASCOFile instead
+﻿; @Deprecated use openASCOFile instead
 openASCO(filePath) {
   activateOrExit("RCAD_ASCO")
   Send, ^o ; 開啟舊檔
