@@ -1,5 +1,4 @@
-﻿logInASCO(iniPath) {
-  RegDelete, HKEY_CURRENT_USER\SOFTWARE\RCAD.APPS\RCAD_ASCO\DockingPaneLayouts
-
+﻿; @Deprecated use logIn instead
+logInASCO(iniPath) {
   logIn(iniPath, "RCAD_ASCO")
 }
