@@ -1,4 +1,5 @@
-﻿!q::
+﻿; @Deprecated, will be remove in next major version
+!q::
   If (env = "production") {
     restartProductionProgram("C:\Program Files\RCAD\RCAD_ASCO\bin", "RCAD_ASCO")
   } Else {
