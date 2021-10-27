@@ -5,7 +5,7 @@
 ; @parm programName: RCAD_ASCO
 openFile(filePath, fileType, programName) {
   ; 確認程式開啟
-  If (!waitTextVisible("選項工具列", programName)) {
+  If (!waitTextVisible("xtpBarTop", programName)) {
     TrayTip Error, % Format("準備執行下一步程序時， {1:s} 尚未啟動。", programName)
     Exit
   }
@@ -21,7 +21,7 @@ openFile(filePath, fileType, programName) {
   clickButtonOrExit("開啟(&O)", programName)
 
   ; 確認程式開啟
-  waitTextVisible("選項工具列", programName)
+  waitTextVisible("xtpBarTop", programName)
   activateOrExit(programName)
   Send, {F9}
 
