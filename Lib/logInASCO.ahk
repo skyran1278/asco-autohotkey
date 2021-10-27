@@ -16,11 +16,4 @@
 
   waitTextVisible("3.參數檔案", programName)
   clickButtonOrExit("OK", programName)
-
-  If (!waitTextVisible("xtpBarTop", programName)) {
-    TrayTip Error, % Format("準備執行下一步程序時， {1:s} 尚未啟動。", programName)
-    Exit
-  }
-
-  activateOrExit(programName)
 }
