@@ -1,40 +1,37 @@
 ﻿logInRB(iniPath) {
-  RegDelete, HKEY_CURRENT_USER\SOFTWARE\RCAD.APPS\RCAD_Building\DockingPaneLayouts
-
   programName := "RCAD_Building"
 
-  activateOrExit(programName)
+  RegDelete, % "HKEY_CURRENT_USER\SOFTWARE\RCAD.APPS\" . programName . "\DockingPaneLayouts"
+
   ; 登入
-  Send, {Enter}
-  Sleep, 1000
+  waitTextVisible("登入成功!", programName)
+  clickButtonOrExit("確定", programName)
 
-  activateOrExit(programName)
-  Send, {Tab 5}
-  Send, {Enter}
+  ; 換參數檔
+  waitTextVisible("3.參數檔案", programName)
+  clickButtonOrExit("Button7", programName)
 
-  Send, {Blind}{Text}%iniPath%
-  Send, {Enter}
-  Sleep, 1000
+  ; 輸入 ini 路徑
+  waitTextVisible("檔案名稱(&N):", programName)
+  ControlSend, Edit1, {Blind}{Text}%iniPath%, % "ahk_exe " . programName . ".exe"
+  clickButtonOrExit("開啟(&O)", programName)
 
-  Send, {Tab}
-
-  Send, {Enter}
-  Sleep, 1000 ; 避免 login 介面還沒退出 WinWaitActive 誤判
+  waitTextVisible("3.參數檔案", programName)
+  clickButtonOrExit("OK", programName)
 
   WinWaitActive % "ahk_exe " . programName . ".exe",, 10
-  activateOrExit(programName)
+  available := 0
+  ControlGet, available, Visible, , 原因: ACAD對某些字元過敏, % "ahk_exe " . programName . ".exe"
 
-  ; 層名代換數= 1
-  ; 原因: ACAD對某些字元過敏
-  ; ------------------------------
-  ; TC-鋼粱 ---> TC.鋼粱
-  WinGetText, message, % "ahk_exe " . programName . ".exe"
-
-  If InStr(message, "層名代換數") {
-    Send, {Enter}
-    Sleep, 1000 ; 避免 login 介面還沒退出 WinWaitActive 誤判
-
-    WinWaitActive % "ahk_exe " . programName . ".exe",, 10
-    activateOrExit(programName)
+  If (available == 1) {
+    TrayTip Error, % Format("準備執行下一步程序時， {1:s} 尚未啟動。", programName)
+    clickButtonOrExit("確定", programName)
   }
+
+  If (!waitTextVisible("xtpBarTop", programName)) {
+    TrayTip Error, % Format("準備執行下一步程序時， {1:s} 尚未啟動。", programName)
+    Exit
+  }
+
+  activateOrExit(programName)
 }
