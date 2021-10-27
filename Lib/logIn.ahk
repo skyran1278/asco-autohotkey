@@ -19,4 +19,3 @@ logIn(iniPath, programName) {
   waitTextVisible("3.參數檔案", programName)
   clickButtonOrExit("OK", programName)
 }
-
