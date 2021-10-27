@@ -1,4 +1,6 @@
 ﻿logInASCO(iniPath) {
+  programName := "RCAD_ASCO"
+
   RegDelete, % "HKEY_CURRENT_USER\SOFTWARE\RCAD.APPS\" . programName . "\DockingPaneLayouts"
 
   ; 登入
